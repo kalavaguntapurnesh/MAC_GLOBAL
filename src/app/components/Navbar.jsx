@@ -59,7 +59,7 @@ const Navbar = () => {
         </li> */}
         <li className="lg:p-4 p-[11px] cursor-pointer ">
           <a
-            href=""
+            href="/contact"
             className="bg-green-400 
         rounded-[4px] text-white px-8 py-2.5 "
           >
