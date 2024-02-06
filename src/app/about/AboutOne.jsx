@@ -10,9 +10,24 @@ const AboutOne = () => {
             <div className="justify-center w-full text-center pb-14">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="flex flex-wrap flex-col items-center">
-                  <h3 className="text-4xl font-bold tracking-tight text-primaryColor dark:text-black">
-                    “MAC Global Services”
-                  </h3>
+                  <div className="flex items-center justify-center">
+                    <Image
+                      src="/left.svg"
+                      alt=""
+                      width={27}
+                      height={52}
+                    ></Image>
+                    <h1 className="text-4xl font-bold tracking-tight text-primaryColor dark:text-black mx-1">
+                      {" "}
+                      MAC Global Services
+                    </h1>
+                    <Image
+                      src="/right.svg"
+                      alt=""
+                      width={27}
+                      height={52}
+                    ></Image>
+                  </div>
                   <div className="w-44 h-1 border-b-4 border-red-400 mt-2"></div>
                 </div>
 
@@ -40,7 +55,9 @@ const AboutOne = () => {
                           ></Image>
                         </div>
                         <div className="my-2">
-                          <h1 className="font-bold text-[18px] tracking-wide">Superior Success Rate</h1>
+                          <h1 className="font-bold text-[18px] tracking-wide">
+                            Superior Success Rate
+                          </h1>
                         </div>
                         <div className="mt-2 mb-4">
                           <p className="text-[16px] tracking-tight mx-2">
@@ -67,7 +84,9 @@ const AboutOne = () => {
                           ></Image>
                         </div>
                         <div className="my-2">
-                          <h1 className="font-bold text-[18px] tracking-wide">Better Student Satisfaction</h1>
+                          <h1 className="font-bold text-[18px] tracking-wide">
+                            Better Student Satisfaction
+                          </h1>
                         </div>
                         <div className="mt-2 mb-4 h-auto ">
                           <p className="text-[16px] tracking-tight mx-2">
@@ -94,7 +113,9 @@ const AboutOne = () => {
                           ></Image>
                         </div>
                         <div className="my-2">
-                          <h1 className="font-bold text-[18px] tracking-wide">Higher Visa Approvals</h1>
+                          <h1 className="font-bold text-[18px] tracking-wide">
+                            Higher Visa Approvals
+                          </h1>
                         </div>
                         <div className="mt-2 mb-4 h-auto">
                           <p className="text-[16px] tracking-tight mx-2">
