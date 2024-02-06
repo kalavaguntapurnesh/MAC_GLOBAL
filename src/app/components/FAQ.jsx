@@ -33,7 +33,7 @@ const FAQ = () => {
                 </div>
 
                 <div className="w-full flex justify-center items-center pt-4">
-                  <div className=" w-4/5">
+                  <div className="md:w-4/5 w-full">
                     <Accordion
                       title="How long will it take to process my student VISA?"
                       answer="The answer to this question depends on various factors like profile strength, education gap years, experience, IELTS score, and proper counselling and guidance."

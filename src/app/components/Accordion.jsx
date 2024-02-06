@@ -17,7 +17,7 @@ const Accordion = ({ title, answer }) => {
             {title}
           </span>
         </div>
-        <div className=" px-4">
+        <div className="px-4">
           {accordionOpen ? <FaMinus color="red" /> : <FaPlus color="green" />}
         </div>
       </button>
