@@ -21,14 +21,14 @@ const config: Config = {
         footerLinks:"#a6aab6",
       },
       animation: {
-        "infinite-scroll": "infinite-scroll 25s infinite",
+        "infinite-scroll": "infinite-scroll 50s infinite",
       },
       keyframes: {
         "infinite-scroll": {
           from: {
             transform: "translateX(0)",
           },
-          to: { transform: "translateX(-100%)" },
+          to: { transform: "translateX(-200%)" },
         },
       },
       // fontFamily:{
