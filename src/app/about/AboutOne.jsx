@@ -4,7 +4,7 @@ import Image from "next/image";
 const AboutOne = () => {
   return (
     <div className="bg-gray-50 ">
-      <div className="relative pt-40 pb-16">
+      <div className="relative pt-40 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full text-center pb-14">
@@ -55,7 +55,7 @@ const AboutOne = () => {
                           ></Image>
                         </div>
                         <div className="my-2">
-                          <h1 className="font-bold text-[18px] tracking-wide">
+                          <h1 className="font-bold text-[18px] tracking-wide text-primaryColor">
                             Superior Success Rate
                           </h1>
                         </div>
@@ -84,7 +84,7 @@ const AboutOne = () => {
                           ></Image>
                         </div>
                         <div className="my-2">
-                          <h1 className="font-bold text-[18px] tracking-wide">
+                          <h1 className="font-bold text-[18px] tracking-wide text-primaryColor">
                             Better Student Satisfaction
                           </h1>
                         </div>
@@ -113,7 +113,7 @@ const AboutOne = () => {
                           ></Image>
                         </div>
                         <div className="my-2">
-                          <h1 className="font-bold text-[18px] tracking-wide">
+                          <h1 className="font-bold text-[18px] tracking-wide text-primaryColor">
                             Higher Visa Approvals
                           </h1>
                         </div>
