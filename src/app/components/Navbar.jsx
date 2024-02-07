@@ -60,7 +60,7 @@ const Navbar = () => {
         <li className="lg:p-4 p-[11px] cursor-pointer ">
           <a
             href="/contact"
-            className="bg-green-400 
+            className="bg-green-700 
         rounded-[4px] text-white px-8 py-2.5 "
           >
             Contact Us{" "}

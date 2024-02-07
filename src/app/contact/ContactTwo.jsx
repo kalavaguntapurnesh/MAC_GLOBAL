@@ -4,7 +4,7 @@ import Image from "next/image";
 const ContactTwo = () => {
   return (
     <div className="bg-gray-50">
-      <div className="relative pt-4 pb-16">
+      <div className="relative pt-4 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full text-center pb-14">
@@ -18,7 +18,6 @@ const ContactTwo = () => {
                       height={52}
                     ></Image>
                     <h1 className="text-4xl font-bold tracking-tight text-primaryColor dark:text-black mx-1">
-                      {" "}
                       Write your queries here
                     </h1>
                     <Image
@@ -28,7 +27,7 @@ const ContactTwo = () => {
                       height={52}
                     ></Image>
                   </div>
-                  <div className="w-44 h-1 border-b-4 border-red-400 mt-2"></div>
+                  <div className="md:w-44 w-28 h-1 border-b-4 border-red-400 mt-2"></div>
                 </div>
               </div>
             </div>
@@ -108,10 +107,10 @@ const ContactTwo = () => {
 
                 <div className="w-full flex justify-center items-center">
                   <div class="mb-5 md:w-1/2 w-full">
-                  <button class="hover:shadow-form rounded-md bg-[#048D3F] hover:bg-green-900 transition duration-1000 ease-in-out py-3 px-8 text-base font-semibold text-white outline-none">
-                    Submit
-                  </button>
-                </div>
+                    <button class="hover:shadow-form rounded-md bg-[#048D3F] hover:bg-green-900 transition duration-1000 ease-in-out py-3 px-8 text-base font-semibold text-white outline-none">
+                      Submit
+                    </button>
+                  </div>
                 </div>
               </form>
             </div>

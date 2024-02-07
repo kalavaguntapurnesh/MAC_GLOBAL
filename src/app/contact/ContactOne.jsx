@@ -58,7 +58,7 @@ const ContactOne = () => {
                           height={30}
                         ></Image>
                       </div>
-                      
+
                       <div className="flex flex-col h-24  overflow-hidden items-center justify-center">
                         <h1 className="font-semibold tracking-normal lg:text-base text-sm">
                           10-3-206 / M4, 2nd Floor,KK Street,

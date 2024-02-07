@@ -8,7 +8,7 @@ import { FaGoogle } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-footer mt-40">
+    <div className="bg-footer">
       <footer className="text-base">
         <div className="w-full max-w-screen px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8">
           <div className="pb-8 mb-8 border-b border-blue-300">
@@ -21,7 +21,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Abroad Education Loans
                     </a>
@@ -29,7 +29,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Visa Counselling
                     </a>
@@ -37,7 +37,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Fees Disbursement
                     </a>
@@ -45,7 +45,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       University Guidance
                     </a>
@@ -53,7 +53,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       SOP's Review
                     </a>
@@ -69,7 +69,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Study in USA
                     </a>
@@ -77,7 +77,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Study in Canada
                     </a>
@@ -85,7 +85,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Study in UK
                     </a>
@@ -93,7 +93,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Study in France
                     </a>
@@ -101,7 +101,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Study in Germany
                     </a>
@@ -117,7 +117,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Terms & Conditions
                     </a>
@@ -125,7 +125,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Privacy Policy
                     </a>
@@ -133,7 +133,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       About MAC
                     </a>
@@ -141,7 +141,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Contact Us
                     </a>
@@ -149,7 +149,7 @@ const Footer = () => {
                   <li className=" flex items-center justify-center">
                     <a
                       href=""
-                      className="no-underline text-[14px] leading-6 text-footerLinks"
+                      className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
                       Why MAC?
                     </a>
@@ -267,7 +267,7 @@ const Footer = () => {
             </div>
             <div className="flex justify-center items-center md:mt-0 mt-4">
               <p className="md:text-sm text-xs text-white">
-                Copyright © 2024 MAC Global Services. All rights reserved
+                Copyright © 2024 MAC Global Services. All rights reserved.
               </p>
             </div>
           </div>
