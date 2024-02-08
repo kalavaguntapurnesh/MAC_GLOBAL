@@ -135,9 +135,9 @@ const ActiveSlider = () => {
                           <Image
                             src={item.backgroundImage}
                             alt=""
-                            width={200}
+                            width={160}
                             height={180}
-                            className="rounded-lg"
+                            className="rounded-lg "
                           ></Image>
                         </div>
                         <div className="my-2">
