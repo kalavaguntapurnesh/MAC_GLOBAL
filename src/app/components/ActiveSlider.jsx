@@ -133,7 +133,7 @@ const ActiveSlider = () => {
                 }}
                 navigation={true}
                 modules={[Autoplay, FreeMode, Pagination]}
-                className="max-w-[90%] lg:max-w-[80%]"
+                className="max-w-[90%] lg:max-w-[90%]"
               >
                 {ServiceData.map((item) => (
                   <SwiperSlide key={item.title}>
