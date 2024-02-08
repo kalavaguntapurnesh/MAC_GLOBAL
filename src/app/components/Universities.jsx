@@ -31,7 +31,7 @@ const Universities = () => {
                   <div className="w-44 h-1 border-b-4 border-red-400 mt-2"></div>
                 </div>
 
-                <div className="grid grid-cols-3 md:grid-cols-7 md:gap-4 gap-4 pt-8 mx-auto items-center justify-center content-center">
+                <div className="grid grid-cols-3 md:grid-cols-7 md:gap-4 gap-8 pt-8 mx-auto items-center justify-center content-center">
                   <div className=" flex flex-col items-center justify-center">
                     <Image
                       src="/FSU.png"
