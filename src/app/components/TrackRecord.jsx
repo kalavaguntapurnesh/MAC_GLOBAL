@@ -54,7 +54,7 @@ const TrackRecord = () => {
                       </div>
                       <div className=" h-20 flex justify-center items-center">
                         <h1 className="font-bold tracking-normal leading-6 md:text-base text-sm">
-                          Students Sent From MAC to Various Universities
+                          Students Sent From MAC to Various Universities.
                         </h1>
                       </div>
                     </div>
@@ -66,7 +66,7 @@ const TrackRecord = () => {
                       </div>
                       <div className=" h-20 flex justify-center items-center">
                         <h1 className="font-bold tracking-normal leading-6 md:text-base text-sm">
-                          VISA Acceptance Rate out of every 100 Students
+                          VISA Acceptance Rate out of every 100 Students.
                         </h1>
                       </div>
                     </div>
@@ -125,7 +125,7 @@ const TrackRecord = () => {
                           </svg>
                         </div>
                         <h1 className="font-bold tracking-normal leading-6 md:text-base text-sm">
-                          Excellent Ratings From Students and Parents
+                          Excellent Ratings From Students and Parents.
                         </h1>
                       </div>
                     </div>
@@ -137,7 +137,7 @@ const TrackRecord = () => {
                       </div>
                       <div className=" h-20 flex justify-center items-center">
                         <h1 className="font-bold tracking-normal leading-6 md:text-base text-sm">
-                          Countries our Students Spread Across the Globe.
+                          Countries Our Students Spread Across the Globe.
                         </h1>
                       </div>
                     </div>
