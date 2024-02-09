@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Universities = () => {
   return (
@@ -19,7 +20,7 @@ const Universities = () => {
                     ></Image>
                     <h1 className="text-4xl font-bold tracking-tight text-primaryColor dark:text-black mx-1">
                       {" "}
-                      Student Admissions We Got So Far
+                      University Admissions We Got So Far
                     </h1>
                     <Image
                       src="/right.svg"
@@ -28,7 +29,7 @@ const Universities = () => {
                       height={52}
                     ></Image>
                   </div>
-                  <div className="w-44 h-1 border-b-4 border-red-400 mt-2"></div>
+                  <div className="md:w-52 w-44 h-1 border-b-4 border-red-400 mt-2"></div>
                 </div>
 
                 <div className="grid grid-cols-3 md:grid-cols-7 md:gap-8 gap-8 pt-8 mx-auto items-center justify-center content-center">
@@ -144,14 +145,14 @@ const Universities = () => {
                       height={100}
                     ></Image>
                   </div>
-                  <div className=" flex flex-col items-center justify-center">
+                  {/* <div className=" flex flex-col items-center justify-center">
                     <Image
                       src="/NCSU.png"
                       alt=""
                       width={100}
                       height={100}
                     ></Image>
-                  </div>
+                  </div> */}
                   <div className=" flex flex-col items-center justify-center">
                     <Image
                       src="/OHIO.png"
@@ -191,6 +192,14 @@ const Universities = () => {
                       width={100}
                       height={100}
                     ></Image>
+                  </div>
+                  <div className=" flex flex-col items-center justify-center underline">
+                    <Link
+                      href="/contact"
+                      className="text-scrollToTop font-semibold tracking-wide hover:text-primaryColor transition duration-1000 ease-in-out"
+                    >
+                      <h1>Many More</h1>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -33,22 +33,22 @@ const FAQ = () => {
                 </div>
 
                 <div className="w-full flex justify-center items-center pt-4">
-                  <div className="md:w-4/5 w-full">
+                  <div className="md:w-5/6 w-full">
                     <Accordion
-                      title="How long will it take to process my student VISA?"
+                      title="How long will it take to process my student or education VISA?"
                       answer="The answer to this question depends on various factors like profile strength, education gap years, experience, IELTS score, and proper counselling and guidance."
                     />
                     <Accordion
-                      title="What are various education credentials after UG?"
-                      answer="Post Graduate Diploma Graduate, Master’s Degree, Post Graduate Business Administration are a few to name. There are many capstone courses to pursue after UG."
+                      title="What are the various educational credentials one can do after UG?"
+                      answer="Post Graduate Diploma, Master’s Degree, Post Graduate Business Administration are a few to name. There are many capstone courses to pursue after UG."
                     />
                     <Accordion
-                      title="Which country easily gives Student VISA's?"
+                      title="What are the countries that easily gives Student VISA's?"
                       answer="Visas are issued only if you meet the eligibility requirements. Every visa has different requirements to be met. Depending on the country and the visa you want to apply you will have to see if meet the requirements."
                     />
                     <Accordion
-                      title="How can our customers contact us instantly?"
-                      answer="You can contact us through mail on macglobalservices@gmail.com or through mobile numbers. And we are ready to help 24 / 7 throughout the year."
+                      title="How can our customers contact us for immediate guidance?"
+                      answer="You can contact us through mail on macglobalservices@gmail.com or go to the Contact page for further information. And we are ready to help."
                     />
                   </div>
                 </div>
