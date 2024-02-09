@@ -80,14 +80,14 @@ const ActiveSlider = () => {
       title: "Anjali Bhatia",
       content:
         "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/StudentNine.png",
+      backgroundImage: "/students/StudentEight.png",
     },
     {
       icon: RxReader,
       title: "Kailash Parghi",
       content:
         "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/StudentTen.png",
+      backgroundImage: "/students/StudentEight.png",
     },
     {
       icon: RxAccessibility,
