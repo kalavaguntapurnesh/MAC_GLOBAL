@@ -19,6 +19,7 @@ const config: Config = {
         inputColor: "#F8F8F8",
         bodyColor: "#e2e8f0",
         footerLinks:"#a6aab6",
+        scrollToTop:"#e7473c"
       },
       animation: {
         "infinite-scroll": "infinite-scroll 50s infinite",
