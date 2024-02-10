@@ -2,6 +2,7 @@
 import Navbar from "@/app/components/Navbar";
 import AboutOne from "@/app/about/AboutOne";
 import AboutTwo from "@/app/about/AboutTwo";
+import AboutThree from "@/app/about/AboutThree";
 import ScrollToTop from "@/app/components/ScrollToTop";
 import Footer from "@/app/components/Footer";
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
       <Navbar />
       <AboutOne />
       <ScrollToTop />
-      <AboutTwo />
+      <AboutThree />
+      {/* <AboutTwo /> */}
       <Footer />
     </main>
   );

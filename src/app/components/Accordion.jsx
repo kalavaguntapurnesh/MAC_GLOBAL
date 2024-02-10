@@ -13,7 +13,7 @@ const Accordion = ({ title, answer }) => {
         className="flex justify-between w-full"
       >
         <div className=" flex justify-start w-full items-center">
-          <span className="font-bold tracking-tight px-4 text-lg text-primaryColor">
+          <span className="font-bold tracking-normal px-4 text-lg text-gray-800 hover:text-primaryColor transition duration-1000 ease-in-out">
             {title}
           </span>
         </div>
@@ -29,7 +29,7 @@ const Accordion = ({ title, answer }) => {
         }`}
       >
         <div className="overflow-hidden">
-          <span className="font-bold tracking-tight leading-loose text-base px-4">
+          <span className="font-bold tracking-normal leading-loose text-base px-4">
             {answer}
           </span>
         </div>
