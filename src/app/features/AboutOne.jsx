@@ -32,7 +32,7 @@ const AboutOne = () => {
                 </div>
 
                 <div className="text-gray-600 dark:text-gray-800 my-4">
-                  <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center">
+                  <p className="font-medium md:text-[17px] text-[16px] text-center">
                     Open doors to a world of possibilities with education loans,
                     expert study abroad counseling, comprehensive exam
                     preparation, forex services, credit card solutions,

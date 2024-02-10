@@ -42,18 +42,18 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden md:flex md:pt-4 md:pr-12">
-        <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium hover:underline duration-1000 delay-1000">
+        <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium uppercase text-sm tracking-wider">
           <Link href="/">Home</Link>
         </li>
-        <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium hover:text-primaryColor">
+        <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium uppercase text-sm tracking-wider">
           <Link href="/about">About Us</Link>
         </li>
-        <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium hover:text-primaryColor">
+        <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium uppercase text-sm tracking-wider">
           <Link href="/features">Features</Link>
         </li>
-        <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium hover:text-primaryColor">
+        {/* <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium uppercase text-sm tracking-wider">
           <Link href="/products">Services</Link>
-        </li>
+        </li> */}
         {/* <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium hover:text-black">
           <Link href="/contact">Contact</Link>
         </li> */}
@@ -96,9 +96,9 @@ const Navbar = () => {
           <li className="p-4 border-b border-gray-600 text-white cursor-pointer">
             <Link href="/features">Features</Link>
           </li>
-          <li className="p-4 border-b border-gray-600 text-white cursor-pointer">
+          {/* <li className="p-4 border-b border-gray-600 text-white cursor-pointer">
             <Link href="/products">Services</Link>
-          </li>
+          </li> */}
           <li className="p-4 text-white cursor-pointer">
             <Link href="/contact">Contact</Link>
           </li>

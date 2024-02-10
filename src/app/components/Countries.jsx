@@ -32,7 +32,7 @@ const Countries = () => {
                 </div>
               </div>
               <div className="text-gray-600 dark:text-gray-800 my-4">
-                <p className="font-medium md:text-[17px] text-[16px] text-center">
+                <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center">
                   We offer overseas education services to top countries in the
                   rundown of international education. Are you looking for abroad
                   education services, MAC Global Services will encapsulate all

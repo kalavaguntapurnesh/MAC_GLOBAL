@@ -42,14 +42,16 @@ const TrackRecord = () => {
                   <div className="grid md:grid-cols-4 grid-cols-2 md:gap-8 gap-8 pt-8 mx-auto justify-center items-center content-center">
                     <div className=" flex flex-col gap-1">
                       <div className=" h-12 flex justify-center items-center">
-                        <h1 className="font-bold text-4xl text-green-500">
-                           {counterOn && <CountUp
-                            start={0}
-                            end={1000}
-                            duration={2}
-                            delay={0}
-                          ></CountUp>
-                          }+
+                        <h1 className="font-bold text-4xl text-green-500 tracking-wider">
+                          {counterOn && (
+                            <CountUp
+                              start={0}
+                              end={1050}
+                              duration={2}
+                              delay={0}
+                            ></CountUp>
+                          )}
+                          +
                         </h1>
                       </div>
                       <div className=" h-20 flex justify-center items-center">
@@ -59,9 +61,17 @@ const TrackRecord = () => {
                       </div>
                     </div>
                     <div className=" flex flex-col gap-1">
-                      <div className=" h-12 flex justify-center items-center">
+                      <div className=" h-12 flex justify-center items-center tracking-wider">
                         <h1 className="font-bold text-4xl text-green-500">
-                          {counterOn && <CountUp start={0} end={96} duration={3} delay={0}></CountUp>}%
+                          {counterOn && (
+                            <CountUp
+                              start={0}
+                              end={96}
+                              duration={3}
+                              delay={0}
+                            ></CountUp>
+                          )}
+                          %
                         </h1>
                       </div>
                       <div className=" h-20 flex justify-center items-center">
@@ -72,8 +82,34 @@ const TrackRecord = () => {
                     </div>
                     <div className=" flex flex-col gap-1">
                       <div className=" h-12 flex justify-center items-center">
-                        <h1 className="font-bold text-4xl text-green-500">
-                          4.7 / 5
+                        <h1 className="font-bold text-4xl text-green-500 tracking-wider">
+                          {counterOn && (
+                            <CountUp
+                              start={0}
+                              end={4}
+                              duration={3}
+                              delay={0}
+                            ></CountUp>
+                          )}
+                          .
+                          {counterOn && (
+                            <CountUp
+                              start={0}
+                              end={7}
+                              duration={3}
+                              delay={0}
+                              className="font-bold"
+                            ></CountUp>
+                          )}
+                          /
+                          {counterOn && (
+                            <CountUp
+                              start={0}
+                              end={5}
+                              duration={3}
+                              delay={0}
+                            ></CountUp>
+                          )}
                         </h1>
                       </div>
                       <div className=" h-20 flex flex-col justify-center items-center">
@@ -131,8 +167,16 @@ const TrackRecord = () => {
                     </div>
                     <div className=" flex flex-col gap-1">
                       <div className=" h-12 flex justify-center items-center">
-                        <h1 className="font-bold text-4xl text-green-500">
-                          {counterOn && <CountUp start={0} end={10} duration={3} delay={0}></CountUp>}+
+                        <h1 className="font-bold text-4xl text-green-500 tracking-wider">
+                          {counterOn && (
+                            <CountUp
+                              start={0}
+                              end={10}
+                              duration={3}
+                              delay={0}
+                            ></CountUp>
+                          )}
+                          +
                         </h1>
                       </div>
                       <div className=" h-20 flex justify-center items-center">
@@ -144,7 +188,7 @@ const TrackRecord = () => {
                   </div>
 
                   <div className="text-gray-600 dark:text-gray-800 pt-4 pb-4">
-                    <p className="font-medium md:text-[17px] text-[16px] text-center">
+                    <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center">
                       We offer overseas education services to top countries in
                       the rundown of international education. Are you looking
                       for abroad education services, MAC Global Services will
