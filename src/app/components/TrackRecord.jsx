@@ -61,7 +61,7 @@ const TrackRecord = () => {
                     <div className=" flex flex-col gap-1">
                       <div className=" h-12 flex justify-center items-center">
                         <h1 className="font-bold text-4xl text-green-500">
-                          {counterOn && <CountUp start={0} end={96} duration={2} delay={0}></CountUp>}%
+                          {counterOn && <CountUp start={0} end={96} duration={3} delay={0}></CountUp>}%
                         </h1>
                       </div>
                       <div className=" h-20 flex justify-center items-center">
@@ -132,7 +132,7 @@ const TrackRecord = () => {
                     <div className=" flex flex-col gap-1">
                       <div className=" h-12 flex justify-center items-center">
                         <h1 className="font-bold text-4xl text-green-500">
-                          {counterOn && <CountUp start={0} end={10} duration={2} delay={0}></CountUp>}+
+                          {counterOn && <CountUp start={0} end={10} duration={3} delay={0}></CountUp>}+
                         </h1>
                       </div>
                       <div className=" h-20 flex justify-center items-center">
