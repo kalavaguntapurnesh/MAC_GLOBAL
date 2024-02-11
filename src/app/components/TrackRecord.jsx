@@ -171,7 +171,7 @@ const TrackRecord = () => {
                           {counterOn && (
                             <CountUp
                               start={0}
-                              end={10}
+                              end={5}
                               duration={3}
                               delay={0}
                             ></CountUp>
