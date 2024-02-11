@@ -14,12 +14,12 @@ const AboutThree = () => {
                   alt=""
                   width={600}
                   height={400}
-                  className="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] overflow-hidden"
+                  className="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] overflow-hidden lg:hover:scale-110 transition duration-1000 ease-in-out"
                 ></Image>
               </div>
               <div className="">
                 <div className="w-full space-y-8">
-                  <div className=" flex items-center justify-center">
+                  <div className=" flex items-center justify-center ">
                     <h3 className="lg:text-start text-center lg:text-4xl text-3xl font-bold tracking-normal text-primaryColor dark:text-black">
                       Why MAC is superior than our competitors ?
                     </h3>

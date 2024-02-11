@@ -1,12 +1,12 @@
 "use client";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
-import AboutOne from "../about/AboutOne";
+import ServicesOne from "@/app/services/ServicesOne";
 export default function Home() {
   return (
     <main>
       <Navbar />
-      <AboutOne/>
+      <ServicesOne/>
       <Footer />
     </main>
   );

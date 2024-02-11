@@ -49,7 +49,7 @@ const Navbar = () => {
           <Link href="/about">About Us</Link>
         </li>
         <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium uppercase text-sm tracking-wider">
-          <Link href="/features">Features</Link>
+          <Link href="/services">Services</Link>
         </li>
         {/* <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium uppercase text-sm tracking-wider">
           <Link href="/products">Services</Link>
@@ -94,7 +94,7 @@ const Navbar = () => {
             <Link href="/about">About</Link>
           </li>
           <li className="p-4 border-b border-gray-600 text-white cursor-pointer">
-            <Link href="/features">Features</Link>
+            <Link href="/services">Services</Link>
           </li>
           {/* <li className="p-4 border-b border-gray-600 text-white cursor-pointer">
             <Link href="/products">Services</Link>

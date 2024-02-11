@@ -60,7 +60,7 @@ const AboutOne = () => {
                           </h1>
                         </div>
                         <div className="mt-2 mb-4">
-                          <p className="text-[16px] tracking-tight mx-2">
+                          <p className="text-[16px] leading-relaxed  tracking-tight mx-2">
                             MAC is responsible for helping you achieve your
                             educational dreams. Studying abroad in countries
                             like Canada, Australia, UK, New Zealand could help
@@ -89,7 +89,7 @@ const AboutOne = () => {
                           </h1>
                         </div>
                         <div className="mt-2 mb-4 h-auto ">
-                          <p className="text-[16px] tracking-tight mx-2">
+                          <p className="text-[16px] leading-relaxed  tracking-tight mx-2">
                             MAC is responsible for helping you achieve your
                             educational dreams. Studying abroad in countries
                             like Canada, Australia, UK, New Zealand could help
@@ -118,7 +118,7 @@ const AboutOne = () => {
                           </h1>
                         </div>
                         <div className="mt-2 mb-4 h-auto">
-                          <p className="text-[16px] tracking-tight mx-2">
+                          <p className="text-[16px] leading-relaxed  tracking-tight mx-2">
                             MAC is responsible for helping you achieve your
                             educational dreams. Studying abroad in countries
                             like Canada, Australia, UK, New Zealand could help
