@@ -11,7 +11,7 @@ const TrackRecord = () => {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="bg-white">
+      <div className="bg-gray-50">
         <div className="relative pt-8 pb-12">
           <div className="w-full">
             <div className="w-full px-4 mx-auto max-w-[1400px]">

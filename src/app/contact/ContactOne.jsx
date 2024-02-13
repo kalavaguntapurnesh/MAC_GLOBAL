@@ -39,6 +39,7 @@ const ContactOne = () => {
                           alt=""
                           width={60}
                           height={60}
+                          className="xl:hover:scale-110 transition duration-1000 ease-in-out"
                         ></Image>
                       </div>
                       <div className=" h-12 flex justify-center items-center">
@@ -79,6 +80,7 @@ const ContactOne = () => {
                           alt=""
                           width={60}
                           height={60}
+                          className="xl:hover:scale-110 transition duration-1000 ease-in-out"
                         ></Image>
                       </div>
                       <div className=" h-12 flex justify-center items-center">
@@ -114,6 +116,7 @@ const ContactOne = () => {
                           alt=""
                           width={60}
                           height={60}
+                          className="xl:hover:scale-110 transition duration-1000 ease-in-out"
                         ></Image>
                       </div>
                       <div className=" h-12 flex justify-center items-center">
