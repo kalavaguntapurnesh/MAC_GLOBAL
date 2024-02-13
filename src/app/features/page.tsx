@@ -2,15 +2,16 @@
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import FeaturesOne from "@/app/features/FeaturesOne";
-import FeaturesTwo from "@/app/features/FeatureTwo";
-import Hero from "@/app/components/Hero";
+import FeaturesTwo from "@/app/features/FeaturesTwo";
+import FeaturesThree from "@/app/features/FeaturesThree";
+
 export default function Home() {
   return (
     <main>
       <Navbar />
-      <Hero />
       <FeaturesOne />
       <FeaturesTwo />
+      <FeaturesThree />
       <Footer />
     </main>
   );
