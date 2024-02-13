@@ -1,5 +1,5 @@
 "use client";
-import Navbar from "@/app/features/Navbar";
+import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import FeaturesOne from "@/app/features/FeaturesOne";
 import FeaturesTwo from "@/app/features/FeatureTwo";

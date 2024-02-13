@@ -80,11 +80,11 @@ const Navbar = () => {
         className={
           !nav
             ? "md:hidden fixed left-[-100%] h-[75%] ease-in-out duration-1000 "
-            : "md:hidden fixed left-0 top-0 w-[60%] border-r border-r-gray-900 h-[75%] bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10"
+            : "md:hidden fixed left-0 top-0 w-[70%] border-r border-r-gray-900 h-[75%] bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10"
         }
       >
-        <h1 className="w-full text-2xl text-companyColor font-bold m-4 cursor-pointer">
-          ALCHEMINDS.
+        <h1 className="w-full text-2xl text-green-500 font-bold m-4 cursor-pointer">
+          MAC GLOBAL.
         </h1>
         <ul className=" uppercase p-4">
           <li className="p-4 border-b border-gray-600 text-white cursor-pointer">
