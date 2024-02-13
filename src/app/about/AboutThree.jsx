@@ -14,7 +14,7 @@ const AboutThree = () => {
                   alt=""
                   width={600}
                   height={400}
-                  className="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] overflow-hidden lg:hover:scale-110 transition duration-1000 ease-in-out"
+                  className="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] overflow-hidden xl:hover:scale-110 transition duration-1000 ease-in-out"
                 ></Image>
               </div>
               <div className="">

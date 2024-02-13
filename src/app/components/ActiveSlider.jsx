@@ -99,11 +99,11 @@ const ActiveSlider = () => {
   ];
 
   return (
-    <div className="bg-gray-50 ">
+    <div className="bg-white">
       <div className="relative pt-4 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
-            <div className="flex items-center justify-center flex-col bg-gray-50 ">
+            <div className="flex items-center justify-center flex-col bg-white">
               <Swiper
                 breakpoints={{
                   340: {

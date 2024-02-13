@@ -1,5 +1,5 @@
 "use client";
-import Navbar from "@/app/components/Navbar";
+import Navbar from "@/app/features/Navbar";
 import Hero from "@/app/components/Hero";
 import TrackRecord from "@/app/components/TrackRecord";
 import Feedback from "@/app/components/Feedback";
