@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const AboutThree = () => {
   return (
@@ -14,7 +15,7 @@ const AboutThree = () => {
                   alt=""
                   width={600}
                   height={400}
-                  className="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] overflow-hidden xl:hover:scale-110 transition duration-1000 ease-in-out"
+                  className="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] overflow-hidden"
                 ></Image>
               </div>
               <div className="">
@@ -95,6 +96,15 @@ const AboutThree = () => {
                       </div>
                     </li>
                   </ul>
+                </div>
+
+                <div className="my-4 flex justify-center lg:justify-start">
+                  <Link
+                    href="/contact"
+                    className="bg-green-600 text-white text-center hover:bg-green-800 transition duration-1000 ease-in-out font-semibold rounded-lg px-8 py-3"
+                  >
+                    Contact Us{" "}
+                  </Link>
                 </div>
               </div>
             </div>
