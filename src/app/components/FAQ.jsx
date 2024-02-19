@@ -4,7 +4,7 @@ import Accordion from "@/app/components/Accordion";
 
 const FAQ = () => {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-white">
       <div className="relative pt-12 pb-8">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">

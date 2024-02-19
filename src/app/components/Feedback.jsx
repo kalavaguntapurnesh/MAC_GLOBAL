@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Feedback = () => {
   return (
-    <div className="pt-8 pb-16 bg-white">
+    <div className="pt-4 pb-16 bg-gray-50">
       <div className="relative pt-8 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">

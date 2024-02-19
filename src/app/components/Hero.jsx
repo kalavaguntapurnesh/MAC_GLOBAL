@@ -4,7 +4,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="w-full bg-white pt-40 pb-16">
+    <div className="w-full bg-white pt-28 pb-8 border-2 border-green-400 h-auto">
       <div className="max-w-[1400px] m-auto grid md:grid-cols-2">
         <div className="flex flex-col gap-4 ">
           <div className="flex items-center lg:justify-start justify-center">
@@ -27,7 +27,7 @@ const Hero = () => {
               labore repellat.
             </p>
           </div>
-          {/* <div className="lg:px-4 xl:px-2">
+          <div className="lg:px-4 xl:px-2">
             <form
               action=""
               className="bg-white border max-w-[500px] p-4 input-box-shadow rounded-md flex justify-between"
@@ -45,16 +45,16 @@ const Hero = () => {
                 />
               </button>
             </form>
-          </div> */}
+          </div>
         </div>
 
         <div className="flex justify-center items-center ">
           <Image
-            src="/heroImg.png"
+            src="/HERO.jpg"
             alt=""
             width={300}
             height={300}
-            className="md:order-last h-full w-5/6"
+            className="md:order-last h-11/12 w-5/6 border-2 border-red-400"
           ></Image>
         </div>
       </div>
