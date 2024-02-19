@@ -16,8 +16,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <TrackRecord />
-      <Feedback />
       <ScrollToTop />
+      <Feedback />
       <ActiveSlider />
       <Countries />
       <Universities />

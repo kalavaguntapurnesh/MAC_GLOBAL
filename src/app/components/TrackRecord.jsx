@@ -11,13 +11,13 @@ const TrackRecord = () => {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="bg-gray-50">
-        <div className="relative pt-8 pb-12">
+      <div className="bg-white">
+        <div className="relative pt-4 pb-12">
           <div className="w-full">
             <div className="w-full px-4 mx-auto max-w-[1400px]">
               <div className="justify-center w-full text-center pb-4">
                 <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
-                  <div className="flex flex-wrap flex-col items-center">
+                  {/* <div className="flex flex-wrap flex-col items-center">
                     <div className="flex items-center justify-center">
                       <Image
                         src="/left.svg"
@@ -37,9 +37,9 @@ const TrackRecord = () => {
                       ></Image>
                     </div>
                     <div className="md:w-52 w-44 h-1 border-b-4 border-red-400 mt-2"></div>
-                  </div>
+                  </div> */}
 
-                  <div className="grid md:grid-cols-4 grid-cols-2 md:gap-8 gap-8 pt-8 mx-auto justify-center items-center content-center">
+                  <div className="grid md:grid-cols-4 grid-cols-2 md:gap-8 gap-8 mx-auto justify-center items-center content-center">
                     <div className=" flex flex-col gap-1">
                       <div className=" h-12 flex justify-center items-center">
                         <h1 className="font-bold text-4xl text-green-500 tracking-wider">
@@ -171,7 +171,7 @@ const TrackRecord = () => {
                           {counterOn && (
                             <CountUp
                               start={0}
-                              end={5}
+                              end={8}
                               duration={3}
                               delay={0}
                             ></CountUp>
