@@ -28,61 +28,126 @@ const Testimonial = () => {
               <div className="flex flex-col w-full">
                 <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                   <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                    <div className="overflow-hidden">
-                      <table className="min-w-full text-center text-sm font-light border-2 border-gray-500 ">
+                    <div className="overflow-hidden ">
+                      <table className="min-w-full text-center text-sm font-light border-2 border-gray-400 rounded-xl">
                         <thead className="border-b font-medium dark:border-neutral-500 ">
                           <tr>
                             <th scope="col" className="px-6 py-4 ">
-                              className
+                              Factors
                             </th>
-                            <th scope="col" className="px-6 py-4">
+                            <th scope="col" className="px-6 py-4 font-bold">
                               MAC Global
                             </th>
-                            <th scope="col" className="px-6 py-4">
+                            <th scope="col" className="px-6 py-4 font-bold">
                               Others
                             </th>
                           </tr>
                         </thead>
                         <tbody>
-                          <tr className="border-b border-neutral-600 bg-neutral-600 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
-                            <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          <tr className="border-b dark:border-neutral-600 dark:bg-neutral-700">
+                            <td className="whitespace-nowrap px-6 py-4 font-medium text-black">
                               Interest Rate
                             </td>
-                            <td className="whitespace-nowrap px-6 py-4">
+                            <td className="whitespace-nowrap px-6 py-4 font-bold text-black">
                               10.02%
                             </td>
-                            <td className="whitespace-nowrap px-6 py-4">
+                            <td className="whitespace-nowrap px-6 py-4 font-bold text-black">
                               12.20%
                             </td>
                           </tr>
 
                           <tr className="border-b border-secondary-200 bg-secondary-100 text-neutral-800">
                             <td className="whitespace-nowrap px-6 py-4 font-medium">
-                              Accomodation
+                              Stay Assistance
                             </td>
-                            <td className="whitespace-nowrap px-6 py-4">Yes</td>
-                            <td className="whitespace-nowrap px-6 py-4">No</td>
-                          </tr>
-                          <tr className="border-b border-neutral-600 bg-neutral-600 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
-                            <td className="whitespace-nowrap px-6 py-4 font-medium">
-                              Career Guidance
+                            <td className="px-6 py-4">
+                              <div className="flex justify-center items-center">
+                                <Image
+                                  src="/Check_Icon.png"
+                                  width={30}
+                                  height={20}
+                                ></Image>
+                              </div>
                             </td>
-                            <td className="whitespace-nowrap px-6 py-4">Yes</td>
-                            <td className="whitespace-nowrap px-6 py-4">No</td>
+                            <td className="px-6 py-4">
+                              <div className="flex justify-center items-center">
+                                <Image
+                                  src="/Check_Icon.png"
+                                  width={30}
+                                  height={20}
+                                ></Image>
+                              </div>
+                            </td>
                           </tr>
-                          <tr className="border-b  bg-neutral-50 text-neutral-800 dark:bg-neutral-50 ">
+
+                          <tr className="border-b text-neutral-800 dark:bg-neutral-50 ">
                             <td className="whitespace-nowrap px-6 py-4 font-medium">
                               Part Time Facility
                             </td>
-                            <td className="whitespace-nowrap px-6 py-4">Yes</td>
-                            <td className="whitespace-nowrap px-6 py-4">No</td>
+                            <td className="px-6 py-4 flex justify-center items-center">
+                              <div className="flex justify-center items-center">
+                                <Image
+                                  src="/Check_Icon.png"
+                                  width={30}
+                                  height={20}
+                                ></Image>
+                              </div>
+                            </td>
+                            <td className="whitespace-nowrap px-7 py-4 ">
+                              <div className="flex justify-center items-center">
+                                <Image
+                                  src="/Wrong_Icon.png"
+                                  width={30}
+                                  height={20}
+                                ></Image>
+                              </div>
+                            </td>
                           </tr>
-                          <tr className="border-b border-neutral-600 bg-neutral-600 text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
-                            <td className="whitespace-nowrap px-6 py-4 font-medium">
+                          <tr className="border-b text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
+                            <td className="whitespace-nowrap px-6 py-4 font-medium text-black">
+                              Career Guidance
+                            </td>
+                            <td className="px-6 py-4">
+                              <div className="flex justify-center items-center">
+                                <Image
+                                  src="/Check_Icon.png"
+                                  width={30}
+                                  height={20}
+                                ></Image>
+                              </div>
+                            </td>
+                            <td className="whitespace-nowrap px-7 py-4 ">
+                              <div className="flex justify-center items-center">
+                                <Image
+                                  src="/Check_Icon.png"
+                                  width={30}
+                                  height={20}
+                                ></Image>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr className="border-b text-neutral-50 dark:border-neutral-600 dark:bg-neutral-700">
+                            <td className="whitespace-nowrap px-6 py-4 font-medium text-black">
                               Job Assistance
                             </td>
-                            <td className="whitespace-nowrap px-6 py-4">Yes</td>
-                            <td className="whitespace-nowrap px-6 py-4">No</td>
+                            <td className="px-6 py-4">
+                              <div className="flex justify-center items-center">
+                                <Image
+                                  src="/Check_Icon.png"
+                                  width={30}
+                                  height={20}
+                                ></Image>
+                              </div>
+                            </td>
+                            <td className="whitespace-nowrap px-7 py-4 ">
+                              <div className="flex justify-center items-center">
+                                <Image
+                                  src="/Wrong_Icon.png"
+                                  width={30}
+                                  height={20}
+                                ></Image>
+                              </div>
+                            </td>
                           </tr>
                         </tbody>
                       </table>
