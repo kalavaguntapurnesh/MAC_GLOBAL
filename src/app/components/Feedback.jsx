@@ -30,8 +30,6 @@ const Feedback = () => {
                   </div>
                   <div className="md:w-52 w-44 h-1 border-b-4 border-red-400 mt-2"></div>
                 </div>
-
-            
               </div>
             </div>
           </div>

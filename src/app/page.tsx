@@ -1,6 +1,6 @@
 "use client";
 import Navbar from "@/app/components/Navbar";
-import Hero from "@/app/components/Hero";
+import Heros from "@/app/components/Heros";
 import TrackRecord from "@/app/components/TrackRecord";
 import Feedback from "@/app/components/Feedback";
 import ActiveSlider from "@/app/components/ActiveSlider";
@@ -14,7 +14,8 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <Hero />
+      {/* <Hero /> */}
+      <Heros />
       <TrackRecord />
       <ScrollToTop />
       <Feedback />
