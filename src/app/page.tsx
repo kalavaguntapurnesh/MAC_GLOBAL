@@ -9,6 +9,7 @@ import ScrollToTop from "@/app/components/ScrollToTop";
 import Universities from "@/app/components/Universities";
 import FAQ from "@/app/components/FAQ";
 import Footer from "@/app/components/Footer";
+import Testimonial from "@/app/components/Testimonial";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Countries />
       <Universities />
       <FAQ />
+      <Testimonial />
       <Footer />
     </main>
   );
