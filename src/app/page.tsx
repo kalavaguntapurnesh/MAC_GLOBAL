@@ -19,12 +19,12 @@ export default function Home() {
       <Heros />
       <TrackRecord />
       <ScrollToTop />
+      <Testimonial />
       <Feedback />
       <ActiveSlider />
       <Countries />
       <Universities />
       <FAQ />
-      <Testimonial />
       <Footer />
     </main>
   );
