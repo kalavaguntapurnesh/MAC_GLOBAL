@@ -18,7 +18,7 @@ const FAQ = () => {
                       width={27}
                       height={52}
                     ></Image>
-                    <h1 className="text-4xl font-bold tracking-tight text-primaryColor dark:text-black mx-1">
+                    <h1 className="text-4xl font-bold tracking-normal text-primaryColor dark:text-black mx-1">
                       {" "}
                       Frequently Asked Questions
                     </h1>

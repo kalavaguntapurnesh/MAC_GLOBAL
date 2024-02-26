@@ -17,7 +17,7 @@ const FeaturesOne = () => {
                     width={27}
                     height={52}
                   ></Image>
-                  <h1 className="text-4xl font-bold tracking-tight text-primaryColor dark:text-black mx-1">
+                  <h1 className="text-4xl font-bold tracking-normal text-primaryColor dark:text-black mx-1">
                     {" "}
                     Services We Offer
                   </h1>
@@ -32,7 +32,7 @@ const FeaturesOne = () => {
               </div>
 
               <div className="text-gray-600 dark:text-gray-800 my-4">
-                <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center">
+                <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
                   Open doors to a world of possibilities with education loans,
                   expert study abroad counseling, comprehensive exam
                   preparation, forex services, credit card solutions,
@@ -60,7 +60,7 @@ const FeaturesOne = () => {
                         </h1>
                       </div>
                       <div className="mt-2 mb-4">
-                        <p className="text-[16px] leading-relaxed  tracking-tight mx-2">
+                        <p className="text-[16px] leading-relaxed tracking-wide mx-2">
                           MAC is responsible for helping you achieve your
                           educational dreams. Studying abroad in countries
                           like Canada, Australia, UK, New Zealand could help
@@ -89,7 +89,7 @@ const FeaturesOne = () => {
                         </h1>
                       </div>
                       <div className="mt-2 mb-4 h-auto ">
-                        <p className="text-[16px] leading-relaxed  tracking-tight mx-2">
+                        <p className="text-[16px] leading-relaxed tracking-wide mx-2">
                           MAC is responsible for helping you achieve your
                           educational dreams. Studying abroad in countries
                           like Canada, Australia, UK, New Zealand could help
@@ -118,7 +118,7 @@ const FeaturesOne = () => {
                         </h1>
                       </div>
                       <div className="mt-2 mb-4 h-auto">
-                        <p className="text-[16px] leading-relaxed  tracking-tight mx-2">
+                        <p className="text-[16px] leading-relaxed tracking-wide mx-2">
                           MAC is responsible for helping you achieve your
                           educational dreams. Studying abroad in countries
                           like Canada, Australia, UK, New Zealand could help
