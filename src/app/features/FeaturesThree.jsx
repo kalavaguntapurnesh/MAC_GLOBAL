@@ -25,7 +25,7 @@ const FeaturesThree = () => {
                   </h3>
                 </div>
                 <div className="flex items-center justify-center content-center">
-                  <p className="w-full leading-relaxed font-medium lg:text-start text-center md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 ">
+                  <p className="w-full tracking-wide leading-relaxed font-medium lg:text-start text-center md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 ">
                     Our experience in various business verticals/domains and
                     different technologies allows us to serve customers of all
                     sizes around the world, providing with software system
@@ -48,7 +48,7 @@ const FeaturesThree = () => {
                           clip-rule="evenodd"
                         ></path>
                       </svg>
-                      <span class="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 ">
+                      <span class="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ad consectetur, praesentium rem, porro provident nulla
                         ipsam.
@@ -69,7 +69,7 @@ const FeaturesThree = () => {
                           clip-rule="evenodd"
                         ></path>
                       </svg>
-                      <span class="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 ">
+                      <span class="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ad consectetur, praesentium rem, porro provident nulla
                         ipsam.
@@ -90,7 +90,7 @@ const FeaturesThree = () => {
                           clip-rule="evenodd"
                         ></path>
                       </svg>
-                      <span class="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 ">
+                      <span class="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ad consectetur, praesentium rem, porro provident nulla
                         ipsam.

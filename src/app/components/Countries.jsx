@@ -17,7 +17,7 @@ const Countries = () => {
                       width={27}
                       height={52}
                     ></Image>
-                    <h1 className="text-4xl font-bold tracking-tight text-primaryColor dark:text-black mx-1">
+                    <h1 className="text-4xl font-bold tracking-normal text-primaryColor dark:text-black mx-1">
                       {" "}
                       Our Study Abroad Service
                     </h1>
@@ -32,7 +32,7 @@ const Countries = () => {
                 </div>
               </div>
               <div className="text-gray-600 dark:text-gray-800 my-4">
-                <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center">
+                <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
                   We offer overseas education services to top countries in the
                   rundown of international education. Are you looking for abroad
                   education services, MAC Global Services will encapsulate all
