@@ -28,8 +28,25 @@ const ContactTwo = () => {
                       and code clean websites and apps!
                     </h1>
                   </div>
+                  <div>
+                    <ul className="space-y-4 text-colorTwo font-semibold leading-relaxed tracking-wide flex flex-col list-disc md:mx-4 mx-8">
+                      <li>
+                        96% VISA Acceptance Rate out of every 100 Students.
+                      </li>
+                      <li>
+                        4.7 / 5 Excellent Ratings From Students and Parents.
+                      </li>
+                      <li>
+                        1,050+ Students Sent From MAC to Various Universities.
+                      </li>
+                      <li>
+                        8+ Countries Our Students Spread Across the Globe.
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+
               <div>
                 <form action="" method="POST" className="mt-8">
                   <div className="w-full flex justify-center items-center">
@@ -105,7 +122,7 @@ const ContactTwo = () => {
 
                   <div className="w-full flex justify-center items-center">
                     <div class="mb-5 md:w-8/12 w-full">
-                      <button class="hover:shadow-form rounded-md bg-[#048D3F] hover:bg-green-900 transition duration-1000 ease-in-out py-3 px-12 text-base font-semibold text-white outline-none">
+                      <button class="hover:shadow-form rounded-md bg-colorOne hover:bg-[#048D3F] transition duration-1000 ease-in-out py-3 px-12 text-base font-semibold text-white outline-none">
                         Submit
                       </button>
                     </div>
