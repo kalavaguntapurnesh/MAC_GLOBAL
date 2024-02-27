@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ContactOne = () => {
   return (
-    <div className="bg-gray-50 ">
+    <div className="bg-white">
       <div className="relative pt-40 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -31,7 +31,7 @@ const ContactOne = () => {
                   <div className="w-44 h-1 border-b-4 border-red-400 mt-2"></div>
                 </div>
                 <div className="">
-                  <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
+                  <div className="grid md:grid-cols-3 grid-cols-1 gap-4 md:mt-8">
                     <div className=" flex flex-col justify-center items-center">
                       <div className=" h-20  w-full flex justify-center items-center">
                         <Image

@@ -42,7 +42,7 @@ const TrackRecord = () => {
                   <div className="grid md:grid-cols-4 grid-cols-2 md:gap-8 gap-8 mx-auto justify-center items-center content-center">
                     <div className=" flex flex-col gap-1">
                       <div className=" h-12 flex justify-center items-center">
-                        <h1 className="font-bold text-4xl text-green-500 tracking-wider">
+                        <h1 className="font-bold text-4xl text-colorOne tracking-wider">
                           {counterOn && (
                             <CountUp
                               start={0}
@@ -62,7 +62,7 @@ const TrackRecord = () => {
                     </div>
                     <div className=" flex flex-col gap-1">
                       <div className=" h-12 flex justify-center items-center tracking-wider">
-                        <h1 className="font-bold text-4xl text-green-500">
+                        <h1 className="font-bold text-4xl text-colorOne">
                           {counterOn && (
                             <CountUp
                               start={0}
@@ -82,7 +82,7 @@ const TrackRecord = () => {
                     </div>
                     <div className=" flex flex-col gap-1">
                       <div className=" h-12 flex justify-center items-center">
-                        <h1 className="font-bold text-4xl text-green-500 tracking-wider">
+                        <h1 className="font-bold text-4xl text-colorOne tracking-wider">
                           {counterOn && (
                             <CountUp
                               start={0}
@@ -167,7 +167,7 @@ const TrackRecord = () => {
                     </div>
                     <div className=" flex flex-col gap-1">
                       <div className=" h-12 flex justify-center items-center">
-                        <h1 className="font-bold text-4xl text-green-500 tracking-wider">
+                        <h1 className="font-bold text-4xl text-colorOne tracking-wider">
                           {counterOn && (
                             <CountUp
                               start={0}
