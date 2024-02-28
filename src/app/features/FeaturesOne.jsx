@@ -23,7 +23,7 @@ const FeaturesOne = () => {
                     ></Image>
                     <h1 className="text-4xl font-bold tracking-normal text-primaryColor dark:text-black mx-1">
                       {" "}
-                      Services We Offer
+                      Features We Offer
                     </h1>
                     <Image
                       src="/right.svg"
