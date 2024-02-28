@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Lottie from "lottie-react";
 import HeaderLottie from "../../../public/lotties/Header.json";
 
