@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { AiOutlineSearch } from "react-icons/ai";
+import Lottie from "lottie-react";
+import HeaderLottie from "../../../public/lotties/Header.json";
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
             </p>
           </div> */}
           <div className=" flex items-center lg:justify-start justify-center mt-4">
-            <h1 className="xl:text-6xl lg:text-[48px] text-[48px] font-semibold lg:px-4 xl:px-2 xl:leading-[72px] lg:leading-[60px] lg:text-start text-center">
+            <h1 className="xl:text-6xl lg:text-[48px] text-[48px] font-semibold lg:px-4 xl:px-2 xl:leading-[72px] lg:leading-[60px] lg:text-start text-center text-colorTwo">
               Access to 5000+ Courses from 300
               <span className="text-colorOne"> Instructors & Institutions</span>
             </h1>
@@ -52,6 +53,12 @@ const Hero = () => {
             height={200}
             className="md:order-last h-6/12 w-5/6 border-2 border-red-400"
           ></Image> */}
+
+          <Lottie
+            animationData={HeaderLottie}
+            loop={true}
+            className="w-10/12 md:w-full md:h-96 h-92"
+          />
         </div>
       </div>
     </div>
