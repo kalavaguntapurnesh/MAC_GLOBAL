@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Lottie from "lottie-react";
-import FeatureOne from "../../../public/lotties/ServiceOne.json";
 
 const ServicesOne = () => {
   return (
@@ -35,11 +33,13 @@ const ServicesOne = () => {
 
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-4 pt-4">
                   <div className="flex flex-col items-center">
-                    <Lottie
-                      animationData={ServiceOne}
-                      loop={true}
-                      className="w-[300px] h-[300px]"
-                    />
+                    <Image
+                      src="/serviceOne.jpg"
+                      alt="imageOne"
+                      width={300}
+                      height={300}
+                      className="md:w-11/12 w-full rounded-3xl"
+                    ></Image>
                     <div className="p-6 space-y-4 text-center">
                       <h4 className="text-2xl font-semibold tracking-tight text-gray-900">
                         Software{" "}
