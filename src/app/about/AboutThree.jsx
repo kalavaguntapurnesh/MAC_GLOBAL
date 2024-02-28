@@ -101,7 +101,7 @@ const AboutThree = () => {
                 <div className="my-4 flex justify-center lg:justify-start">
                   <Link
                     href="/contact"
-                    className="bg-green-600 text-white text-center hover:bg-green-800 transition duration-1000 ease-in-out font-semibold rounded-lg px-8 py-3"
+                    className="bg-colorOne text-white text-center hover:bg-green-600 transition duration-1000 ease-in-out font-semibold rounded-lg px-8 py-3"
                   >
                     Contact Us{" "}
                   </Link>

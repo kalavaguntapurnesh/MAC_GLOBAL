@@ -57,10 +57,10 @@ const Navbar = () => {
         {/* <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium hover:text-black">
           <Link href="/contact">Contact</Link>
         </li> */}
-        <li className="lg:p-4 p-[11px] cursor-pointer ">
+        <li className="lg:p-4 p-[11px] cursor-pointer font-medium">
           <a
             href="/contact"
-            className="bg-green-700 
+            className="bg-colorOne
         rounded-[4px] text-white px-8 py-2.5 "
           >
             Contact Us{" "}
@@ -83,7 +83,7 @@ const Navbar = () => {
             : "md:hidden fixed left-0 top-0 w-[70%] border-r border-r-gray-900 h-[75%] bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10"
         }
       >
-        <h1 className="w-full text-2xl text-green-500 font-bold m-4 cursor-pointer">
+        <h1 className="w-full text-2xl text-colorOne font-bold m-4 cursor-pointer">
           MAC GLOBAL.
         </h1>
         <ul className=" uppercase p-4">

@@ -15,7 +15,7 @@ const FeaturesTwo = () => {
                   </h3>
                 </div>
                 <div className="flex items-center justify-center content-center">
-                  <p className="w-full tracking-wide leading-relaxed font-medium lg:text-start text-center md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 ">
+                  <p className="w-full lg:text-start text-center leading-relaxed tracking-wide font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 ">
                     Our experience in various business verticals/domains and
                     different technologies allows us to serve customers of all
                     sizes around the world, providing with software system
@@ -27,7 +27,7 @@ const FeaturesTwo = () => {
                   <li>
                     <div className=" flex flex-row space-x-3 justify-center lg:justify-start items-center">
                       <svg
-                        class="flex-shrink-0 w-6 h-6 text-green-600 hover:text-primaryColor transition duration-1000 ease-in-out"
+                        class="flex-shrink-0 w-6 h-6 text-primaryColor hover:text-primaryColor transition duration-1000 ease-in-out"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const FeaturesTwo = () => {
                   <li>
                     <div className=" flex flex-row space-x-3 justify-center lg:justify-start items-center">
                       <svg
-                        class="flex-shrink-0 w-6 h-6 text-green-600 hover:text-primaryColor transition duration-1000 ease-in-out"
+                        class="flex-shrink-0 w-6 h-6 text-primaryColor hover:text-primaryColor transition duration-1000 ease-in-out"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ const FeaturesTwo = () => {
                   <li>
                     <div className=" flex flex-row space-x-3 justify-center lg:justify-start items-center">
                       <svg
-                        class="flex-shrink-0 w-6 h-6 text-green-600 hover:text-primaryColor transition duration-1000 ease-in-out"
+                        class="flex-shrink-0 w-6 h-6 text-primaryColor hover:text-primaryColor transition duration-1000 ease-in-out"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
