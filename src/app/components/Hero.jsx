@@ -33,7 +33,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className=" flex items-center lg:justify-start justify-center">
+          <div className="flex items-center lg:justify-start justify-center md:mx-2">
             <a
               href="/contact"
               className="bg-colorOne font-semibold outline-none
@@ -42,25 +42,6 @@ const Hero = () => {
               Get Started Now
             </a>
           </div>
-          {/* <div className="lg:px-4 xl:px-2">
-            <form
-              action=""
-              className="bg-white border max-w-[500px] p-4 input-box-shadow rounded-md flex justify-between"
-            >
-              <input
-                className="bg-white"
-                type="text"
-                placeholder="What do want to learn?"
-              />
-              <button>
-                <AiOutlineSearch
-                  size={20}
-                  className="icon"
-                  style={{ color: "#000" }}
-                />
-              </button>
-            </form>
-          </div> */}
         </div>
 
         <div className="flex justify-center items-center">
