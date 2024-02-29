@@ -62,15 +62,15 @@ const ContactTwo = () => {
                         name="name"
                         id="name"
                         placeholder="Rohit Sukheja"
-                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:shadow-md"
+                        className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:shadow-md"
                       />
                     </div>
                   </div>
                   <div className="w-full flex justify-center items-center">
-                    <div class="mb-5 md:w-10/12 w-full">
+                    <div className="mb-5 md:w-10/12 w-full">
                       <label
                         for="email"
-                        class="mb-3 block text-base font-medium text-[#07074D]"
+                        className="mb-3 block text-base font-medium text-[#07074D]"
                       >
                         Email Address
                       </label>
@@ -79,16 +79,16 @@ const ContactTwo = () => {
                         name="email"
                         id="email"
                         placeholder="example@domain.com"
-                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:shadow-md"
+                        className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:shadow-md"
                       />
                     </div>
                   </div>
 
                   <div className="w-full flex justify-center items-center">
-                    <div class="mb-5 md:w-10/12 w-full">
+                    <div className="mb-5 md:w-10/12 w-full">
                       <label
                         for="subject"
-                        class="mb-3 block text-base font-medium text-[#07074D]"
+                        className="mb-3 block text-base font-medium text-[#07074D]"
                       >
                         Subject
                       </label>
@@ -97,16 +97,16 @@ const ContactTwo = () => {
                         name="subject"
                         id="subject"
                         placeholder="Enter your subject"
-                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:shadow-md"
+                        className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:shadow-md"
                       />
                     </div>
                   </div>
 
                   <div className="w-full flex justify-center items-center">
-                    <div class="mb-5 md:w-10/12 w-full">
+                    <div className="mb-5 md:w-10/12 w-full">
                       <label
                         for="message"
-                        class="mb-3 block text-base font-medium text-[#07074D]"
+                        className="mb-3 block text-base font-medium text-[#07074D]"
                       >
                         Message
                       </label>
@@ -115,14 +115,14 @@ const ContactTwo = () => {
                         name="message"
                         id="message"
                         placeholder="Type your message"
-                        class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:shadow-md"
+                        className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:shadow-md"
                       ></textarea>
                     </div>
                   </div>
 
                   <div className="w-full flex justify-center items-center">
-                    <div class="mb-5 md:w-8/12 w-full">
-                      <button class="hover:shadow-form rounded-md bg-colorOne hover:bg-[#048D3F] transition duration-1000 ease-in-out py-3 px-12 text-base font-semibold text-white outline-none">
+                    <div className="mb-5 md:w-8/12 w-full">
+                      <button className="hover:shadow-form rounded-md bg-colorOne hover:bg-[#048D3F] transition duration-1000 ease-in-out py-3 px-12 text-base font-semibold text-white outline-none">
                         Submit
                       </button>
                     </div>

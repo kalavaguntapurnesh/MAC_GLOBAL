@@ -50,7 +50,7 @@ const Countries = () => {
                     className="rounded-lg"
                   ></Image>
                   <div>
-                    <h4 className="font-bold text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out">
+                    <h4 className="font-bold text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
                       USA
                     </h4>
                   </div>
@@ -65,7 +65,7 @@ const Countries = () => {
                     className="rounded-lg"
                   ></Image>
                   <div>
-                    <h4 className="font-bold text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out">
+                    <h4 className="font-bold text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
                       CANADA
                     </h4>
                   </div>
@@ -80,7 +80,7 @@ const Countries = () => {
                     className="rounded-xl"
                   ></Image>
                   <div>
-                    <h4 className="font-bold text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out">
+                    <h4 className="font-bold text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
                       UK
                     </h4>
                   </div>
@@ -94,7 +94,7 @@ const Countries = () => {
                     className="rounded-lg"
                   ></Image>
                   <div>
-                    <h4 className="font-bold text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out">
+                    <h4 className="font-bold text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
                       GERMANY
                     </h4>
                   </div>
@@ -108,7 +108,7 @@ const Countries = () => {
                     className="rounded-lg"
                   ></Image>
                   <div>
-                    <h4 className="font-bold text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out">
+                    <h4 className="font-bold text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
                       FRANCE
                     </h4>
                   </div>
