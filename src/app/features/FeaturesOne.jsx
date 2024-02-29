@@ -57,7 +57,7 @@ const FeaturesOne = () => {
                           />
                         </div>
                         <div className="my-2">
-                          <h1 className="font-bold text-[18px] tracking-wide text-primaryColor">
+                          <h1 className="font-bold text-[20px] tracking-wide text-primaryColor">
                             Superior Success Rate
                           </h1>
                         </div>
@@ -84,7 +84,7 @@ const FeaturesOne = () => {
                           />
                         </div>
                         <div className="my-2">
-                          <h1 className="font-bold text-[18px] tracking-wide text-primaryColor">
+                          <h1 className="font-bold text-[20px] tracking-wide text-primaryColor">
                             Better Student Satisfaction
                           </h1>
                         </div>
@@ -111,7 +111,7 @@ const FeaturesOne = () => {
                           />
                         </div>
                         <div className="my-2">
-                          <h1 className="font-bold text-[18px] tracking-wide text-primaryColor">
+                          <h1 className="font-bold text-[20px] tracking-wide text-primaryColor">
                             Higher Visa Approvals
                           </h1>
                         </div>
