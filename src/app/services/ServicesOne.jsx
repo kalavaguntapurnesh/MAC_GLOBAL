@@ -53,7 +53,7 @@ const ServicesOne = () => {
                       </p>
                       <a
                         href="/contact"
-                        className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border bg-primaryColor rounded-md   hover:no-underline "
+                        className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border  rounded-md   hover:no-underline "
                       >
                         Learn More
                       </a>
