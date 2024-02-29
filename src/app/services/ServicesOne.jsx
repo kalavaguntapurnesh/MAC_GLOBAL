@@ -52,7 +52,7 @@ const ServicesOne = () => {
                         optimize your critical business processes and functions.
                       </p>
                       <a
-                        href="/about"
+                        href="/contact"
                         className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border bg-primaryColor rounded-md   hover:no-underline "
                       >
                         Learn More
@@ -61,7 +61,7 @@ const ServicesOne = () => {
                   </div>
 
                   <div className="flex flex-col items-center">
-                  <Lottie
+                    <Lottie
                       animationData={FeatureTwo}
                       loop={true}
                       className="w-[310px] h-[200px]"
@@ -76,7 +76,7 @@ const ServicesOne = () => {
                         optimize your critical business processes and functions.
                       </p>
                       <a
-                        href="/about"
+                        href="/contact"
                         className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border border-primaryColor rounded-md  hover:no-underline "
                       >
                         Learn More
@@ -84,7 +84,7 @@ const ServicesOne = () => {
                     </div>
                   </div>
                   <div className="flex flex-col items-center">
-                  <Lottie
+                    <Lottie
                       animationData={FeatureThree}
                       loop={true}
                       className="w-[310px] h-[200px]"
@@ -99,7 +99,7 @@ const ServicesOne = () => {
                         optimize your critical business processes and functions.
                       </p>
                       <a
-                        href="/about"
+                        href="/contact"
                         className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border border-primaryColor rounded-md   hover:no-underline "
                       >
                         Learn More
