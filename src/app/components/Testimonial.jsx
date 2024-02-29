@@ -90,19 +90,19 @@ const Testimonial = () => {
                           <tr>
                             <th
                               scope="col"
-                              className="px-6 py-4 font-bold md:text-[16px] text-[14px] tracking-wide"
+                              className="px-6 py-4 font-bold md:text-[16px] text-[13px] tracking-wide"
                             >
                               Factors
                             </th>
                             <th
                               scope="col"
-                              className="px-6 py-4 font-bold md:text-[16px] text-[14px] tracking-wide"
+                              className="px-6 py-4 font-bold md:text-[16px] text-[13px]  tracking-wide"
                             >
                               MAC Global
                             </th>
                             <th
                               scope="col"
-                              className="px-6 py-4 font-bold md:text-[16px] text-[14px] tracking-wide"
+                              className="px-6 py-4 font-bold md:text-[16px] text-[13px] tracking-wide"
                             >
                               Others
                             </th>
@@ -110,19 +110,19 @@ const Testimonial = () => {
                         </thead>
                         <tbody>
                           <tr className="border-b dark:border-neutral-600 dark:bg-neutral-600">
-                            <td className="whitespace-nowrap md:text-[16px] text-[14px] px-6 py-4 font-semibold tracking-wide dark:text-neutral-50">
+                            <td className="whitespace-nowrap md:text-[16px] text-[13px]  px-6 py-4 font-semibold tracking-wide dark:text-neutral-50">
                               Interest Rates
                             </td>
-                            <td className="whitespace-nowrap md:text-[16px] text-[14px] px-6 py-4 font-bold dark:text-neutral-50 tracking-wide">
+                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-bold dark:text-neutral-50 tracking-wide">
                               10.02%
                             </td>
-                            <td className="whitespace-nowrap md:text-[16px] text-[14px] px-6 py-4 font-bold dark:text-neutral-50 tracking-wide">
+                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-bold dark:text-neutral-50 tracking-wide">
                               12.20%
                             </td>
                           </tr>
 
                           <tr className="border-b border-secondary-200 bg-secondary-100 text-neutral-800">
-                            <td className="whitespace-nowrap md:text-[16px] text-[14px] px-6 py-4 font-semibold tracking-wide">
+                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-semibold tracking-wide">
                               Housing Assistance
                             </td>
                             <td className="px-6 py-4">
@@ -146,7 +146,7 @@ const Testimonial = () => {
                           </tr>
 
                           <tr className="border-b text-neutral-800  dark:border-neutral-600  dark:bg-neutral-600">
-                            <td className="whitespace-nowrap md:text-[16px] text-[14px] px-6 py-4 font-semibold tracking-wide dark:text-neutral-50">
+                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-semibold tracking-wide dark:text-neutral-50">
                               Part-Time Facility
                             </td>
                             <td className="px-6 py-4 flex justify-center items-center">
@@ -169,7 +169,7 @@ const Testimonial = () => {
                             </td>
                           </tr>
                           <tr className="border-b text-neutral-50 ">
-                            <td className="whitespace-nowrap md:text-[16px] text-[14px] px-6 py-4 font-semibold tracking-wide text-black">
+                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-semibold tracking-wide text-black">
                               Career Guidance
                             </td>
                             <td className="px-6 py-4">
@@ -192,7 +192,7 @@ const Testimonial = () => {
                             </td>
                           </tr>
                           <tr className="border-b text-neutral-50 dark:border-neutral-600  dark:bg-neutral-600">
-                            <td className="whitespace-nowrap md:text-[16px] text-[14px] px-6 py-4 font-semibold tracking-wide text-black dark:text-neutral-50">
+                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-semibold tracking-wide text-black dark:text-neutral-50">
                               Job Support
                             </td>
                             <td className="px-6 py-4">
