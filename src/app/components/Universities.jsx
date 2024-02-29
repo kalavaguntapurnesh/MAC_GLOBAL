@@ -32,7 +32,7 @@ const Universities = () => {
                   <div className="md:w-52 w-44 h-1 border-b-4 border-red-400 mt-2"></div>
                 </div>
 
-                <div className="grid grid-cols-3 md:grid-cols-7 md:gap-8 gap-8 pt-8 mx-auto items-center justify-center content-center">
+                <div className="grid grid-cols-3 md:grid-cols-6 md:gap-8 gap-8 pt-8 mx-auto items-center justify-center content-center">
                   <div className=" flex flex-col items-center justify-center">
                     <Image
                       src="/FSU.png"
@@ -99,14 +99,6 @@ const Universities = () => {
                   </div>
                   <div className=" flex flex-col items-center justify-center">
                     <Image
-                      src="/TSUAr.png"
-                      alt=""
-                      width={100}
-                      height={100}
-                    ></Image>
-                  </div>
-                  <div className=" flex flex-col items-center justify-center">
-                    <Image
                       src="/KENTSU.png"
                       alt=""
                       width={100}
@@ -129,14 +121,7 @@ const Universities = () => {
                       height={100}
                     ></Image>
                   </div>
-                  <div className=" flex flex-col items-center justify-center">
-                    <Image
-                      src="/NJIT.png"
-                      alt=""
-                      width={100}
-                      height={100}
-                    ></Image>
-                  </div>
+                 
                   <div className=" flex flex-col items-center justify-center">
                     <Image
                       src="/NYU.png"
@@ -145,22 +130,7 @@ const Universities = () => {
                       height={100}
                     ></Image>
                   </div>
-                  {/* <div className=" flex flex-col items-center justify-center">
-                    <Image
-                      src="/NCSU.png"
-                      alt=""
-                      width={100}
-                      height={100}
-                    ></Image>
-                  </div> */}
-                  <div className=" flex flex-col items-center justify-center">
-                    <Image
-                      src="/OHIO.png"
-                      alt=""
-                      width={100}
-                      height={100}
-                    ></Image>
-                  </div>
+                 
                   <div className=" flex flex-col items-center justify-center">
                     <Image
                       src="/ISU.png"
