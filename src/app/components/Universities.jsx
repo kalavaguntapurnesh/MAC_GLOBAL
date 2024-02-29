@@ -39,6 +39,7 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
@@ -47,6 +48,7 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
@@ -55,6 +57,7 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
@@ -63,6 +66,7 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
@@ -71,6 +75,7 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
@@ -79,6 +84,7 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
@@ -87,6 +93,7 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
@@ -95,6 +102,7 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
@@ -103,6 +111,7 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
@@ -111,6 +120,7 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
@@ -119,24 +129,27 @@ const Universities = () => {
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
-                 
+
                   <div className=" flex flex-col items-center justify-center">
                     <Image
                       src="/NYU.png"
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
-                 
+
                   <div className=" flex flex-col items-center justify-center">
                     <Image
                       src="/ISU.png"
                       alt=""
                       width={100}
                       height={100}
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className=" flex flex-col items-center justify-center">
