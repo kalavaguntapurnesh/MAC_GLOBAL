@@ -150,7 +150,7 @@ const TrackRecord = () => {
                             <CountUp
                               start={0}
                               end={8}
-                              duration={3}
+                              duration={4}
                               delay={0}
                             ></CountUp>
                           )}
