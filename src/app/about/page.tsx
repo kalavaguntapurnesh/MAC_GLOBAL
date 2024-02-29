@@ -12,7 +12,7 @@ export default function Home() {
       <AboutOne />
       <ScrollToTop />
       <AboutThree />
-      <AboutTwo />
+      {/* <AboutTwo /> */}
       <Footer />
     </main>
   );

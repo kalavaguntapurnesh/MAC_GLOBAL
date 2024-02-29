@@ -27,7 +27,7 @@ const FeaturesTwo = () => {
                   <li>
                     <div className=" flex flex-row space-x-3 justify-center lg:justify-start items-center">
                       <svg
-                        class="flex-shrink-0 w-6 h-6 text-primaryColor hover:text-primaryColor transition duration-1000 ease-in-out"
+                        className="flex-shrink-0 w-6 h-6 text-primaryColor hover:text-primaryColor transition duration-1000 ease-in-out"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ const FeaturesTwo = () => {
                           clip-rule="evenodd"
                         ></path>
                       </svg>
-                      <span class="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
+                      <span className="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ad consectetur, praesentium rem, porro provident nulla
                         ipsam.
@@ -48,7 +48,7 @@ const FeaturesTwo = () => {
                   <li>
                     <div className=" flex flex-row space-x-3 justify-center lg:justify-start items-center">
                       <svg
-                        class="flex-shrink-0 w-6 h-6 text-primaryColor hover:text-primaryColor transition duration-1000 ease-in-out"
+                        className="flex-shrink-0 w-6 h-6 text-primaryColor hover:text-primaryColor transition duration-1000 ease-in-out"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ const FeaturesTwo = () => {
                           clip-rule="evenodd"
                         ></path>
                       </svg>
-                      <span class="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
+                      <span className="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ad consectetur, praesentium rem, porro provident nulla
                         ipsam.
@@ -69,7 +69,7 @@ const FeaturesTwo = () => {
                   <li>
                     <div className=" flex flex-row space-x-3 justify-center lg:justify-start items-center">
                       <svg
-                        class="flex-shrink-0 w-6 h-6 text-primaryColor hover:text-primaryColor transition duration-1000 ease-in-out"
+                        className="flex-shrink-0 w-6 h-6 text-primaryColor hover:text-primaryColor transition duration-1000 ease-in-out"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ const FeaturesTwo = () => {
                           clip-rule="evenodd"
                         ></path>
                       </svg>
-                      <span class="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
+                      <span className="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ad consectetur, praesentium rem, porro provident nulla
                         ipsam.
