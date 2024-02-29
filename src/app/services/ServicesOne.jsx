@@ -60,7 +60,7 @@ const ServicesOne = () => {
 
                   <div className="flex flex-col items-center">
                     <Image
-                      src="/serviceTwo.jpg"
+                      src="/aboutOne.jpg"
                       alt="imageOne"
                       width={300}
                       height={300}
