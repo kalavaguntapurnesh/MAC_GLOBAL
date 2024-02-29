@@ -1,5 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Lottie from "lottie-react";
+import FeatureOne from "../../../public/lotties/Feature.json";
+import FeatureTwo from "../../../public/lotties/FeatureTwo.json";
+import FeatureThree from "../../../public/lotties/FeatureOne.json";
 
 const ServicesOne = () => {
   return (
@@ -33,17 +37,15 @@ const ServicesOne = () => {
 
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-4 pt-4">
                   <div className="flex flex-col items-center">
-                    <Image
-                      src="/serviceOne.jpg"
-                      alt="imageOne"
-                      width={300}
-                      height={300}
-                      className="md:w-11/12 w-full rounded-3xl"
-                    ></Image>
+                    <Lottie
+                      animationData={FeatureOne}
+                      loop={true}
+                      className="w-[310px] h-[200px]"
+                    />
                     <div className="p-6 space-y-4 text-center">
                       <h4 className="text-2xl font-semibold tracking-tight text-gray-900">
                         Software{" "}
-                        <span className="text-companyColor">Development</span>
+                        <span className="text-colorOne">Development</span>
                       </h4>
                       <p className="text-sm text-gray-600">
                         Dynamic and innovative enterprise applications to
@@ -51,7 +53,7 @@ const ServicesOne = () => {
                       </p>
                       <a
                         href="/about"
-                        className="block px-3 py-2 mt-6 text-sm font-semibold text-black transition duration-200 ease-in-out bg-companyColor border border-companyColor rounded-md hover:companyColor  hover:no-underline hover:companyColor"
+                        className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border bg-primaryColor rounded-md   hover:no-underline "
                       >
                         Learn More
                       </a>
@@ -59,17 +61,15 @@ const ServicesOne = () => {
                   </div>
 
                   <div className="flex flex-col items-center">
-                    <Image
-                      src="/aboutOne.jpg"
-                      alt="imageOne"
-                      width={300}
-                      height={300}
-                      className="md:w-11/12 w-full rounded-3xl"
-                    ></Image>
+                  <Lottie
+                      animationData={FeatureTwo}
+                      loop={true}
+                      className="w-[310px] h-[200px]"
+                    />
                     <div className="p-6 space-y-4 text-center">
                       <h4 className="text-2xl font-semibold tracking-tight text-gray-900">
                         Software{" "}
-                        <span className="text-companyColor">Development</span>
+                        <span className="text-colorOne">Development</span>
                       </h4>
                       <p className="text-sm text-gray-600">
                         Dynamic and innovative enterprise applications to
@@ -77,24 +77,22 @@ const ServicesOne = () => {
                       </p>
                       <a
                         href="/about"
-                        className="block px-3 py-2 mt-6 text-sm font-semibold text-black transition duration-200 ease-in-out bg-companyColor border border-companyColor rounded-md hover:companyColor  hover:no-underline hover:companyColor"
+                        className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border border-primaryColor rounded-md  hover:no-underline "
                       >
                         Learn More
                       </a>
                     </div>
                   </div>
                   <div className="flex flex-col items-center">
-                    <Image
-                      src="/serviceThree.jpg"
-                      alt="imageOne"
-                      width={300}
-                      height={300}
-                      className="md:w-11/12 w-full rounded-3xl"
-                    ></Image>
+                  <Lottie
+                      animationData={FeatureThree}
+                      loop={true}
+                      className="w-[310px] h-[200px]"
+                    />
                     <div className="p-6 space-y-4 text-center">
                       <h4 className="text-2xl font-semibold tracking-tight text-gray-900">
                         Software{" "}
-                        <span className="text-companyColor">Development</span>
+                        <span className="text-colorOne">Development</span>
                       </h4>
                       <p className="text-sm text-gray-600">
                         Dynamic and innovative enterprise applications to
@@ -102,7 +100,7 @@ const ServicesOne = () => {
                       </p>
                       <a
                         href="/about"
-                        className="block px-3 py-2 mt-6 text-sm font-semibold text-black transition duration-200 ease-in-out bg-companyColor border border-companyColor rounded-md hover:companyColor  hover:no-underline hover:companyColor"
+                        className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border border-primaryColor rounded-md   hover:no-underline "
                       >
                         Learn More
                       </a>
