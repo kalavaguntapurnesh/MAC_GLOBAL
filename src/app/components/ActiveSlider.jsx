@@ -13,79 +13,79 @@ const ActiveSlider = () => {
     {
       title: "Rohit Sukheja",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
       university: "Oklahoma State University, USA",
     },
     {
       title: "Pranavi Manikonda",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Oklahoma State University, USA",
+      university: "Queen's Mary University, UK",
     },
     {
       title: "Purnesh Kalavagunta",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Oklahoma State University, USA",
+      university: "Toronto National University, Canada",
     },
     {
       title: "Teja Samanthavada",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
       university: "Oklahoma State University, USA",
     },
     {
       title: "Priya Sharma",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Oklahoma State University, USA",
+      university: "Florida State University, USA",
     },
     {
       title: "Ram Charan Teja",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Oklahoma State University, USA",
+      university: "Indiana State University, USA",
     },
     {
       title: "Tarak Ram",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Oklahoma State University, USA",
+      university: "NJIT(New Jersey), USA",
     },
     {
       title: "Vishwak Sen",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Oklahoma State University, USA",
+      university: "Canberra State University, Australia",
     },
     {
       title: "Anjali Bhatia",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Oklahoma State University, USA",
+      university: "University of Cincinnati, USA",
     },
     {
       title: "Kailash Parghi",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Oklahoma State University, USA",
+      university: "Manchester Metropolitan University, UK",
     },
     {
       title: "Bhupathi Raju",
       content:
-        "MAC is responsible for helping you achieve your educational dreams. Studying abroad in countries like Canada, Australia, UK, New Zealand could help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Oklahoma State University, USA",
+      university: "North Western University, USA",
     },
   ];
 
@@ -120,30 +120,30 @@ const ActiveSlider = () => {
               >
                 {ServiceData.map((item) => (
                   <SwiperSlide key={item.title}>
-                    <div className="rounded bg-white shadow-lg h-100">
+                    <div className="rounded-md bg-white shadow-lg h-100">
                       <div className="flex flex-col justify-center items-center mb-20 ">
-                        <div className="my-4 w-full flex justify-center items-center">
+                        <div className="mb-4 w-full flex justify-center items-center">
                           <Image
                             src={item.backgroundImage}
                             alt=""
                             width={160}
                             height={160}
-                            className="rounded md:w-[60%] w-[70%] md:h-[170px] h-[180px]"
+                            className="shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] lg:w-[85%] w-[75%] h-48 rounded-md"
                           ></Image>
                         </div>
-                        <div className="my-1 flex justify-center items-center ">
+                        <div className=" flex justify-center items-center h-8 w-full">
                           <h1 className="font-semibold md:text-[20px] text-[22px] text-colorOne leading-relaxed tracking-wide">
                             {item.title}
                           </h1>
                         </div>
-                        <div className="my-1 flex justify-center items-center">
-                          <h1 className="leading-relaxed tracking-wide font-medium text-colorTwo">
+                        <div className=" flex justify-center items-center h-10 w-full">
+                          <h1 className="leading-relaxed tracking-wide font-medium text-colorTwo text-center">
                             {item.university}
                           </h1>
                         </div>
 
-                        <div className="my-2 h-32 flex justify-center items-center">
-                          <p className="text-[15px] tracking-wide mx-2 font-medium text-black  text-center leading-relaxed">
+                        <div className=" lg:h-28 flex justify-center items-center mb-3">
+                          <p className="text-[14px] tracking-wide mx-2 font-medium text-black  text-center leading-relaxed">
                             {item.content}
                           </p>
                         </div>
