@@ -35,72 +35,90 @@ const ServicesOne = () => {
                   <div className="w-44 h-1 border-b-4 border-red-400 mt-2"></div>
                 </div>
 
-                <div className="grid md:grid-cols-3 grid-cols-1 gap-4 pt-4">
-                  <div className="flex flex-col items-center">
-                    <Lottie
-                      animationData={FeatureOne}
-                      loop={true}
-                      className="w-[310px] h-[200px]"
-                    />
-                    <div className="p-6 space-y-4 text-center">
-                      <h4 className="text-2xl font-semibold tracking-tight text-gray-900">
-                        Software{" "}
-                        <span className="text-colorOne">Development</span>
-                      </h4>
-                      <p className="text-sm text-gray-600">
+                <div className="grid md:grid-cols-3 grid-cols-1 gap-4 pt-4 ">
+                  <div className="flex flex-col justify-center items-center space-y-4">
+                    <div className=" w-full">
+                      <Lottie
+                        animationData={FeatureOne}
+                        loop={true}
+                        className="w-full  h-[200px]"
+                      />
+                    </div>
+                    <div>
+                      <h1 className="text-2xl font-semibold tracking-normal text-gray-900 leading-relaxed">
+                        University{" "}
+                        <span className="text-colorOne">Selection</span>
+                      </h1>
+                    </div>
+                    <div className="w-full">
+                      <p className="text-sm text-gray-600 text-center">
                         Dynamic and innovative enterprise applications to
                         optimize your critical business processes and functions.
                       </p>
+                    </div>
+                    <div className="w-full flex justify-center items-center">
                       <a
                         href="/contact"
-                        className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border  rounded-md   hover:no-underline "
+                        className="block px-3 py-2 mt-4 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border rounded-md w-11/12"
                       >
                         Learn More
                       </a>
                     </div>
                   </div>
 
-                  <div className="flex flex-col items-center">
-                    <Lottie
-                      animationData={FeatureTwo}
-                      loop={true}
-                      className="w-[310px] h-[200px]"
-                    />
-                    <div className="p-6 space-y-4 text-center">
-                      <h4 className="text-2xl font-semibold tracking-tight text-gray-900">
-                        Software{" "}
-                        <span className="text-colorOne">Development</span>
-                      </h4>
-                      <p className="text-sm text-gray-600">
+                  <div className="flex flex-col justify-center items-center space-y-4">
+                    <div className=" w-full">
+                      <Lottie
+                        animationData={FeatureTwo}
+                        loop={true}
+                        className="w-full  h-[200px]"
+                      />
+                    </div>
+                    <div>
+                      <h1 className="text-2xl font-semibold tracking-normal text-gray-900 leading-relaxed">
+                        VISA &{" "}
+                        <span className="text-colorOne">Immigration</span>
+                      </h1>
+                    </div>
+                    <div className="w-full">
+                      <p className="text-sm text-gray-600 text-center">
                         Dynamic and innovative enterprise applications to
                         optimize your critical business processes and functions.
                       </p>
+                    </div>
+                    <div className="w-full flex justify-center items-center">
                       <a
                         href="/contact"
-                        className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border border-primaryColor rounded-md  hover:no-underline "
+                        className="block px-3 py-2 mt-4 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border rounded-md w-11/12"
                       >
                         Learn More
                       </a>
                     </div>
                   </div>
-                  <div className="flex flex-col items-center">
-                    <Lottie
-                      animationData={FeatureThree}
-                      loop={true}
-                      className="w-[310px] h-[200px]"
-                    />
-                    <div className="p-6 space-y-4 text-center">
-                      <h4 className="text-2xl font-semibold tracking-tight text-gray-900">
-                        Software{" "}
-                        <span className="text-colorOne">Development</span>
-                      </h4>
-                      <p className="text-sm text-gray-600">
+
+                  <div className="flex flex-col justify-center items-center space-y-4">
+                    <div className=" w-full">
+                      <Lottie
+                        animationData={FeatureThree}
+                        loop={true}
+                        className="w-full  h-[200px]"
+                      />
+                    </div>
+                    <div>
+                      <h1 className="text-2xl font-semibold tracking-normal text-gray-900 leading-relaxed">
+                        Fees <span className="text-colorOne">Deployment</span>
+                      </h1>
+                    </div>
+                    <div className="w-full">
+                      <p className="text-sm text-gray-600 text-center">
                         Dynamic and innovative enterprise applications to
                         optimize your critical business processes and functions.
                       </p>
+                    </div>
+                    <div className="w-full flex justify-center items-center">
                       <a
                         href="/contact"
-                        className="block px-3 py-2 mt-6 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border border-primaryColor rounded-md   hover:no-underline "
+                        className="block px-3 py-2 mt-4 text-sm font-medium text-white transition duration-200 ease-in-out bg-primaryColor border rounded-md w-11/12 "
                       >
                         Learn More
                       </a>
