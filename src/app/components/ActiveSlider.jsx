@@ -11,59 +11,59 @@ import Image from "next/image";
 const ActiveSlider = () => {
   const ServiceData = [
     {
-      title: "Rohit Sukheja",
-      content:
-        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/My_Profile.jpg",
-      university: "Oklahoma State University, USA",
-    },
-    {
-      title: "Pranavi Manikonda",
-      content:
-        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/My_Profile.jpg",
-      university: "Queen's Mary University, UK",
-    },
-    {
       title: "Purnesh Kalavagunta",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Toronto National University, Canada",
+      university: "Oklahoma State University, USA",
     },
     {
       title: "Teja Samanthavada",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/My_Profile.jpg",
+      backgroundImage: "/students/Teja.jpg",
+      university: "Queen's Mary University, UK",
+    },
+    {
+      title: "Prashanth D J",
+      content:
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+      backgroundImage: "/students/Prashanth.jpg",
+      university: "Toronto National University, Canada",
+    },
+    {
+      title: "Vivek Vardhan",
+      content:
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+      backgroundImage: "/students/Vivek.jpg",
       university: "Oklahoma State University, USA",
     },
     {
-      title: "Priya Sharma",
+      title: "Eswar Nadendla",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/My_Profile.jpg",
+      backgroundImage: "/students/Eswar.jpg",
       university: "Florida State University, USA",
     },
     {
-      title: "Ram Charan Teja",
+      title: "Sai Venkat Nayini",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/My_Profile.jpg",
+      backgroundImage: "/students/Sai.jpg",
       university: "Indiana State University, USA",
     },
     {
-      title: "Tarak Ram",
+      title: "Ashok Yanamala",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/My_Profile.jpg",
+      backgroundImage: "/students/Ashok.jpg",
       university: "NJIT(New Jersey), USA",
     },
     {
-      title: "Vishwak Shen",
+      title: "Yeshwanth Sai Reddy",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/My_Profile.jpg",
+      backgroundImage: "/students/Yash.jpg",
       university: "Canberra State University, Australia",
     },
     {
@@ -77,14 +77,14 @@ const ActiveSlider = () => {
       title: "Kailash Parghi",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/My_Profile.jpg",
+      backgroundImage: "/students/Teja.jpg",
       university: "Manchester University, UK",
     },
     {
       title: "Bhupathi Raju",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: "/students/My_Profile.jpg",
+      backgroundImage: "/students/Prashanth.jpg",
       university: "North Western University, USA",
     },
   ];
@@ -120,9 +120,9 @@ const ActiveSlider = () => {
               >
                 {ServiceData.map((item) => (
                   <SwiperSlide key={item.title}>
-                    <div className="rounded-md bg-white shadow-lg h-100">
+                    <div className="rounded-md bg-white shadow-lg h-100 ">
                       <div className="flex flex-col justify-center items-center mb-20 ">
-                        <div className="mb-4 w-full flex justify-center items-center">
+                        {/* <div className="mb-4 w-full flex justify-center items-center">
                           <Image
                             src={item.backgroundImage}
                             alt=""
@@ -130,19 +130,19 @@ const ActiveSlider = () => {
                             height={160}
                             className="shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] lg:w-[85%] w-[75%] h-48 rounded-md"
                           ></Image>
-                        </div>
-                        <div className=" flex justify-center items-center h-8 w-full">
-                          <h1 className="font-semibold md:text-[20px] text-[22px] text-colorOne leading-relaxed tracking-wide">
-                            {item.title}
-                          </h1>
-                        </div>
-                        <div className=" flex justify-center items-center h-10 w-full">
-                          <h1 className="leading-relaxed tracking-wide font-medium text-colorTwo text-center">
-                            {item.university}
-                          </h1>
+                        </div> */}
+
+                        <div className="w-full flex items-center justify-center mt-3 mb-3">
+                          <Image
+                            src={item.backgroundImage}
+                            alt=""
+                            width={50}
+                            height={50}
+                            className="rounded-2xl"
+                          ></Image>
                         </div>
 
-                        <div className=" lg:h-28 flex justify-center items-center mb-5">
+                        <div className="md:h-34 flex justify-center items-center ">
                           <p className="text-[14px] tracking-wide mx-2 font-medium text-black  text-center leading-relaxed">
                             <svg
                               class="w-4 h-4 mx-auto mb-2 mt-1 text-gray-400 dark:text-gray-600"
@@ -155,6 +155,16 @@ const ActiveSlider = () => {
                             </svg>
                             {item.content}
                           </p>
+                        </div>
+                        <div className=" flex justify-center items-center h-8 w-full">
+                          <h1 className="font-semibold md:text-[20px] text-[22px] text-colorOne leading-relaxed tracking-wide">
+                            {item.title}
+                          </h1>
+                        </div>
+                        <div className=" flex justify-center items-center h-10 w-full">
+                          <h1 className="leading-relaxed tracking-wide font-medium text-colorTwo text-center">
+                            {item.university}
+                          </h1>
                         </div>
                       </div>
                     </div>
