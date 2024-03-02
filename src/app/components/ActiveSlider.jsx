@@ -60,7 +60,7 @@ const ActiveSlider = () => {
       university: "NJIT(New Jersey), USA",
     },
     {
-      title: "Vishwak Sen",
+      title: "Vishwak Shen",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
@@ -78,7 +78,7 @@ const ActiveSlider = () => {
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
-      university: "Manchester Metropolitan University, UK",
+      university: "Manchester University, UK",
     },
     {
       title: "Bhupathi Raju",
@@ -142,10 +142,10 @@ const ActiveSlider = () => {
                           </h1>
                         </div>
 
-                        <div className=" lg:h-28 flex justify-center items-center mb-3">
+                        <div className=" lg:h-28 flex justify-center items-center mb-5">
                           <p className="text-[14px] tracking-wide mx-2 font-medium text-black  text-center leading-relaxed">
                             <svg
-                              class="w-4 h-4 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+                              class="w-4 h-4 mx-auto mb-2 mt-1 text-gray-400 dark:text-gray-600"
                               aria-hidden="true"
                               xmlns="http://www.w3.org/2000/svg"
                               fill="currentColor"
