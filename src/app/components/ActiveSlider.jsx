@@ -145,7 +145,7 @@ const ActiveSlider = () => {
                         <div className="md:h-34 flex justify-center items-center ">
                           <p className="text-[14px] tracking-wide mx-2 font-medium text-black  text-center leading-relaxed">
                             <svg
-                              class="w-4 h-4 mx-auto mb-2 mt-1 text-gray-400 dark:text-gray-600"
+                              className="w-4 h-4 mx-auto mb-2 mt-1 text-gray-400 dark:text-gray-600"
                               aria-hidden="true"
                               xmlns="http://www.w3.org/2000/svg"
                               fill="currentColor"
