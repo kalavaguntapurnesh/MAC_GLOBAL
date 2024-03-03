@@ -16,7 +16,6 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      {/* <Heros /> */}
       <TrackRecord />
       <ScrollToTop />
       <Testimonial />
