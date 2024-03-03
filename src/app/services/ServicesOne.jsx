@@ -52,8 +52,9 @@ const ServicesOne = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-sm text-gray-600 text-center">
-                        Dynamic and innovative enterprise applications to
-                        optimize your critical business processes and functions.
+                        Opportunity to select top-ranked university based on
+                        location, courses, ranking, accommodation, resources to
+                        study abroad.
                       </p>
                     </div>
                     <div className="w-full flex justify-center items-center">
@@ -106,7 +107,7 @@ const ServicesOne = () => {
                     </div>
                     <div>
                       <h1 className="text-2xl font-semibold tracking-normal text-gray-900 leading-relaxed">
-                        Fees <span className="text-colorOne">Deployment</span>
+                        Fees <span className="text-colorOne">Disbursement</span>
                       </h1>
                     </div>
                     <div className="w-full">
