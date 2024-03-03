@@ -32,7 +32,7 @@ const ActiveSlider = () => {
       university: "Toronto National University, Canada",
     },
     {
-      title: "Vivek Vardhan",
+      title: "Vivek Vardhan Reddy",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/Vivek.jpg",
