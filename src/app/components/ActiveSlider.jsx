@@ -67,7 +67,7 @@ const ActiveSlider = () => {
       university: "Canberra State University, Australia",
     },
     {
-      title: "Anjali Bhatia",
+      title: "Arjun Bhatia",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: "/students/My_Profile.jpg",
