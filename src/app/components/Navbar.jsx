@@ -16,28 +16,28 @@ const Navbar = () => {
       className="text-black flex justify-between md:shadow-none shadow-xl h-24 w-full md:fixed fixed md:top-0 top-0
      md:z-20 z-20 bg-white "
     >
-      <div className=" flex flex-row md:ml-8 lg:block hidden ml-2">
+      <div className=" flex flex-row md:ml-8 lg:block hidden ml-2 mt-[22px]">
         <Image
-          src="/logo_copy.png"
+          src="/Logo.jpg"
           alt=""
           width={120}
           height={100}
-          className=" md:pb-4 text-3xl text-red-500 font-bold  lg:pl-12 pl-6 pt-3 cursor-pointer"
+          className="md:pb-4 text-3xl text-red-500 font-bold  lg:pl-12 pl-6 pt-3 cursor-pointer "
         ></Image>
-        <div className="absolute top-[29px] left-[163px] font-bold text-[30px] hidden xl:block">
+        <div className="absolute top-[25px] left-[163px] font-bold text-[30px] hidden xl:block">
           <h2 className="text-primaryColor">
             <span className="text-primaryColor">MAC</span>GLOBAL.
           </h2>
         </div>
       </div>
 
-      <div className="md:ml-4 lg:hidden block ">
+      <div className="md:ml-4 lg:hidden flex justify-center items-center ">
         <Image
-          src="/logo_copy.png"
+          src="/Logo.jpg"
           alt=""
           width={90}
           height={90}
-          className="pb-4 pl-6 pt-3.5 cursor-pointer"
+          className="pb-4 pl-6 pt-3 cursor-pointer w-full"
         ></Image>
       </div>
 
