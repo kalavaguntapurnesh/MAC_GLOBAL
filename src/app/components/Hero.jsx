@@ -4,9 +4,9 @@ import HeaderLottie from "../../../public/lotties/Header.json";
 
 const Hero = () => {
   return (
-    <div className="w-full bg-white pt-28 pb-8 h-auto">
-      <div className="max-w-[1400px] m-auto grid md:grid-cols-2">
-        <div className="flex flex-col md:gap-3 gap-4">
+    <div className="w-full bg-white pt-28 pb-8 h-auto ">
+      <div className="max-w-[1400px] m-auto grid md:grid-cols-2 ">
+        <div className="flex flex-col md:gap-3 gap-4 ">
           {/* <div className="flex items-center lg:justify-start justify-center">
             <p className="uppercase text-[22px] text-[#20B486] font-medium py-2 lg:px-4 xl:px-2 lg:text-start text-center">
               start to success
@@ -19,13 +19,13 @@ const Hero = () => {
             </h1>
           </div>
 
-          <div className=" flex items-center lg:justify-start justify-center">
+          <div className="flex items-center lg:justify-start justify-center">
             <h1 className="lg:text-[24px] text-[24px] font-semibold lg:px-4 xl:px-2 xl:leading-[72px] lg:leading-[60px] lg:text-start text-center">
               Top 1% Pre-vetted Coders | Dedicated Software Programmers.
             </h1>
           </div>
 
-          <div className=" flex items-center lg:justify-start justify-center">
+          <div className="flex items-center lg:justify-start justify-center">
             <p className="lg:text-lg text-[16px] text-gray-900 lg:px-4 xl:px-2 lg:text-start text-center">
               Hire best software engineers in India from AppsDevPro. An
               award-winning software outsourcing company, we help businesses
