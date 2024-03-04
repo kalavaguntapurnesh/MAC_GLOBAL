@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="w-full">
       <div className="w-full mx-auto max-w-[1400px]">
-        <div className="justify-center w-full text-center">
+        <div className="justify-center w-full">
           <div
             className="text-black flex justify-between md:shadow-none shadow-xl h-24 w-full fixed md:top-0 top-0
      md:z-20 z-20 bg-white max-w-[1400px] mx-auto"
