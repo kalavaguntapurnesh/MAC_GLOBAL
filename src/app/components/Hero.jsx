@@ -12,7 +12,7 @@ const Hero = () => {
               start to success
             </p>
           </div> */}
-          <div className=" flex items-center lg:justify-start justify-center mt-4">
+          <div className=" flex items-center lg:justify-start justify-center mt-4 ">
             <h1 className="xl:text-6xl lg:text-[48px] text-[48px] font-semibold lg:px-4 xl:px-2 xl:leading-[72px] lg:leading-[60px] lg:text-start text-center text-colorTwo">
               Access to 5000+ Courses from 300
               <span className="text-colorOne"> Instructors & Institutions</span>
@@ -44,19 +44,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center">
-          {/* <Image
-            src="/HERO.jpg"
-            alt=""
-            width={300}
-            height={200}
-            className="md:order-last h-6/12 w-5/6 border-2 border-red-400"
-          ></Image> */}
-
+        <div className="flex justify-center lg:justify-end items-center ">
           <Lottie
             animationData={HeaderLottie}
             loop={true}
-            className="w-10/12 md:w-full md:h-96 h-92"
+            className="lg:w-10/12 w-11/12 lg:h-96 h-92"
           />
         </div>
       </div>
