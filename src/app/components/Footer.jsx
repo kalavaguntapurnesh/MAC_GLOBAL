@@ -23,7 +23,7 @@ const Footer = () => {
                       href=""
                       className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
                     >
-                      Abroad Education Loans
+                       Education Loans
                     </a>
                   </li>
                   <li className=" flex items-center justify-center">

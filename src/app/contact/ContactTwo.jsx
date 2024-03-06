@@ -52,7 +52,7 @@ const ContactTwo = () => {
                   <div className="w-full flex justify-center items-center">
                     <div className="mb-5 md:w-10/12 w-full">
                       <label
-                        for="email"
+                        htmlFor="email"
                         className="mb-3 block text-base font-medium text-[#07074D]"
                       >
                         Full Name
@@ -69,7 +69,7 @@ const ContactTwo = () => {
                   <div className="w-full flex justify-center items-center">
                     <div className="mb-5 md:w-10/12 w-full">
                       <label
-                        for="email"
+                        htmlFor="email"
                         className="mb-3 block text-base font-medium text-[#07074D]"
                       >
                         Email Address
@@ -87,7 +87,7 @@ const ContactTwo = () => {
                   <div className="w-full flex justify-center items-center">
                     <div className="mb-5 md:w-10/12 w-full">
                       <label
-                        for="subject"
+                        htmlFor="subject"
                         className="mb-3 block text-base font-medium text-[#07074D]"
                       >
                         Subject
@@ -105,7 +105,7 @@ const ContactTwo = () => {
                   <div className="w-full flex justify-center items-center">
                     <div className="mb-5 md:w-10/12 w-full">
                       <label
-                        for="message"
+                        htmlFor="message"
                         className="mb-3 block text-base font-medium text-[#07074D]"
                       >
                         Message
