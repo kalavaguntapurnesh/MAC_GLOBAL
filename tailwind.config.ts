@@ -23,6 +23,7 @@ const config: Config = {
         trackColor: "#002147",
         colorOne: "#C5221F",
         colorTwo: "#070346",
+        colorThree: "#0b3052",
       },
       animation: {
         "infinite-scroll": "infinite-scroll 50s infinite",
