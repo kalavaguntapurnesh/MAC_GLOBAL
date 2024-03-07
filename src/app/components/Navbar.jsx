@@ -12,12 +12,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full fixed  md:z-20 z-20 bg-white">
       <div className="w-full mx-auto max-w-[1400px]">
         <div className="justify-center w-full">
           <div
-            className="text-black flex justify-between md:shadow-none shadow-xl h-24 w-full fixed md:top-0 top-0
-     md:z-20 z-20 bg-white max-w-[1400px] mx-auto"
+            className="text-black flex justify-between md:shadow-none shadow-xl h-24 w-full  md:top-0 top-0
+     bg-white max-w-[1400px] mx-auto"
           >
             {/* <div className="flex flex-row lg:block hidden ml-2 mt-[22px] border-2 border-green-500">
               <div className="">
@@ -58,16 +58,16 @@ const Navbar = () => {
             </div>
 
             <ul className="hidden md:flex md:pt-4 ">
-              <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium uppercase text-sm tracking-wider">
+              <li className="lg:p-4 p-[11px] cursor-pointer text-colorThree font-medium uppercase text-sm tracking-wider">
                 <Link href="/">Home</Link>
               </li>
-              <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium uppercase text-sm tracking-wider">
+              <li className="lg:p-4 p-[11px] cursor-pointer text-colorThree font-medium uppercase text-sm tracking-wider">
                 <Link href="/about">About Us</Link>
               </li>
-              <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium uppercase text-sm tracking-wider">
+              <li className="lg:p-4 p-[11px] cursor-pointer text-colorThree font-medium uppercase text-sm tracking-wider">
                 <Link href="/features">Features</Link>
               </li>
-              <li className="lg:p-4 p-[11px] cursor-pointer text-black font-medium uppercase text-sm tracking-wider">
+              <li className="lg:p-4 p-[11px] cursor-pointer text-colorThree font-medium uppercase text-sm tracking-wider">
                 <Link href="/services">Services</Link>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer font-medium">

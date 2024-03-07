@@ -52,7 +52,9 @@ const AboutOne = () => {
                       loop={true}
                       className="w-[310px] h-[200px]"
                     />
-                    <h1 className="font-bold tracking-wide leading-relaxed text-xl text-colorTwo">Study Abroad Service</h1>
+                    <h1 className="font-bold tracking-wide leading-relaxed text-xl text-colorTwo">
+                      Study Abroad Service
+                    </h1>
                   </div>
                   <div className="flex flex-col gap-2 justify-center items-center">
                     <Lottie
@@ -60,7 +62,9 @@ const AboutOne = () => {
                       loop={true}
                       className="w-[310px] h-[200px]"
                     />
-                    <h1 className="font-bold tracking-wide leading-relaxed text-xl text-colorTwo">VISA Approval Service</h1>
+                    <h1 className="font-bold tracking-wide leading-relaxed text-xl text-colorTwo">
+                      VISA Approval Service
+                    </h1>
                   </div>
                   <div className="flex flex-col gap-2 justify-center items-center">
                     <Lottie
@@ -68,7 +72,9 @@ const AboutOne = () => {
                       loop={true}
                       className="w-[310px] h-[200px]"
                     />
-                    <h1 className="font-bold tracking-wide leading-relaxed text-xl text-colorTwo">Interest Loan Payment</h1>
+                    <h1 className="font-bold tracking-wide leading-relaxed text-xl text-colorTwo">
+                      Interest Loan Payment
+                    </h1>
                   </div>
                 </div>
               </div>
