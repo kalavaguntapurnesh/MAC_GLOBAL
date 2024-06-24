@@ -1,0 +1,33 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import TrackRecord from "../components/TrackRecord";
+import ScrollToTop from "../components/ScrollToTop";
+import Testimonial from "../components/Testimonial";
+import Feedback from "../components/Feedback";
+import ActiveSlider from "../components/ActiveSlider";
+import Countries from "../components/Countries";
+import Universities from "../components/Universities";
+import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
+import Questions from "../components/Questions";
+
+const Home = () => {
+  return (
+    <main>
+      <Navbar />
+      <Hero />
+      <TrackRecord />
+      <ScrollToTop />
+      <Testimonial />
+      <Feedback />
+      <ActiveSlider />
+      <Countries />
+      <Universities />
+      <FAQ />
+      <Questions />
+      <Footer />
+    </main>
+  );
+};
+
+export default Home;
