@@ -10,7 +10,7 @@ const Testimonial = () => {
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
               <div className="w-full space-y-6">
                 <div className=" flex items-center justify-center ">
-                  <h3 className="lg:text-start text-center lg:text-4xl text-4xl font-bold tracking-normal text-primaryColor dark:text-black">
+                  <h3 className="lg:text-start text-center lg:text-4xl text-4xl font-bold tracking-normal text-colorTwo">
                     Why MAC is superior than our competitors ?
                   </h3>
                 </div>

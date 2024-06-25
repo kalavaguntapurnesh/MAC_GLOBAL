@@ -46,13 +46,14 @@ const ContactTwo = () => {
       <div className="relative pt-28 pb-12">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
-            <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
-              <div className="group transition duration-1000 ">
-                <h1 className="text-center font-bold text-colorTwo tracking-normal leading-relaxed text-3xl">
-                  Contact us here
+            <div className="flex flex-wrap flex-col items-center pb-6">
+              <div className="flex items-center justify-center">
+                <h1 className="text-4xl font-bold tracking-normal text-colorTwo mx-1">
+                  {" "}
+                  Contact Us
                 </h1>
-                <div className="bg-colorOne h-[3px] lg:w-0 w-full lg:group-hover:w-full group-hover:w-0 transition-all duration-500"></div>
               </div>
+              <div className="md:w-28 w-28 h-0.5 border-b-4 border-colorOne mt-1"></div>
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
               <div>

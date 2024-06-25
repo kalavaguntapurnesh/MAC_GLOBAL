@@ -28,13 +28,13 @@ const Universities = () => {
                 <div className="flex flex-wrap flex-col items-center">
                   <div className="flex items-center justify-center">
                     <img src={left} alt="" width={27} height={52}></img>
-                    <h1 className="text-4xl font-bold tracking-normal text-primaryColor dark:text-black mx-1">
+                    <h1 className="text-4xl font-bold tracking-normal text-colorTwo mx-1">
                       {" "}
                       University Admissions We Got So Far
                     </h1>
                     <img src={right} alt="" width={27} height={52}></img>
                   </div>
-                  <div className="md:w-52 w-44 h-1 border-b-4 border-red-400 mt-2"></div>
+                  <div className="md:w-52 w-44 h-[1px] border-b-4 border-colorOne mt-1"></div>
                 </div>
 
                 <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 md:gap-8 gap-8 pt-8 mx-auto items-center justify-center content-center">

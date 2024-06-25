@@ -10,6 +10,7 @@ import Universities from "../components/Universities";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Questions from "../components/Questions";
+import WhyUs from "../components/WhyUs";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Feedback />
       <ActiveSlider />
       <Countries />
+      <WhyUs />
       <Universities />
       <FAQ />
       <Questions />
