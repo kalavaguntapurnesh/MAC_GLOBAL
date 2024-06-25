@@ -87,7 +87,7 @@ const AboutOne = () => {
                       <img src={Time} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo font-semibold text-lg">
+                      <h1 className="text-colorTwo font-semibold text-lg text-center">
                         5+ Years of experience
                       </h1>
                     </div>
@@ -98,7 +98,7 @@ const AboutOne = () => {
                       <img src={World} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo font-semibold text-lg">
+                      <h1 className="text-colorTwo font-semibold text-lg text-center">
                         5+ Years of experience
                       </h1>
                     </div>
@@ -109,7 +109,7 @@ const AboutOne = () => {
                       <img src={Flight} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo font-semibold text-lg">
+                      <h1 className="text-colorTwo font-semibold text-lg text-center">
                         5+ Years of experience
                       </h1>
                     </div>
@@ -120,7 +120,7 @@ const AboutOne = () => {
                       <img src={map} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo font-semibold text-lg">
+                      <h1 className="text-colorTwo font-semibold text-lg text-center">
                         5+ Years of experience
                       </h1>
                     </div>
