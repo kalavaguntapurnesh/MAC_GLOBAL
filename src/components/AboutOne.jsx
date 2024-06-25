@@ -87,7 +87,7 @@ const AboutOne = () => {
                       <img src={Time} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo font-semibold text-lg text-center">
+                      <h1 className="text-colorTwo md:font-semibold font-medium md:text-lg text-base text-center">
                         5+ Years of experience
                       </h1>
                     </div>
@@ -98,8 +98,8 @@ const AboutOne = () => {
                       <img src={World} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo font-semibold text-lg text-center">
-                        5+ Years of experience
+                      <h1 className="text-colorTwo md:font-semibold font-medium md:text-lg text-base text-center">
+                        Services across the world
                       </h1>
                     </div>
                   </div>
@@ -109,8 +109,8 @@ const AboutOne = () => {
                       <img src={Flight} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo font-semibold text-lg text-center">
-                        5+ Years of experience
+                      <h1 className="text-colorTwo md:font-semibold font-medium md:text-lg text-base text-center">
+                        VISA approval guidance
                       </h1>
                     </div>
                   </div>
@@ -120,8 +120,8 @@ const AboutOne = () => {
                       <img src={map} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo font-semibold text-lg text-center">
-                        5+ Years of experience
+                      <h1 className="text-colorTwo md:font-semibold font-medium md:text-lg text-base text-center">
+                        University selection guidance
                       </h1>
                     </div>
                   </div>
