@@ -7,21 +7,18 @@ import phone from "../assets/phone.png";
 const ContactOne = () => {
   return (
     <div className="bg-white">
-      <div className="relative pt-40 pb-4">
+      <div className="relative pt-32 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
-            <div className="justify-center w-full text-center pb-14">
+            <div className="justify-center w-full text-center pb-6">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
-                <div className="flex flex-wrap flex-col items-center">
-                  <div className="flex items-center justify-center">
-                    <img src={left} alt="" width={27} height={52}></img>
-                    <h1 className="text-4xl font-bold tracking-tight text-primaryColor dark:text-black mx-1">
-                      {" "}
-                      Get In Touch With Us
+                <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
+                  <div className="group transition duration-1000 ">
+                    <h1 className="text-center font-bold text-colorTwo tracking-normal leading-relaxed text-3xl">
+                     Want to Contact Us?
                     </h1>
-                    <img src={right} alt="" width={27} height={52}></img>
+                    <div className="bg-colorOne h-[3px] lg:w-0 w-full lg:group-hover:w-full group-hover:w-0 transition-all duration-500"></div>
                   </div>
-                  <div className="w-44 h-1 border-b-4 border-red-400 mt-2"></div>
                 </div>
                 <div className="">
                   <div className="grid md:grid-cols-3 grid-cols-1 gap-4 md:mt-8">

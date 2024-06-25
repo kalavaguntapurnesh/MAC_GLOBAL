@@ -72,7 +72,7 @@ const ContactModal = ({ isVisible, onClose }) => {
                     href="mailto:hello@takeuforward.org"
                     className="text-red-600"
                   >
-                    hello@clouddatanetworks.com
+                    macglobalservices@gmail.com
                   </a>
                 </p>
                 <p className="mt-2 text-sm">or</p>
