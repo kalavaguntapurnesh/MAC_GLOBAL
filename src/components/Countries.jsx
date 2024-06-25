@@ -36,15 +36,9 @@ const Countries = () => {
                   in countries like,
                 </p>
               </div>
-              <div className=" grid lg:grid-cols-5 lg:gap-6 md:grid-cols-3 grid-cols-2 mx-auto items-center justify-center content-center">
+              <div className=" grid lg:grid-cols-5 lg:gap-6 gap-4 md:grid-cols-3 grid-cols-2 mx-auto items-center justify-center content-center">
                 <div className="flex flex-col items-center justify-center">
-                  <img
-                    src={usa}
-                    alt=""
-                    width={200}
-                    height={200}
-                    className="rounded-lg"
-                  ></img>
+                  <img src={usa} alt="" className="rounded-lg md:w-[200px] md:h-[200px] h-[180px] w-[180px]"></img>
                   <div>
                     <h4 className="font-bold uppercase text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
                       USA
@@ -58,7 +52,7 @@ const Countries = () => {
                     alt=""
                     width={200}
                     height={200}
-                    className="rounded-lg"
+                    className="rounded-lg md:w-[200px] md:h-[200px] h-[180px] w-[180px]"
                   ></img>
                   <div>
                     <h4 className="font-bold uppercase text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
@@ -73,7 +67,7 @@ const Countries = () => {
                     alt=""
                     width={200}
                     height={200}
-                    className="rounded-xl"
+                    className="rounded-xl md:w-[200px] md:h-[200px] h-[180px] w-[180px]"
                   ></img>
                   <div>
                     <h4 className="font-bold uppercase text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
@@ -87,7 +81,7 @@ const Countries = () => {
                     alt=""
                     width={200}
                     height={200}
-                    className="rounded-lg"
+                    className="rounded-lg md:w-[200px] md:h-[200px] h-[180px] w-[180px]"
                   ></img>
                   <div>
                     <h4 className="font-bold uppercase text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
@@ -101,7 +95,7 @@ const Countries = () => {
                     alt=""
                     width={200}
                     height={200}
-                    className="rounded-lg"
+                    className="rounded-lg md:w-[200px] md:h-[200px] h-[180px] w-[180px]"
                   ></img>
                   <div>
                     <h4 className="font-bold uppercase text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
@@ -116,7 +110,7 @@ const Countries = () => {
                     alt=""
                     width={200}
                     height={200}
-                    className="rounded-xl"
+                    className="rounded-xl md:w-[200px] md:h-[200px] h-[180px] w-[180px]"
                   ></img>
                   <div>
                     <h4 className="font-bold uppercase text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
