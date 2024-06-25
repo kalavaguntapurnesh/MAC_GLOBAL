@@ -45,7 +45,7 @@ const Navbar = () => {
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a
                     href="/contact"
-                    className="py-2 px-8 hover:border-[#3e60e0] bg-colorOne hover:bg-white hover:border-2 rounded-full font-medium text-white hover:text-black transition ease-in-out duration-1000"
+                    className="py-2 px-8 hover:border-colorOne bg-colorOne hover:bg-white hover:border-2 rounded-full font-medium text-white hover:text-black transition ease-in-out duration-1000"
                   >
                     Contact Us
                   </a>
