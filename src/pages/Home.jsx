@@ -10,7 +10,8 @@ import Universities from "../components/Universities";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Questions from "../components/Questions";
-import WhyUs from "../components/WhyUs";
+// import WhyUs from "../components/WhyUs";
+import Map from "../components/Map";
 
 const Home = () => {
   return (
@@ -23,9 +24,10 @@ const Home = () => {
       <Feedback />
       <ActiveSlider />
       <Countries />
-      <WhyUs />
+      {/* <WhyUs /> */}
       <Universities />
       <FAQ />
+      <Map />
       <Questions />
       <Footer />
     </main>

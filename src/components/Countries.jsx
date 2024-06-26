@@ -15,16 +15,16 @@ const Countries = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full text-center ">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
-                <div className="flex flex-wrap flex-col items-center">
+                <div className="flex flex-wrap flex-col items-center pb-3">
                   <div className="flex items-center justify-center">
                     <img src={left} alt="" width={27} height={52}></img>
-                    <h1 className="text-4xl font-bold tracking-normal text-colorTwo mx-1">
+                    <h1 className="text-3xl font-semibold tracking-normal text-colorTwo mx-1">
                       {" "}
                       Our Study Abroad Service
                     </h1>
                     <img src={right} alt="" width={27} height={52}></img>
                   </div>
-                  <div className="w-44 h-1 border-b-4 border-colorOne mt-1"></div>
+                  <div className="w-44 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
                 </div>
               </div>
               <div className="text-gray-600 dark:text-gray-800 my-4">

@@ -48,12 +48,11 @@ const ContactTwo = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="flex flex-wrap flex-col items-center pb-6">
               <div className="flex items-center justify-center">
-                <h1 className="text-4xl font-bold tracking-normal text-colorTwo mx-1">
+                <h1 className="text-3xl font-semibold tracking-normal text-colorTwo mx-1">
                   {" "}
                   Contact Us
                 </h1>
               </div>
-              <div className="md:w-28 w-28 h-0.5 border-b-4 border-colorOne mt-1"></div>
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
               <div>
@@ -82,7 +81,7 @@ const ContactTwo = () => {
                           <img src={Location} className="w-8 h-8" alt="" />
                         </div>
                         <div className="col-span-5 flex items-center">
-                          <p className="text-bold text-colorTwo lg:text-lg text-base">
+                          <p className="font-semibold text-colorTwo lg:text-xl text-base">
                             10-3-206 / M4, 2nd Floor,KK Street,Tirupati,India
                           </p>
                         </div>
@@ -92,7 +91,7 @@ const ContactTwo = () => {
                           <img src={Email} className="w-8 h-8" alt="" />
                         </div>
                         <div className="col-span-5 flex items-center">
-                          <p className="text-bold text-colorTwo lg:text-lg text-base">
+                          <p className="font-semibold text-colorTwo lg:text-xl text-base">
                             macglobalservices@gmail.com
                           </p>
                         </div>
@@ -102,7 +101,7 @@ const ContactTwo = () => {
                           <img src={Phone} className="w-8 h-8" alt="" />
                         </div>
                         <div className="col-span-5 flex items-center">
-                          <p className="text-bold text-colorTwo lg:text-lg text-base">
+                          <p className="font-semibold text-colorTwo lg:text-xl text-base">
                             91+ 70754 95493
                           </p>
                         </div>
@@ -224,11 +223,11 @@ const ContactTwo = () => {
 
             <div className="md:pt-16 pt-4 pb-6">
               <div className="flex justify-center items-center">
-                <h1 className="text-4xl font-semibold text-colorTwo">
+                <h1 className="text-3xl font-semibold text-colorTwo">
                   Follow us on
                 </h1>
               </div>
-              <div className="flex justify-center items-center pt-4 font-normal text-lg">
+              <div className="flex justify-center items-center pt-4 font-normal md:text-[17px] text-[16px]">
                 <p className="text-center text-colorTwo">
                   Always stay informed and connected to all our channels,
                   support us and help us grow!

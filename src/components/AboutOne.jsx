@@ -5,17 +5,16 @@ import map from "../assets/map.svg";
 const AboutOne = () => {
   return (
     <div className="bg-white">
-      <div className="relative pt-32 pb-4">
+      <div className="relative pt-28 pb-4">
         <div className="w-full ">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full pb-14">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
                   <div className="group transition duration-1000 ">
-                    <h1 className="text-center font-bold text-colorTwo tracking-normal leading-relaxed text-3xl">
+                    <h1 className="text-center font-semibold text-colorTwo tracking-normal leading-relaxed text-3xl">
                       About Mac Global Services
                     </h1>
-                    <div className="bg-colorOne h-[3px] lg:w-0 w-full lg:group-hover:w-full group-hover:w-0 transition-all duration-500"></div>
                   </div>
                 </div>
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:pt-8 pt-4">
@@ -87,7 +86,7 @@ const AboutOne = () => {
                       <img src={Time} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo md:font-semibold font-medium md:text-lg text-base text-center">
+                      <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
                         5+ Years of experience
                       </h1>
                     </div>
@@ -98,7 +97,7 @@ const AboutOne = () => {
                       <img src={World} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo md:font-semibold font-medium md:text-lg text-base text-center">
+                      <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
                         Services across the world
                       </h1>
                     </div>
@@ -109,7 +108,7 @@ const AboutOne = () => {
                       <img src={Flight} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo md:font-semibold font-medium md:text-lg text-base text-center">
+                      <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
                         VISA approval guidance
                       </h1>
                     </div>
@@ -120,7 +119,7 @@ const AboutOne = () => {
                       <img src={map} alt="" className="w-12 h-12" />
                     </div>
                     <div className="mt-1">
-                      <h1 className="text-colorTwo md:font-semibold font-medium md:text-lg text-base text-center">
+                      <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
                         University selection guidance
                       </h1>
                     </div>

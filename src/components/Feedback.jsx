@@ -12,13 +12,13 @@ const Feedback = () => {
                 <div className="flex flex-wrap flex-col items-center">
                   <div className="flex items-center justify-center">
                     <img src={left} alt="" width={27} height={52}></img>
-                    <h1 className="text-4xl font-bold tracking-normal text-colorTwo mx-1">
+                    <h1 className="text-3xl font-semibold tracking-normal text-colorTwo mx-1">
                       {" "}
                       Magnificent Feedback From Our Customers
                     </h1>
                     <img src={right} alt="" width={27} height={52}></img>
                   </div>
-                  <div className="md:w-52 w-44 h-[1px] border-b-4 border-colorOne mt-1"></div>
+                  <div className="md:w-52 w-44 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
                 </div>
               </div>
             </div>

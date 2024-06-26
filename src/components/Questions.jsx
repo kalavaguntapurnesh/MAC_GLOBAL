@@ -33,7 +33,7 @@ const Questions = () => {
                   <p className="text-zinc-800 dark:text-[#F0F0F0] font-bold text-xl mt-4">
                     Still have questions?
                   </p>
-                  <p className="text-[#7A7A7A] dark:text-[#F0F0F0] font-bold sm:text-[18px] text-[12px] text-center mt-4">
+                  <p className="text-[#7A7A7A] dark:text-[#F0F0F0] font-semibold md:text-[17px] text-[16px] text-center mt-4">
                     Can’t find the answer you’re looking for? Please chat to our
                     friendly team.
                   </p>

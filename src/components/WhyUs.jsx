@@ -28,7 +28,7 @@ const WhyUs = () => {
                       />
                     </div>
                     <div className="col-span-4 flex justify-center items-center">
-                      <h1 className="text-lg font-medium text-colorTwo">
+                      <h1 className="lg:text-lg text-base font-medium text-colorTwo">
                         Adding a booking widget to your university site or
                         Facebook fan page.
                       </h1>
@@ -43,7 +43,7 @@ const WhyUs = () => {
                       />
                     </div>
                     <div className="col-span-4 flex justify-center items-center">
-                      <h1 className="text-lg font-medium text-colorTwo">
+                      <h1 className="lg:text-lg text-base font-medium text-colorTwo">
                         Creating unlimited service categories and locations to
                         make it easier to find the right option.
                       </h1>
@@ -58,7 +58,7 @@ const WhyUs = () => {
                       />
                     </div>
                     <div className="col-span-4 flex justify-center items-center">
-                      <h1 className="text-lg font-medium text-colorTwo">
+                      <h1 className="lg:text-lg text-base font-medium text-colorTwo">
                         Adding a booking widget to your university site or
                         Facebook fan page.
                       </h1>
@@ -73,7 +73,7 @@ const WhyUs = () => {
                       />
                     </div>
                     <div className="col-span-4 flex justify-center items-center">
-                      <h1 className="text-lg font-medium text-colorTwo">
+                      <h1 className="lg:text-lg text-base font-medium text-colorTwo">
                         Adding a booking widget to your university site or
                         Facebook fan page.
                       </h1>
@@ -88,7 +88,7 @@ const WhyUs = () => {
                       />
                     </div>
                     <div className="col-span-4 flex justify-center items-center">
-                      <h1 className="text-lg font-medium text-colorTwo">
+                      <h1 className="lg:text-lg text-base font-medium text-colorTwo">
                         Adding a booking widget to your university site or
                         Facebook fan page.
                       </h1>
@@ -103,7 +103,7 @@ const WhyUs = () => {
                       />
                     </div>
                     <div className="col-span-4 flex justify-center items-center">
-                      <h1 className="text-lg font-medium text-colorTwo">
+                      <h1 className="lg:text-lg text-base font-medium text-colorTwo">
                         Adding a booking widget to your university site or
                         Facebook fan page.
                       </h1>
