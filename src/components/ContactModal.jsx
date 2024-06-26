@@ -66,7 +66,7 @@ const ContactModal = ({ isVisible, onClose }) => {
                     <line x1="16" x2="16" y1="2" y2="4"></line>
                   </svg>
                 </div>
-                <p className="text-sm md:text-lg font-bold mt-4 text-center text-colorTwo">
+                <p className="md:text-[17px] text-[16px] font-bold mt-4 text-center text-colorTwo">
                   Mail us at:{" "}
                   <a
                     href="mailto:hello@takeuforward.org"

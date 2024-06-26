@@ -18,7 +18,7 @@ const AboutFour = () => {
                     <div className="flex flex-col flex-wrap">
                       <div className="flex lg:justify-start justify-center">
                         <h1 className="uppercase text-2xl font-medium text-colorTwo">
-                          The spirit of Ecommerce Project
+                          The spirit of Mac Global Services
                         </h1>
                       </div>
                       <div className="bg-colorOne w-[10%] h-[2px] mt-1 lg:block hidden"></div>

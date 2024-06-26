@@ -28,19 +28,19 @@ const Navbar = () => {
                 {" "}
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/">Home</a>
-                  <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                  <div className="bg-colorOne h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/about">About Us</a>
-                  <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                  <div className="bg-colorOne h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/features">Features</a>
-                  <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                  <div className="bg-colorOne h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/services">Services</a>
-                  <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                  <div className="bg-colorOne h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a
