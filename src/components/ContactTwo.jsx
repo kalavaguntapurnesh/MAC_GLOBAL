@@ -233,7 +233,7 @@ const ContactTwo = () => {
                   support us and help us grow!
                 </p>
               </div>
-              <div className="grid grid-cols-6 gap-2 pt-8">
+              <div className="grid grid-cols-5 gap-2 pt-8">
                 <a href="" className="flex justify-center items-center">
                   <FaInstagram className="md:w-9 md:h-9 h-8 w-8 text-colorTwo" />
                 </a>
@@ -245,9 +245,6 @@ const ContactTwo = () => {
                 </a>
                 <a href="" className="flex justify-center items-center">
                   <FaWhatsapp className="md:w-9 md:h-9 h-8 w-8 text-colorTwo" />
-                </a>
-                <a href="" className="flex justify-center items-center">
-                  <FaDiscord className="md:w-9 md:h-9 h-8 w-8 text-colorTwo" />
                 </a>
                 <a href="" className="flex justify-center items-center">
                   <FaLinkedinIn className="md:w-9 md:h-9 h-8 w-8 text-colorTwo" />
