@@ -85,10 +85,10 @@ const Navbar = () => {
                   <a href="/about">About Us</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/careers">Features</a>
+                  <a href="/features">Features</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/products">Services</a>
+                  <a href="/services">Services</a>
                 </li>
 
                 <li className="p-4 text-colorThree cursor-pointer font-medium dark:text-white">
