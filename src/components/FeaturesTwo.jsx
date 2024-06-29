@@ -6,7 +6,7 @@ const FeaturesTwo = () => {
       <div className="relative pt-8 pb-8">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px] ">
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
               <div>
                 <div className=" flex items-center justify-center ">
                   <h3 className="lg:text-start text-center lg:text-4xl text-3xl font-bold tracking-normal text-colorTwo dark:text-black">
@@ -111,7 +111,7 @@ const FeaturesTwo = () => {
                   </div>
                 </div>
               </div>
-              <div className=" flex justify-center items-start">
+              <div className=" flex justify-center items-center">
                 <img
                   src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
