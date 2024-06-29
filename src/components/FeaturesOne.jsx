@@ -2,40 +2,30 @@ import Lottie from "lottie-react";
 import FeatureOne from "../assets/lotties/ServiceOne.json";
 import FeatureTwo from "../assets/lotties/ServiceTwo.json";
 import FeatureThree from "../assets/lotties/ServiceThree.json";
-import left from "../assets/left.svg"
-import right from "../assets/right.svg"
+import left from "../assets/left.svg";
+import right from "../assets/right.svg";
 
 const FeaturesOne = () => {
   return (
     <div className="bg-white">
-      <div className="relative pt-40 pb-4">
+      <div className="relative pt-32 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
-            <div className="justify-center w-full text-center pb-14">
+            <div className="justify-center w-full text-center md:pb-8">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="flex flex-wrap flex-col items-center">
                   <div className="flex items-center justify-center">
-                    <img
-                      src={left}
-                      alt=""
-                      width={27}
-                      height={52}
-                    ></img>
-                    <h1 className="text-4xl font-bold tracking-normal text-primaryColor dark:text-black mx-1">
+                    <img src={left} alt="" width={27} height={52}></img>
+                    <h1 className="text-3xl font-semibold tracking-normal text-colorTwo dark:text-black mx-1">
                       {" "}
                       Features We Offer
                     </h1>
-                    <img
-                      src={right}
-                      alt=""
-                      width={27}
-                      height={52}
-                    ></img>
+                    <img src={right} alt="" width={27} height={52}></img>
                   </div>
-                  <div className="w-44 h-1 border-b-4 border-red-400 mt-2"></div>
+                  <div className="md:w-44 w-32 h-1 border-b-[3px] border-colorOne mt-1"></div>
                 </div>
 
-                <div className="text-gray-600 dark:text-gray-800 my-4">
+                <div className="text-colorTwo dark:text-gray-800 my-4">
                   <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
                     Open doors to a world of possibilities with education loans,
                     expert study abroad counseling, comprehensive exam
@@ -45,89 +35,132 @@ const FeaturesOne = () => {
                   </p>
                 </div>
 
-                <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 pt-4">
-                  <div className="">
-                    <div className="rounded-xl  bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-88">
-                      <div className="flex flex-col justify-center items-center">
-                        <div className="my-4">
-                          <Lottie
-                            animationData={FeatureOne}
-                            loop={true}
-                            className="w-[310px] h-[200px]"
+                <section class="md:h-full flex items-center text-gray-600">
+                  <div class="container px-5 py-12 mx-auto ">
+                    <div class="flex flex-wrap -m-4">
+                      <div class="p-4 sm:w-1/2 lg:w-1/3 ">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                          <img
+                            class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://www.harringtonhousing.com/uploads/0003/3066/2023/01/11/what-makes-the-university-of-michigan-unique.jpg"
+                            alt="blog"
                           />
+                          <div class="p-6 transition duration-300 ease-in">
+                            <h1 class="text-2xl font-semibold mb-3 text-colorTwo">
+                              University Selection Guidance
+                            </h1>
+                            <p class="leading-relaxed mb-3">
+                              Opportunity to select top-ranked university based
+                              on location, courses, ranking, accommodation,
+                              resources to study abroad based on their academic
+                              background, interests, and career goals.
+                            </p>
+                            <div class="flex items-center justify-center">
+                              <a
+                                href="/contact"
+                                class="text-colorOne inline-flex items-center md:mb-2 lg:mb-0"
+                              >
+                                Read More
+                                <svg
+                                  class="w-4 h-4 ml-2"
+                                  viewBox="0 0 24 24"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  fill="none"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                >
+                                  <path d="M5 12h14"></path>
+                                  <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
                         </div>
-                        <div className="my-2">
-                          <h1 className="font-bold text-[20px] tracking-wide text-primaryColor">
-                            Superior Success Rate
-                          </h1>
+                      </div>
+                      <div class="p-4 sm:w-1/2 lg:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                          <img
+                            class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://images.shiksha.com/mediadata/images/1539253667php1AcBOm_g.jpg"
+                            alt="blog"
+                          />
+                          <div class="p-6  transition duration-300 ease-in">
+                            <h1 class="text-2xl font-semibold mb-3 text-colorTwo">
+                              VISA & Immigration Support
+                            </h1>
+                            <p class="leading-relaxed mb-3">
+                              Assisting students in preparing visa applications,
+                              understanding visa requirements, and guiding
+                              students through the application process,
+                              including filling out forms,
+                            </p>
+                            <div class="flex items-center justify-center">
+                              <a
+                                href="/contact"
+                                class="text-colorOne inline-flex items-center md:mb-2 lg:mb-0"
+                              >
+                                Read More
+                                <svg
+                                  class="w-4 h-4 ml-2"
+                                  viewBox="0 0 24 24"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  fill="none"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                >
+                                  <path d="M5 12h14"></path>
+                                  <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
                         </div>
-                        <div className="mt-2 mb-4">
-                          <p className="text-[16px] leading-relaxed tracking-wide mx-2">
-                            MAC is responsible for helping you achieve your
-                            educational dreams. Studying abroad in countries
-                            like Canada, Australia, UK, New Zealand could help
-                            explore your possibilities to a very great extent.
-                            Also, create success stories for students worldwide.
-                          </p>
+                      </div>
+                      <div class="p-4 sm:w-1/2 lg:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                          <img
+                            class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://imageio.forbes.com/specials-images/imageserve/66279c49909b086f3c1043ed/McGraw-Clock-Tower--Cornell-University/960x0.jpg?height=465&width=711&fit=bounds"
+                            alt="blog"
+                          />
+                          <div class="p-6 ">
+                            <h1 class="text-2xl font-semibold mb-3 text-colorTwo">
+                              Pre-Departure Orientation
+                            </h1>
+                            <p class="leading-relaxed mb-3">
+                              Offering sessions to prepare students for cultural
+                              adjustments, academic expectations, and ongoing
+                              support during the initial phase of the student's
+                              stay abroad.
+                            </p>
+                            <div class="flex items-center justify-center">
+                              <a
+                                href="/contact"
+                                class="text-colorOne inline-flex items-center md:mb-2 lg:mb-0"
+                              >
+                                Read More
+                                <svg
+                                  class="w-4 h-4 ml-2"
+                                  viewBox="0 0 24 24"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  fill="none"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                >
+                                  <path d="M5 12h14"></path>
+                                  <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="">
-                    <div className="rounded-xl bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col h-88">
-                      <div className="flex flex-col justify-center items-center">
-                        <div className="my-4">
-                          <Lottie
-                            animationData={FeatureTwo}
-                            loop={true}
-                            className="w-[310px] h-[200px]"
-                          />
-                        </div>
-                        <div className="my-2">
-                          <h1 className="font-bold text-[20px] tracking-wide text-primaryColor">
-                            Better Student Satisfaction
-                          </h1>
-                        </div>
-                        <div className="mt-2 mb-4 h-auto ">
-                          <p className="text-[16px] leading-relaxed tracking-wide mx-2">
-                            MAC is responsible for helping you achieve your
-                            educational dreams. Studying abroad in countries
-                            like Canada, Australia, UK, New Zealand could help
-                            explore your possibilities to a very great extent.
-                            Also, create success stories for students worldwide.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="">
-                    <div className="rounded-xl bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col h-88">
-                      <div className="flex flex-col justify-center items-center">
-                        <div className="my-4">
-                          <Lottie
-                            animationData={FeatureThree}
-                            loop={true}
-                            className="w-[310px] h-[200px]"
-                          />
-                        </div>
-                        <div className="my-2">
-                          <h1 className="font-bold text-[20px] tracking-wide text-primaryColor">
-                            Higher Visa Approvals
-                          </h1>
-                        </div>
-                        <div className="mt-2 mb-4 h-auto">
-                          <p className="text-[16px] leading-relaxed tracking-wide mx-2">
-                            MAC is responsible for helping you achieve your
-                            educational dreams. Studying abroad in countries
-                            like Canada, Australia, UK, New Zealand could help
-                            explore your possibilities to a very great extent.
-                            Also, create success stories for students worldwide.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                </section>
               </div>
             </div>
           </div>
