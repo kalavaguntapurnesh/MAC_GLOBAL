@@ -17,6 +17,14 @@ const Map = () => {
                   </div>
                   <div className="md:w-36 w-28 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
                 </div>
+
+                <div className="text-gray-600 dark:text-gray-800 my-4">
+                  <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
+                    Please click on the map given below, to get your directions
+                    and we would we waiting to guide you to reshape your future.
+                  </p>
+                </div>
+
                 <div className="pt-6">
                   <div className="w-[100%]">
                     <iframe

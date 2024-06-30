@@ -80,14 +80,14 @@ const AboutOne = () => {
                   </div>
                 </div>
 
-                <div className="grid lg:grid-cols-4 grid-cols-2 gap-6 pt-16">
+                <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 pt-16">
                   <div className="flex flex-col justify-center items-center">
                     <div>
                       <img src={Time} alt="" className="w-12 h-12" />
                     </div>
-                    <div className="mt-1">
+                    <div className="mt-[6px]">
                       <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
-                        5+ Years of experience
+                        5+ Years of industrial experience
                       </h1>
                     </div>
                   </div>
@@ -96,9 +96,9 @@ const AboutOne = () => {
                     <div>
                       <img src={World} alt="" className="w-12 h-12" />
                     </div>
-                    <div className="mt-1">
+                    <div className="mt-[6px]">
                       <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
-                        Services across the world
+                        Services available across world
                       </h1>
                     </div>
                   </div>
@@ -107,9 +107,9 @@ const AboutOne = () => {
                     <div>
                       <img src={Flight} alt="" className="w-12 h-12" />
                     </div>
-                    <div className="mt-1">
+                    <div className="mt-[6px]">
                       <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
-                        VISA approval guidance
+                        VISA & Immigration approval guidance
                       </h1>
                     </div>
                   </div>
@@ -118,7 +118,7 @@ const AboutOne = () => {
                     <div>
                       <img src={map} alt="" className="w-12 h-12" />
                     </div>
-                    <div className="mt-1">
+                    <div className="mt-[6px]">
                       <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
                         University selection guidance
                       </h1>

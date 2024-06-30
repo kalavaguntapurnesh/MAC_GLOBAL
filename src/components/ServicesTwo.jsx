@@ -1,6 +1,6 @@
-import serviceOne from "../assets/serviceOne.jpg";
+import React from "react";
 
-const FeaturesTwo = () => {
+const ServicesTwo = () => {
   return (
     <div className="bg-white">
       <div className="relative pt-4 pb-8">
@@ -12,13 +12,14 @@ const FeaturesTwo = () => {
                   <div class="lg:pr-8 lg:pt-4">
                     <div class="lg:max-w-lg">
                       <h2 class="text-base font-semibold leading-7 text-colorOne">
-                        Grow with us
+                        Make a better future!
                       </h2>
                       <p class="mt-2 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl">
-                        Why MAC is superior than our competitors?
+                        You are just one step away to reshape your dream
                       </p>
                       <p class="mt-6 text-lg leading-8 text-gray-600">
-                        It is because of these following reasons:
+                        Just share your details with us and we will take care
+                        everything.
                       </p>
                       <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                         <div class="relative pl-9">
@@ -34,12 +35,12 @@ const FeaturesTwo = () => {
                               <path d="M3.196 8.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 8.87z"></path>
                               <path d="M10.38 1.103a.75.75 0 00-.76 0l-7.25 4.25a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.76 0l7.25-4.25a.75.75 0 000-1.294l-7.25-4.25z"></path>
                             </svg>
-                            Information{" "}
+                            Assessment{" "}
                           </dt>
                           <dd class="inline">
-                            on estimated costs of studying abroad, including
-                            tuition fees, living expenses, and other financial
-                            considerations.
+                            of student's academic background, interests, and
+                            career goals to recommend suitable countries and
+                            universities.
                           </dd>
                         </div>
                         <div class="relative pl-9">
@@ -57,12 +58,12 @@ const FeaturesTwo = () => {
                                 clip-rule="evenodd"
                               ></path>
                             </svg>
-                            Individualized{" "}
+                            Advice{" "}
                           </dt>
                           <dd class="inline">
-                            counseling sessions to address specific concerns or
-                            challenges faced by students during their study
-                            abroad journey.
+                            and resources for preparing for standardized tests
+                            required for admission, such as the TOEFL, IELTS,
+                            SAT, ACT, GRE, GMAT
                           </dd>
                         </div>
                         <div class="relative pl-9">
@@ -81,11 +82,12 @@ const FeaturesTwo = () => {
                               ></path>
                               <path d="M14.5 11.5c.173 0 .345-.007.514-.022l3.754 3.754a2.5 2.5 0 01-3.536 3.536l-4.41-4.41 2.172-2.607c.052-.063.147-.138.342-.196.202-.06.469-.087.777-.067.128.008.257.012.387.012zM6 4.586l2.33 2.33a.452.452 0 01-.08.09L6.8 8.214 4.586 6H3.309a.5.5 0 01-.447-.276l-1.7-3.402a.5.5 0 01.093-.577l.49-.49a.5.5 0 01.577-.094l3.402 1.7A.5.5 0 016 3.31v1.277z"></path>
                             </svg>
-                            Ongoing{" "}
+                            Continued{" "}
                           </dt>
                           <dd class="inline">
-                            support and mentorship to ensure students achieve
-                            their academic and personal goals abroad.
+                            support throughout the duration of the study
+                            program, including troubleshooting issues related to
+                            academics.
                           </dd>
                         </div>
                       </dl>
@@ -95,20 +97,20 @@ const FeaturesTwo = () => {
                         href="/contact"
                         class="rounded-md bg-colorOne px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-colorTwo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 duration-1000 ease-in-out transition"
                       >
-                        Start procedure
+                        Collaborate with us
                       </a>
                       <a
                         href="/contact"
                         class="text-sm font-semibold leading-6 text-gray-700"
                       >
-                        Contact us
+                        Follow us
                         <span aria-hidden="true">→</span>
                       </a>
                     </div>
                   </div>
                   <div className="flex justify-center items-center">
                     <img
-                      src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      src="https://images.unsplash.com/photo-1658604520420-7569f9685b69?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="Product screenshot"
                       className="rounded"
                     />
@@ -123,4 +125,4 @@ const FeaturesTwo = () => {
   );
 };
 
-export default FeaturesTwo;
+export default ServicesTwo;
