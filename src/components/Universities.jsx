@@ -168,7 +168,7 @@ const Universities = () => {
                   </div>
                   <div className=" flex flex-col items-center justify-center underline">
                     <a
-                      href="/contact"
+                      href="/features"
                       className="text-colorFour font-semibold tracking-wide hover:text-primaryColor transition duration-1000 ease-in-out"
                     >
                       <h1>Many More</h1>

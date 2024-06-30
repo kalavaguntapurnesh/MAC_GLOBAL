@@ -31,15 +31,15 @@ const Navbar = () => {
                   <div className="bg-colorOne h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
-                  <a href="/about">About Us</a>
-                  <div className="bg-colorOne h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-                </li>
-                <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/features">Features</a>
                   <div className="bg-colorOne h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
                   <a href="/services">Services</a>
+                  <div className="bg-colorOne h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                </li>
+                <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
+                  <a href="/about">About Us</a>
                   <div className="bg-colorOne h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
@@ -82,15 +82,14 @@ const Navbar = () => {
                   <a href="/">Home</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/about">About Us</a>
-                </li>
-                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
                   <a href="/features">Features</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
                   <a href="/services">Services</a>
                 </li>
-
+                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
+                  <a href="/about">About Us</a>
+                </li>
                 <li className="p-4 text-colorThree cursor-pointer font-medium dark:text-white">
                   <a href="/contact">Contact Us</a>
                 </li>

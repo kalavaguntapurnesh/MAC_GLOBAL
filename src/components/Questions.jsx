@@ -31,10 +31,10 @@ const Questions = () => {
 
                 <div className="relative z-[10] flex flex-col justify-center items-center">
                   <p className="text-zinc-800 dark:text-[#F0F0F0] font-bold text-xl mt-4">
-                    Still have questions?
+                    Still left with questions?
                   </p>
                   <p className="text-[#7A7A7A] dark:text-[#F0F0F0] font-semibold md:text-[17px] text-[16px] text-center mt-4">
-                    Can’t find the answer you’re looking for? Please chat to our
+                    Can’t find the answer you’re looking for? Please chat with our
                     friendly team.
                   </p>
 
