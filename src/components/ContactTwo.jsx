@@ -46,14 +46,12 @@ const ContactTwo = () => {
       <div className="relative pt-28 pb-12">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
-            <div className="flex flex-wrap flex-col items-center pb-6">
-              <div className="flex items-center justify-center">
-                <h1 className="text-3xl font-semibold tracking-normal text-colorTwo mx-1">
-                  {" "}
-                  Contact Us
-                </h1>
-              </div>
+            <div class="text-center pb-4">
+              <h2 class="mt-6 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl lg:text-5xl">
+                Contact Us
+              </h2>
             </div>
+
             <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
               <div>
                 <div className="flex flex-col space-y-4 mt-8">
