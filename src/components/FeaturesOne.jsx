@@ -13,20 +13,18 @@ const FeaturesOne = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full text-center md:pb-4">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
-                <div className="flex flex-wrap flex-col items-center">
-                  <div className="flex items-center justify-center">
-                    <img src={left} alt="" width={27} height={52}></img>
-                    <h1 className="text-3xl font-semibold tracking-normal text-colorTwo dark:text-black mx-1">
-                      {" "}
-                      Features We Offer
-                    </h1>
-                    <img src={right} alt="" width={27} height={52}></img>
+              <div class="text-center">
+                    <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
+                      How It Works
+                    </p>
+                    <h2 class="mt-6 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl lg:text-5xl">
+                      Features & Services we provide
+                    </h2>
+                   
                   </div>
-                  <div className="md:w-44 w-32 h-1 border-b-[3px] border-colorOne mt-1"></div>
-                </div>
 
                 <div className="text-colorTwo dark:text-gray-800 my-4">
-                  <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
+                  <p className="font-normal leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
                     Open doors to a world of possibilities with education loans,
                     expert study abroad counseling, comprehensive exam
                     preparation, forex services, credit card solutions,

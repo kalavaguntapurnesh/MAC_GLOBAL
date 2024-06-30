@@ -1,5 +1,3 @@
-import serviceOne from "../assets/serviceOne.jpg";
-
 const FeaturesTwo = () => {
   return (
     <div className="bg-white">

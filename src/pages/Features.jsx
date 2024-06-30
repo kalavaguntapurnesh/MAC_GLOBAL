@@ -8,12 +8,14 @@ import FeatureOne from "../assets/lotties/Feature.json";
 import FeatureTwo from "../assets/lotties/FeatureTwo.json";
 import FeatureThree from "../assets/lotties/FeatureOne.json";
 import FeatureFour from "../assets/lotties/FeatureFour.json";
+import ScrollToTop from "./../components/ScrollToTop";
 
 const Features = () => {
   return (
     <main>
       <Navbar />
       <FeaturesOne />
+      <ScrollToTop />
       <FeaturesTwo />
 
       <div className="lg:block hidden">
