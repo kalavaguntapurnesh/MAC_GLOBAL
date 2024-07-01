@@ -13,7 +13,7 @@ const ServicesOne = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full text-center pb-14">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
-                <section class="relative overflow-hidden dark:bg-gray-900">
+                <section class="relative overflow-hidden dark:bg-gray-900 pt-4">
                   <div class="text-center">
                     <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
                       How We Work
