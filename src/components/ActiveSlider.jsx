@@ -95,7 +95,7 @@ const ActiveSlider = () => {
   ];
 
   return (
-    <div className="bg-white pb-8">
+    <div className="bg-white md:pb-8 pb-2">
       <div className="relative pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -125,20 +125,20 @@ const ActiveSlider = () => {
               >
                 {ServiceData.map((item) => (
                   <SwiperSlide key={item.title}>
-                    <div className="rounded-md bg-white shadow-lg h-100 ">
-                      <div className="flex flex-col justify-center items-center mb-20 ">
+                    <div className="rounded-md bg-white h-100 ">
+                      <div className="flex flex-col justify-center items-center mb-20 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] border-[1px] rounded">
                         <div className="w-full flex items-center justify-center mt-3 mb-3">
                           <img
                             src={item.backgroundImage}
                             alt=""
                             width={50}
                             height={50}
-                            className="rounded-2xl"
+                            className="rounded-full"
                           ></img>
                         </div>
 
                         <div className="md:h-34 flex justify-center items-center ">
-                          <p className="text-[14px] tracking-wide mx-2 font-medium text-black  text-center leading-relaxed">
+                          <p className="text-[14px] tracking-wide mx-2 font-medium text-colorTwo text-center leading-relaxed">
                             <svg
                               className="w-4 h-4 mx-auto mb-2 mt-1 text-gray-400 dark:text-gray-600"
                               aria-hidden="true"

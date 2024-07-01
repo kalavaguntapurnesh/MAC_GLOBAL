@@ -14,7 +14,7 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center lg:justify-start justify-center mx-3">
-            <h1 className="lg:text-[24px] text-[24px] font-semibold lg:px-2 lg:text-start text-center">
+            <h1 className="lg:text-[24px] text-[24px] font-semibold lg:px-2 lg:text-start text-center text-colorTwo">
               Want to study abroad this 2024 ?
             </h1>
           </div>
@@ -32,7 +32,7 @@ const Hero = () => {
             <a
               href="/contact"
               className="bg-colorTwo font-semibold outline-none
-              rounded-full hover:shadow-form transition duration-1000 ease-in-out hover:bg-colorFour text-white px-8 py-2.5 text-center"
+              rounded-full hover:shadow-form transition duration-1000 ease-in-out hover:bg-colorOne text-white px-8 py-2.5 text-center"
             >
               Get Started Now
             </a>
