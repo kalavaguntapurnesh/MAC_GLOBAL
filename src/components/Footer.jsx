@@ -1,4 +1,4 @@
-import FooterLogo from "../assets/Logo.jpg";
+import FooterLogo from "../assets/Logo.jpeg";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -12,13 +12,13 @@ const Footer = () => {
         <div className="w-full max-w-[1400px] px-4 py-12 mx-auto sm:px-6 lg:py-8 lg:px-8">
           <div className="pb-8 mb-8 border-b border-gray-300">
             <div className="grid grid-cols-2 md:grid-cols-5 gap-0">
-              <div className="flex justify-center items-center md:col-span-1 col-span-2">
-                {/* <img
+              <a href="/" className="flex justify-center items-center md:col-span-1 col-span-2 ">
+                <img
                   src={FooterLogo}
                   alt="Footer Logo"
-                  className="w-32 h-32 md:mb-0 mb-8"
-                /> */}
-              </div>
+                  className="h-32 w-32 md:mb-0 mb-8 "
+                />
+              </a>
 
               <div className="mb-12 md:mb-0 ">
                 <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-colorTwo">

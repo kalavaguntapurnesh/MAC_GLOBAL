@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineMenu } from "react-icons/ai";
-import Logo from "../assets/Logo.jpg";
+import Logo from "../assets/Logo.jpeg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,11 +17,8 @@ const Navbar = () => {
       <div className="w-full mx-auto max-w-[1400px]">
         <div className="justify-center w-full">
           <div className="text-black flex justify-between items-center md:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-24 w-full md:top-0 top-0 bg-white max-w-[1400px] mx-auto">
-            <div className="ml-2 flex flex-row justify-center items-center">
-              <img src={Logo} className="w-[86px]" alt="" />
-              <h1 className="lg:block hidden text-3xl text-[#3e60e0] uppercase font-semibold">
-                Vahas.
-              </h1>
+            <div className="ml-6 flex flex-row justify-center items-center overflow-hidden">
+              <img src={Logo} className="w-32 overflow-hidden" alt="" />
             </div>
             <div className="lg:ml-12">
               <ul className="hidden md:flex items-center gap-[3vw]">
