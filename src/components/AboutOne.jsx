@@ -10,7 +10,7 @@ const AboutOne = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full ">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
-                <div class="text-center pb-4">
+                <div class="text-center pb-4 pt-4">
                   <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
                     About us
                   </p>

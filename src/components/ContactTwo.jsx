@@ -46,13 +46,20 @@ const ContactTwo = () => {
       <div className="relative pt-28 pb-12">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
-            <div class="text-center pb-4">
+            <div class="text-center">
+              <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
+                CONTACT US
+              </p>
               <h2 class="mt-6 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl lg:text-5xl">
-                Contact Us
+                Call us now and we will guide you better!
               </h2>
+              {/* <p class="mx-auto mt-4 max-w-2xl text-lg font-normal text-colorTwo lg:text-xl lg:leading-8">
+                Get guidance and support with us, and we will look after
+                everything.
+              </p> */}
             </div>
 
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-4 pt-4">
               <div>
                 <div className="flex flex-col space-y-4 mt-8">
                   <div>
@@ -231,7 +238,10 @@ const ContactTwo = () => {
                   support us and help us grow!
                 </p>
               </div>
-              <div className="grid grid-cols-5 gap-2 pt-8">
+              <div className="grid grid-cols-5 pt-8">
+                <a href="" className="flex justify-center items-center">
+                  <FaWhatsapp className="md:w-9 md:h-9 h-8 w-8 text-colorTwo" />
+                </a>
                 <a href="" className="flex justify-center items-center">
                   <FaInstagram className="md:w-9 md:h-9 h-8 w-8 text-colorTwo" />
                 </a>
@@ -240,9 +250,6 @@ const ContactTwo = () => {
                 </a>
                 <a href="" className="flex justify-center items-center">
                   <FaXTwitter className="md:w-9 md:h-9 h-8 w-8 text-colorTwo" />
-                </a>
-                <a href="" className="flex justify-center items-center">
-                  <FaWhatsapp className="md:w-9 md:h-9 h-8 w-8 text-colorTwo" />
                 </a>
                 <a href="" className="flex justify-center items-center">
                   <FaLinkedinIn className="md:w-9 md:h-9 h-8 w-8 text-colorTwo" />

@@ -126,7 +126,7 @@ const ActiveSlider = () => {
                 {ServiceData.map((item) => (
                   <SwiperSlide key={item.title}>
                     <div className="rounded-md bg-white h-100 ">
-                      <div className="flex flex-col justify-center items-center mb-20 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] border-[1px] rounded">
+                      <div className="flex flex-col justify-center items-center mb-20 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-lg">
                         <div className="w-full flex items-center justify-center mt-3 mb-3">
                           <img
                             src={item.backgroundImage}
