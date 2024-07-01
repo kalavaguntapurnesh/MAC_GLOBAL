@@ -16,7 +16,7 @@ const ServicesOne = () => {
                 <section class="relative overflow-hidden dark:bg-gray-900">
                   <div class="text-center">
                     <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
-                      How It Works
+                      How We Work
                     </p>
                     <h2 class="mt-6 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl lg:text-5xl">
                       Land in your dream college in 4 easy steps
