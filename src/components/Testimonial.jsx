@@ -8,7 +8,7 @@ const Testimonial = () => {
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <section class="overflow-hidden bg-white ">
-              <div class="mx-auto px-6 lg:px-8">
+              <div class="mx-auto px-4">
                 <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                   <div class="lg:pr-8 lg:pt-4">
                     <div class="lg:max-w-lg">
@@ -107,8 +107,107 @@ const Testimonial = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="flex justify-center items-center border-2 border-green-800">
-                    
+                  <div className="flex justify-center items-center">
+                    <section class="py-1 bg-blueGray-50 w-full">
+                      <div class="w-full">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded border-[1px]">
+                          <div class="rounded-t mb-0 px-4 py-3 border-0">
+                            <div class="flex flex-wrap items-center">
+                              <div class="relative w-full px-4 flex-grow flex-1">
+                                <h3 class="font-semibold text-base text-colorTwo ">
+                                  Comparision Table
+                                </h3>
+                              </div>
+                              <div class="relative w-full px-4 flex-grow flex-1 text-right">
+                                <a
+                                  href="/services"
+                                  class="bg-colorOne text-white active:bg-colorTwo text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                                  type="button"
+                                >
+                                  See all
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="block w-full overflow-x-auto">
+                            <table class="items-center bg-transparent w-full border-collapse ">
+                              <thead>
+                                <tr>
+                                  <th class="px-6 bg-blueGray-50 text-colorTwo  align-middle border border-solid border-blueGray-100 py-3 text-[10px] md:text-base uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                                    Factors
+                                  </th>
+                                  <th class="px-6 bg-blueGray-50 text-colorTwo  align-middle border border-solid border-blueGray-100 py-3 text-[10px] md:text-base uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                                    MAC
+                                  </th>
+                                  <th class="px-6 bg-blueGray-50 text-colorTwo  align-middle border border-solid border-blueGray-100 py-3 text-[10px] md:text-base uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                                    Others
+                                  </th>
+                                </tr>
+                              </thead>
+
+                              <tbody>
+                                <tr>
+                                  <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4 text-left text-colorTwo ">
+                                    Interest Rates
+                                  </th>
+                                  <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4 ">
+                                    4,569
+                                  </td>
+                                  <td class="border-t-0 px-6 align-center text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
+                                    340
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4 text-left text-colorTwo ">
+                                    Post Arrival Support
+                                  </th>
+                                  <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
+                                    3,985
+                                  </td>
+                                  <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
+                                    319
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4 text-left text-colorTwo ">
+                                    VISA & Immigration
+                                  </th>
+                                  <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
+                                    3,513
+                                  </td>
+                                  <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
+                                    294
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4 text-left text-colorTwo ">
+                                    In-person Mentorship
+                                  </th>
+                                  <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
+                                    2,050
+                                  </td>
+                                  <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
+                                    147
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4 text-left text-colorTwo ">
+                                    Counseling & Scholarships
+                                  </th>
+                                  <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
+                                    1,795
+                                  </td>
+                                  <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
+                                    190
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
                   </div>
                 </div>
               </div>
