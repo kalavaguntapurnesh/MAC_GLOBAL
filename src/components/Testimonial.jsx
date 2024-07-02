@@ -1,5 +1,5 @@
-import Right from "../assets/Check_Icon.png"
-import Wrong from "../assets/Wrong_Icon.png"
+import Right from "../assets/Check_Icon.png";
+import Wrong from "../assets/Wrong_Icon.png";
 
 const Testimonial = () => {
   return (
@@ -7,220 +7,112 @@ const Testimonial = () => {
       <div className="relative pt-4 pb-8">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
-            <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
-              <div className="w-full space-y-6">
-                <div className=" flex items-center justify-center ">
-                  <h3 className="lg:text-start text-center lg:text-4xl text-4xl font-bold tracking-normal text-colorTwo">
-                    Why MAC is superior than our competitors ?
-                  </h3>
-                </div>
-                <ul className="space-y-3 pb-4">
-                  <li>
-                    <div className=" flex flex-row space-x-3 justify-center lg:justify-start items-center">
-                      <svg
-                        className="flex-shrink-0 w-6 h-6 text-green-600 hover:text-primaryColor transition duration-1000 ease-in-out"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clipRule="evenodd"
-                        ></path>
-                      </svg>
-                      <span className="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ad consectetur, praesentium rem, porro provident nulla
-                        ipsam.
-                      </span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className=" flex flex-row space-x-3 justify-center lg:justify-start items-center">
-                      <svg
-                        className="flex-shrink-0 w-6 h-6 text-green-600 hover:text-primaryColor transition duration-1000 ease-in-out"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clipRule="evenodd"
-                        ></path>
-                      </svg>
-                      <span className="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ad consectetur, praesentium rem, porro provident nulla
-                        ipsam.
-                      </span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className=" flex flex-row space-x-3 justify-center lg:justify-start items-center">
-                      <svg
-                        className="flex-shrink-0 w-6 h-6 text-green-600 hover:text-primaryColor transition duration-1000 ease-in-out"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clipRule="evenodd"
-                        ></path>
-                      </svg>
-                      <span className="font-medium md:text-[17px] text-[16px] text-gray-600 dark:text-gray-800 tracking-wide leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ad consectetur, praesentium rem, porro provident nulla
-                        ipsam.
-                      </span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="flex flex-col w-full">
-                <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
-                  <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                    <div className="overflow-hidden ">
-                      <table className="min-w-full text-center text-sm font-light border-2 border-gray-400 rounded-xl">
-                        <thead className="border-2 border-black font-medium dark:border-neutral-500 ">
-                          <tr>
-                            <th
-                              scope="col"
-                              className="px-6 py-4 font-bold md:text-[16px] text-[13px] tracking-wide"
+            <section class="overflow-hidden bg-white ">
+              <div class="mx-auto px-6 lg:px-8">
+                <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                  <div class="lg:pr-8 lg:pt-4">
+                    <div class="lg:max-w-lg">
+                      <h2 class="text-base font-semibold leading-7 text-colorOne">
+                        Grow with us
+                      </h2>
+                      <p class="mt-2 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl">
+                        Why MAC is superior than our competitors?
+                      </p>
+                      <p class="mt-6 text-lg leading-8 text-gray-600">
+                        It is because of these following reasons:
+                      </p>
+                      <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                        <div class="relative pl-9">
+                          <dt class="inline font-semibold text-gray-900">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                              aria-hidden="true"
+                              class="absolute left-1 top-1 h-5 w-5 text-colorOne"
                             >
-                              Factors
-                            </th>
-                            <th
-                              scope="col"
-                              className="px-6 py-4 font-bold md:text-[16px] text-[13px]  tracking-wide"
+                              <path d="M3.196 12.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 12.87z"></path>
+                              <path d="M3.196 8.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 8.87z"></path>
+                              <path d="M10.38 1.103a.75.75 0 00-.76 0l-7.25 4.25a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.76 0l7.25-4.25a.75.75 0 000-1.294l-7.25-4.25z"></path>
+                            </svg>
+                            Information{" "}
+                          </dt>
+                          <dd class="inline">
+                            on estimated costs of studying abroad, including
+                            tuition fees, living expenses, and other financial
+                            considerations.
+                          </dd>
+                        </div>
+                        <div class="relative pl-9">
+                          <dt class="inline font-semibold text-gray-900">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                              aria-hidden="true"
+                              class="absolute left-1 top-1 h-5 w-5 text-colorOne"
                             >
-                              MAC Global
-                            </th>
-                            <th
-                              scope="col"
-                              className="px-6 py-4 font-bold md:text-[16px] text-[13px] tracking-wide"
+                              <path
+                                fill-rule="evenodd"
+                                d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                            Individualized{" "}
+                          </dt>
+                          <dd class="inline">
+                            counseling sessions to address specific concerns or
+                            challenges faced by students during their study
+                            abroad journey.
+                          </dd>
+                        </div>
+                        <div class="relative pl-9">
+                          <dt class="inline font-semibold text-gray-900">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                              aria-hidden="true"
+                              class="absolute left-1 top-1 h-5 w-5 text-colorOne"
                             >
-                              Others
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr className="border-b dark:border-neutral-600 dark:bg-neutral-600">
-                            <td className="whitespace-nowrap md:text-[16px] text-[13px]  px-6 py-4 font-semibold tracking-wide dark:text-neutral-50">
-                              Interest Rates
-                            </td>
-                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-bold dark:text-neutral-50 tracking-wide">
-                              10.02%
-                            </td>
-                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-bold dark:text-neutral-50 tracking-wide">
-                              12.20%
-                            </td>
-                          </tr>
-
-                          <tr className="border-b border-secondary-200 bg-secondary-100 text-neutral-800">
-                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-semibold tracking-wide">
-                              Housing Assistance
-                            </td>
-                            <td className="px-6 py-4">
-                              <div className="flex justify-center items-center">
-                                <img
-                                  src={Right}
-                                  width={30}
-                                  height={20}
-                                ></img>
-                              </div>
-                            </td>
-                            <td className="px-6 py-4">
-                              <div className="flex justify-center items-center">
-                                <img
-                                    src={Right}
-                                  width={30}
-                                  height={20}
-                                ></img>
-                              </div>
-                            </td>
-                          </tr>
-
-                          <tr className="border-b text-neutral-800  dark:border-neutral-600  dark:bg-neutral-600">
-                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-semibold tracking-wide dark:text-neutral-50">
-                              Part-Time Facility
-                            </td>
-                            <td className="px-6 py-4 flex justify-center items-center">
-                              <div className="flex justify-center items-center">
-                                <img
-                                   src={Right}
-                                  width={30}
-                                  height={20}
-                                ></img>
-                              </div>
-                            </td>
-                            <td className="whitespace-nowrap px-7 py-4 ">
-                              <div className="flex justify-center items-center">
-                                <img
-                                  src={Wrong}
-                                  width={30}
-                                  height={20}
-                                ></img>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr className="border-b text-neutral-50 ">
-                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-semibold tracking-wide text-black">
-                              Career Guidance
-                            </td>
-                            <td className="px-6 py-4">
-                              <div className="flex justify-center items-center">
-                                <img
-                                    src={Right}
-                                  width={30}
-                                  height={20}
-                                ></img>
-                              </div>
-                            </td>
-                            <td className="whitespace-nowrap px-7 py-4 ">
-                              <div className="flex justify-center items-center">
-                                <img
-                                    src={Right}
-                                  width={30}
-                                  height={20}
-                                ></img>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr className="border-b text-neutral-50 dark:border-neutral-600  dark:bg-neutral-600">
-                            <td className="whitespace-nowrap md:text-[16px] text-[13px] px-6 py-4 font-semibold tracking-wide text-black dark:text-neutral-50">
-                              Job Support
-                            </td>
-                            <td className="px-6 py-4">
-                              <div className="flex justify-center items-center">
-                                <img
-                                    src={Right}
-                                  width={30}
-                                  height={20}
-                                ></img>
-                              </div>
-                            </td>
-                            <td className="whitespace-nowrap px-7 py-4 ">
-                              <div className="flex justify-center items-center">
-                                <img
-                                  src={Wrong}
-                                  width={30}
-                                  height={20}
-                                ></img>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
+                              <path
+                                fill-rule="evenodd"
+                                d="M14.5 10a4.5 4.5 0 004.284-5.882c-.105-.324-.51-.391-.752-.15L15.34 6.66a.454.454 0 01-.493.11 3.01 3.01 0 01-1.618-1.616.455.455 0 01.11-.494l2.694-2.692c.24-.241.174-.647-.15-.752a4.5 4.5 0 00-5.873 4.575c.055.873-.128 1.808-.8 2.368l-7.23 6.024a2.724 2.724 0 103.837 3.837l6.024-7.23c.56-.672 1.495-.855 2.368-.8.096.007.193.01.291.01zM5 16a1 1 0 11-2 0 1 1 0 012 0z"
+                                clip-rule="evenodd"
+                              ></path>
+                              <path d="M14.5 11.5c.173 0 .345-.007.514-.022l3.754 3.754a2.5 2.5 0 01-3.536 3.536l-4.41-4.41 2.172-2.607c.052-.063.147-.138.342-.196.202-.06.469-.087.777-.067.128.008.257.012.387.012zM6 4.586l2.33 2.33a.452.452 0 01-.08.09L6.8 8.214 4.586 6H3.309a.5.5 0 01-.447-.276l-1.7-3.402a.5.5 0 01.093-.577l.49-.49a.5.5 0 01.577-.094l3.402 1.7A.5.5 0 016 3.31v1.277z"></path>
+                            </svg>
+                            Ongoing{" "}
+                          </dt>
+                          <dd class="inline">
+                            support and mentorship to ensure students achieve
+                            their academic and personal goals abroad.
+                          </dd>
+                        </div>
+                      </dl>
                     </div>
+                    <div class="mt-10 flex items-center gap-x-6 lg:justify-start justify-center">
+                      <a
+                        href="/services"
+                        class="rounded-md bg-colorOne px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-colorTwo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 duration-1000 ease-in-out transition"
+                      >
+                        Start procedure
+                      </a>
+                      <a
+                        href="/contact"
+                        class="text-sm font-semibold leading-6 text-gray-700"
+                      >
+                        Contact us
+                        <span aria-hidden="true">→</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex justify-center items-center border-2 border-green-800">
+                    
                   </div>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
         </div>
       </div>

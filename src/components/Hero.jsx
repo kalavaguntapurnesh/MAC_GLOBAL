@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="max-w-[1400px] m-auto grid md:grid-cols-2 ">
         <div className="flex flex-col gap-4 w-full">
           <div className=" flex items-center lg:justify-start justify-center mt-4 mx-3">
-            <h1 className="xl:text-6xl text-[48px] font-bold lg:px-2 xl:leading-[72px] lg:leading-[60px] lg:text-start text-center text-colorTwo">
+            <h1 className="xl:text-6xl text-[44px] font-bold lg:px-2 xl:leading-[72px] lg:leading-[68px] lg:text-start text-center text-colorTwo">
               Find your right catch, in ocean
               <span className="text-colorOne"> of opportunities</span>
             </h1>
@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center lg:justify-start justify-center mx-3">
-            <p className="lg:text-lg text-[16px] text-gray-900 lg:px-2 lg:text-start text-center">
+            <p className="lg:text-lg text-[16px] text-colorTwo lg:px-2 lg:text-start text-center">
               But you might feel a bit lost on how to get started. So, Mac does
               the hard work for you! Everything you need to know is on one
               platform. You will receive guidance throughout the whole
@@ -28,7 +28,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="flex items-center lg:justify-start justify-center md:mx-5">
+          <div className="flex items-center lg:justify-start justify-center md:mx-5 pt-2 pb-4">
             <a
               href="/features"
               className="bg-colorTwo font-semibold outline-none
