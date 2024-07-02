@@ -10,12 +10,12 @@ const Map = () => {
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="flex flex-wrap flex-col items-center pb-3">
                   <div className="flex items-center justify-center">
-                    <h1 className="text-3xl font-semibold tracking-normal text-colorTwo mx-1">
+                    <h1 className="text-3xl font-semibold text-center tracking-normal text-colorTwo mx-1">
                       {" "}
                       Want to meet us directly?
                     </h1>
                   </div>
-                  <div className="md:w-36 w-28 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
+                  <div className="md:w-36 w-32 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
                 </div>
 
                 <div className="text-gray-600 dark:text-gray-800 my-4">

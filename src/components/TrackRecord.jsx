@@ -44,7 +44,7 @@ const TrackRecord = () => {
                             <CountUp
                               start={0}
                               end={96}
-                              duration={3}
+                              duration={2}
                               delay={0}
                             ></CountUp>
                           )}
@@ -64,7 +64,7 @@ const TrackRecord = () => {
                             <CountUp
                               start={0}
                               end={4}
-                              duration={3}
+                              duration={2}
                               delay={0}
                             ></CountUp>
                           )}
@@ -72,8 +72,8 @@ const TrackRecord = () => {
                           {counterOn && (
                             <CountUp
                               start={0}
-                              end={7}
-                              duration={3}
+                              end={8}
+                              duration={2}
                               delay={0}
                               className="font-bold"
                             ></CountUp>
@@ -83,7 +83,7 @@ const TrackRecord = () => {
                             <CountUp
                               start={0}
                               end={5}
-                              duration={3}
+                              duration={2}
                               delay={0}
                             ></CountUp>
                           )}
@@ -149,7 +149,7 @@ const TrackRecord = () => {
                             <CountUp
                               start={0}
                               end={8}
-                              duration={4}
+                              duration={2}
                               delay={0}
                             ></CountUp>
                           )}

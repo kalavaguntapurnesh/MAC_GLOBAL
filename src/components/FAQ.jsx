@@ -19,7 +19,7 @@ const FAQ = () => {
                     </h1>
                     <img src={right} alt="" width={27} height={52}></img>
                   </div>
-                  <div className="w-44 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
+                  <div className="md:w-44 w-40 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
                 </div>
 
                 <div className="w-full flex justify-center items-center pt-4">
