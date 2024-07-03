@@ -1,9 +1,6 @@
-import Lottie from "lottie-react";
-import FeatureOne from "../assets/lotties/ServiceOne.json";
-import FeatureTwo from "../assets/lotties/ServiceTwo.json";
-import FeatureThree from "../assets/lotties/ServiceThree.json";
-import left from "../assets/left.svg";
-import right from "../assets/right.svg";
+import FeatureOne from "../assets/FeaturesOne.jpg";
+import FeatureTwo from "../assets/FeaturesTwo.jpg";
+import FeatureThree from "../assets/FeaturesThree.webp";
 
 const FeaturesOne = () => {
   return (
@@ -13,15 +10,14 @@ const FeaturesOne = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full text-center md:pb-4">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
-              <div class="text-center">
-                    <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
-                      How It Works
-                    </p>
-                    <h2 class="mt-6 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl lg:text-5xl">
-                      Features & Services we provide
-                    </h2>
-                   
-                  </div>
+                <div class="text-center">
+                  <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
+                    How It Works
+                  </p>
+                  <h2 class="mt-6 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl lg:text-5xl">
+                    Features & Services we provide
+                  </h2>
+                </div>
 
                 <div className="text-colorTwo dark:text-gray-800 my-4">
                   <p className="font-normal leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
@@ -40,7 +36,7 @@ const FeaturesOne = () => {
                         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                           <img
                             class="lg:h-72 md:h-48 w-full object-cover object-center"
-                            src="https://www.harringtonhousing.com/uploads/0003/3066/2023/01/11/what-makes-the-university-of-michigan-unique.jpg"
+                            src={FeatureOne}
                             alt="blog"
                           />
                           <div class="p-6 transition duration-300 ease-in">
@@ -80,7 +76,7 @@ const FeaturesOne = () => {
                         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                           <img
                             class="lg:h-72 md:h-48 w-full object-cover object-center"
-                            src="https://images.shiksha.com/mediadata/images/1539253667php1AcBOm_g.jpg"
+                            src={FeatureTwo}
                             alt="blog"
                           />
                           <div class="p-6  transition duration-300 ease-in">
@@ -120,7 +116,7 @@ const FeaturesOne = () => {
                         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                           <img
                             class="lg:h-72 md:h-48 w-full object-cover object-center"
-                            src="https://imageio.forbes.com/specials-images/imageserve/66279c49909b086f3c1043ed/McGraw-Clock-Tower--Cornell-University/960x0.jpg?height=465&width=711&fit=bounds"
+                            src={FeatureThree}
                             alt="blog"
                           />
                           <div class="p-6 ">

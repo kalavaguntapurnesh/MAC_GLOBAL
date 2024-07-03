@@ -1,4 +1,4 @@
-import FooterLogo from "../assets/Logo.jpeg";
+import FooterLogo from "../assets/FooterLogo.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Footer = () => {
                 <img
                   src={FooterLogo}
                   alt="Footer Logo"
-                  className="h-32 w-32 md:mb-0 mb-8 "
+                  className="lg:h-3/4 lg:w-3/4 w-40 h-40 lg:mb-0"
                 />
               </a>
 
