@@ -1,5 +1,3 @@
-import left from "../assets/left.svg";
-import right from "../assets/right.svg";
 import france from "../assets/FRANCE.png";
 import usa from "../assets/USA.png";
 import canada from "../assets/CANADA.png";
@@ -17,12 +15,10 @@ const Countries = () => {
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="flex flex-wrap flex-col items-center pb-3">
                   <div className="flex items-center justify-center">
-                    <img src={left} alt="" width={27} height={52}></img>
                     <h1 className="text-3xl font-semibold tracking-normal text-colorTwo mx-1">
                       {" "}
                       Our Study Abroad Service
                     </h1>
-                    <img src={right} alt="" width={27} height={52}></img>
                   </div>
                   <div className="w-44 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
                 </div>
@@ -38,7 +34,11 @@ const Countries = () => {
               </div>
               <div className=" grid lg:grid-cols-5 lg:gap-6 gap-4 md:grid-cols-3 grid-cols-2 mx-auto items-center justify-center content-center">
                 <div className="flex flex-col items-center justify-center cursor-pointer">
-                  <img src={usa} alt="" className="rounded-lg md:w-[200px] md:h-[200px] h-[180px] w-[180px]"></img>
+                  <img
+                    src={usa}
+                    alt=""
+                    className="rounded-lg md:w-[200px] md:h-[200px] h-[180px] w-[180px]"
+                  ></img>
                   <div>
                     <h4 className="font-bold uppercase text-blue-900 hover:text-blue-500 transition duration-1000 ease-in-out leading-relaxed tracking-wide">
                       USA
