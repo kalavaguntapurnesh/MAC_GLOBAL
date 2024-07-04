@@ -21,11 +21,11 @@ const Home = () => {
       <TrackRecord />
       <ScrollToTop />
       <Testimonial />
-      <Feedback />
-      <ActiveSlider />
       <Countries />
       {/* <WhyUs /> */}
       <Universities />
+      <Feedback />
+      <ActiveSlider />
       <FAQ />
       <Map />
       <Questions />

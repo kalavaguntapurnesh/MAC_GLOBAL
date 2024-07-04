@@ -3,8 +3,8 @@ import Wrong from "../assets/Wrong_Icon.png";
 
 const Testimonial = () => {
   return (
-    <div className="bg-white md:mb-12 mt-4">
-      <div className="relative pt-4 pb-8">
+    <div className="bg-white md:mb-8 mt-4">
+      <div className="relative pt-4 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <section class="overflow-hidden bg-white ">
@@ -208,6 +208,142 @@ const Testimonial = () => {
                         </div>
                       </div>
                     </section>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div className="flex flex-wrap flex-col items-center pb-3 md:pt-16 pt-10">
+              <div className="flex items-center justify-center">
+                <h1 className="text-3xl font-semibold text-center tracking-normal text-colorTwo mx-1">
+                  {" "}
+                  A simple but effective process
+                </h1>
+              </div>
+              <div className="md:w-36 w-32 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
+            </div>
+
+            <div className="text-gray-600 dark:text-gray-800 my-2">
+              <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
+                You just need to follow these steps given below to land in your dream university or country.
+              </p>
+            </div>
+
+            <section className="pt-8">
+              <div class=" mx-auto px-4 xl:px-0">
+                <div class="relative flex flex-col gap-y-4 py-8 pl-10 md:flex-row md:gap-x-4 md:pl-0 md:pr-0 md:pt-48">
+                  <div class="flex gap-2 h-full md:h-auto shrink-0 md:shrink grow md:basis-0 items-center relative ">
+                    <img
+                      loading="lazy"
+                      src="https://d1i7580riw15wg.cloudfront.net/assets/newui/notepad-check-6676135407b5025c981a63c73e362ac6d9226e9c09c8cfb03f0cf4811d1cfd56.webp"
+                      class="hidden w-12 h-12 md:block md:absolute md:-top-36 md:w-24 md:h-24 shrink-0  md:left-[50%] md:-translate-x-[50%]"
+                      alt="Check Your Loan Eligibility"
+                    />
+                    <div class="flex  h-full w-full flex-col justify-between rounded bg-white px-3 py-4 border border-purple-200 md:text-center md:before:absolute md:before:-top-3 md:before:left-[50%] md:before:h-3 md:before:w-5 md:before:-translate-x-[50%] md:before:border-b-[0.75rem] md:before:border-l-[0.625rem] md:before:border-r-[0.625rem] md:before:border-white md:before:border-l-transparent md:before:border-r-transparent md:before:content-['']">
+                      <h2 class="font-medium md:font-semibold h-[40%]">
+                        {" "}
+                        Check Your Loan Eligibility
+                      </h2>
+                      <p class=" h-[60%] md:block text-sm font-normal text-gd-gray-400">
+                        Use our free tool to verify your eligibility and receive
+                        conditional loan offers.
+                      </p>
+                    </div>
+                    <div class="absolute -left-6 top-[50%] h-[120%] w-1 -translate-x-[50%] bg-colorTwo md:left-0 md:top-0 md:h-1 md:w-[calc(100%+1rem)] md:-translate-y-[850%] md:translate-x-0"></div>
+                    <div class="absolute top-0 hidden h-2 w-2 -translate-x-[50%] -translate-y-[450%] rounded-full bg-colorTwo md:left-0 md:block"></div>
+                    <div class="bg-colorOne absolute -left-6 top-[50%] flex h-8 w-8 -translate-y-[50%] -translate-x-[50%] items-center justify-center rounded-full border-2 border-white text-white md:left-[50%] md:top-0 md:-translate-y-[150%]">
+                      1
+                    </div>
+                  </div>
+                  <div class="flex gap-2 h-full md:h-auto shrink-0 md:shrink grow md:basis-0 items-center relative ">
+                    <img
+                      loading="lazy"
+                      src="https://d1i7580riw15wg.cloudfront.net/assets/newui/customer-support-6690a2c7b72625907131149f1291693f7d950a565b427216fedb75e0026d8fe0.webp"
+                      class="hidden w-12 h-12 md:block md:absolute md:-top-36 md:w-24 md:h-24 shrink-0  md:left-[50%] md:-translate-x-[50%]"
+                      alt="Talk To Our Loan Experts"
+                    />
+                    <div class="flex  h-full w-full flex-col justify-between rounded bg-white px-3 py-4 border border-gd-purple-200 md:text-center md:before:absolute md:before:-top-3 md:before:left-[50%] md:before:h-3 md:before:w-5 md:before:-translate-x-[50%] md:before:border-b-[0.75rem] md:before:border-l-[0.625rem] md:before:border-r-[0.625rem] md:before:border-white md:before:border-l-transparent md:before:border-r-transparent md:before:content-['']">
+                      <h2 class="font-medium md:font-semibold h-[40%]">
+                        {" "}
+                        Talk To Our Loan Experts
+                      </h2>
+                      <p class=" h-[60%] md:block text-sm font-normal text-gd-gray-400">
+                        Connect with our dedicated loan counselor for a better
+                        understanding of the process.
+                      </p>
+                    </div>
+                    <div class="absolute -left-6 top-[50%] h-[120%] w-1 -translate-x-[50%] bg-colorTwo md:left-0 md:top-0 md:h-1 md:w-[calc(100%+1rem)] md:-translate-y-[850%] md:translate-x-0"></div>
+                    <div class="bg-colorOne absolute -left-6 top-[50%] flex h-8 w-8 -translate-y-[50%] -translate-x-[50%] items-center justify-center rounded-full border-2 border-white text-white md:left-[50%] md:top-0 md:-translate-y-[150%]">
+                      2
+                    </div>
+                  </div>
+                  <div class="flex gap-2 h-full md:h-auto shrink-0 md:shrink grow md:basis-0 items-center relative ">
+                    <img
+                      loading="lazy"
+                      src="https://d1i7580riw15wg.cloudfront.net/assets/newui/background-check-74e9b7bc460089cb9a6f262ff8b6c98a3318cd7c0c4c775d01351708763bd8a4.webp"
+                      class="hidden w-12 h-12 md:block md:absolute md:-top-36 md:w-24 md:h-24 shrink-0  md:left-[50%] md:-translate-x-[50%]"
+                      alt="Upload Documents and Fill Out the Form"
+                    />
+                    <div class="flex  h-full w-full flex-col justify-between rounded bg-white px-3 py-4 border border-gd-purple-200 md:text-center md:before:absolute md:before:-top-3 md:before:left-[50%] md:before:h-3 md:before:w-5 md:before:-translate-x-[50%] md:before:border-b-[0.75rem] md:before:border-l-[0.625rem] md:before:border-r-[0.625rem] md:before:border-white md:before:border-l-transparent md:before:border-r-transparent md:before:content-['']">
+                      <h2 class="font-medium md:font-semibold h-[40%]">
+                        {" "}
+                        Upload Documents and Fill Out the Form
+                      </h2>
+                      <p class=" h-[60%] md:block text-sm font-normal text-gd-gray-400">
+                        Submit your documents or complete the necessary forms
+                        for bank verification and evaluation.
+                      </p>
+                    </div>
+                    <div class="absolute -left-6 top-[50%] h-[120%] w-1 -translate-x-[50%] bg-colorTwo md:left-0 md:top-0 md:h-1 md:w-[calc(100%+1rem)] md:-translate-y-[850%] md:translate-x-0"></div>
+                    <div class="bg-colorOne absolute -left-6 top-[50%] flex h-8 w-8 -translate-y-[50%] -translate-x-[50%] items-center justify-center rounded-full border-2 border-white text-white md:left-[50%] md:top-0 md:-translate-y-[150%]">
+                      3
+                    </div>
+                  </div>
+                  <div class="flex gap-2 h-full md:h-auto shrink-0 md:shrink grow md:basis-0 items-center relative ">
+                    <img
+                      loading="lazy"
+                      src="https://d1i7580riw15wg.cloudfront.net/assets/newui/handshake-6a8584aeef2c059f95a558c87ce65266f25c33371fde2768a5175c0559e167fe.webp"
+                      class="hidden w-12 h-12 md:block md:absolute md:-top-36 md:w-24 md:h-24 shrink-0  md:left-[50%] md:-translate-x-[50%]"
+                      alt="Negotiate For Your Best Loan Offer"
+                    />
+                    <div class="flex  h-full w-full flex-col justify-between rounded bg-white px-3 py-4 border border-gd-purple-200 md:text-center md:before:absolute md:before:-top-3 md:before:left-[50%] md:before:h-3 md:before:w-5 md:before:-translate-x-[50%] md:before:border-b-[0.75rem] md:before:border-l-[0.625rem] md:before:border-r-[0.625rem] md:before:border-white md:before:border-l-transparent md:before:border-r-transparent md:before:content-['']">
+                      <h2 class="font-medium md:font-semibold h-[40%]">
+                        {" "}
+                        Negotiate For Your Best Loan Offer
+                      </h2>
+                      <p class=" h-[60%] md:block text-sm font-normal text-gd-gray-400">
+                        GyanDhan expert's negotiate to secure the most
+                        competitive interest rates and the highest possible loan
+                        amount for you.
+                      </p>
+                    </div>
+                    <div class="absolute -left-6 top-[50%] h-[120%] w-1 -translate-x-[50%] bg-colorTwo md:left-0 md:top-0 md:h-1 md:w-[calc(100%+1rem)] md:-translate-y-[850%] md:translate-x-0"></div>
+                    <div class="bg-colorOne absolute -left-6 top-[50%] flex h-8 w-8 -translate-y-[50%] -translate-x-[50%] items-center justify-center rounded-full border-2 border-white text-white md:left-[50%] md:top-0 md:-translate-y-[150%]">
+                      4
+                    </div>
+                  </div>
+                  <div class="flex gap-2 h-full md:h-auto shrink-0 md:shrink grow md:basis-0 items-center relative ">
+                    <img
+                      loading="lazy"
+                      src="https://d1i7580riw15wg.cloudfront.net/assets/newui/degree-9a3d524487c9cc76a65d07e9beed850409b4d683c7e168309c6ae7fdeba52aa5.webp"
+                      class="hidden w-12 h-12 md:block md:absolute md:-top-36 md:w-24 md:h-24 shrink-0  md:left-[50%] md:-translate-x-[50%]"
+                      alt="Get Loan Approval and Disbursement"
+                    />
+                    <div class="flex  h-full w-full flex-col justify-between rounded bg-white px-3 py-4 border border-gd-purple-200 md:text-center md:before:absolute md:before:-top-3 md:before:left-[50%] md:before:h-3 md:before:w-5 md:before:-translate-x-[50%] md:before:border-b-[0.75rem] md:before:border-l-[0.625rem] md:before:border-r-[0.625rem] md:before:border-white md:before:border-l-transparent md:before:border-r-transparent md:before:content-['']">
+                      <h2 class="font-medium md:font-semibold h-[40%]">
+                        {" "}
+                        Get Loan Approval and Disbursement
+                      </h2>
+                      <p class=" h-[60%] md:block text-sm font-normal text-gd-gray-400">
+                        Recieve your final approval and sanction letter,
+                        ensuring prompt fund disbursement from the lender
+                      </p>
+                    </div>
+                    <div class="absolute -left-6 top-10 hidden h-full w-1 -translate-x-[50%] bg-colorTwo md:left-0 md:top-0 md:block md:h-1 md:w-full md:-translate-y-[850%] md:translate-x-0"></div>
+                    <div class="absolute right-0 top-0 hidden h-2 w-2 -translate-y-[450%] translate-x-[50%] rounded-full bg-colorTwo md:block"></div>
+                    <div class="bg-colorOne absolute -left-6 top-[50%] flex h-8 w-8 -translate-y-[50%] -translate-x-[50%] items-center justify-center rounded-full border-2 border-white text-white md:left-[50%] md:top-0 md:-translate-y-[150%]">
+                      5
+                    </div>
                   </div>
                 </div>
               </div>

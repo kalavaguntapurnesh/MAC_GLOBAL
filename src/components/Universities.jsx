@@ -1,5 +1,3 @@
-import left from "../assets/left.svg";
-import right from "../assets/right.svg";
 import asu from "../assets/ASU.png";
 import CASU from "../assets/CASU.png";
 import OAK from "../assets/OAK.png";
@@ -27,12 +25,10 @@ const Universities = () => {
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="flex flex-wrap flex-col items-center pb-3">
                   <div className="flex items-center justify-center">
-                    <img src={left} alt="" width={27} height={52}></img>
                     <h1 className="text-3xl font-semibold tracking-normal text-colorTwo mx-1">
                       {" "}
                       University Admissions We Got So Far
                     </h1>
-                    <img src={right} alt="" width={27} height={52}></img>
                   </div>
                   <div className="md:w-52 w-44 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
                 </div>

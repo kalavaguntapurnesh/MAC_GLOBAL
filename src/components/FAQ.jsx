@@ -1,5 +1,3 @@
-import left from "../assets/left.svg";
-import right from "../assets/right.svg";
 import Accordion from "../components/Accordion";
 
 const FAQ = () => {
@@ -12,12 +10,10 @@ const FAQ = () => {
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="flex flex-wrap flex-col items-center pb-3">
                   <div className="flex items-center justify-center">
-                    <img src={left} alt="" width={27} height={52}></img>
                     <h1 className="text-3xl font-semibold tracking-normal text-colorTwo mx-1">
                       {" "}
                       Frequently Asked Questions
                     </h1>
-                    <img src={right} alt="" width={27} height={52}></img>
                   </div>
                   <div className="md:w-44 w-40 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
                 </div>
