@@ -16,6 +16,34 @@ import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 const ActiveSlider = () => {
   const ServiceData = [
     {
+      title: "Vivek Vardhan Reddy",
+      content:
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+      backgroundImage: `${four}`,
+      university: "North Western University, USA",
+    },
+    {
+      title: "Eswar Nadendla",
+      content:
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+      backgroundImage: `${five}`,
+      university: "Canberra University, Australia",
+    },
+    {
+      title: "Sai Venkat Nayini",
+      content:
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+      backgroundImage: `${seven}`,
+      university: "Indiana State University, USA",
+    },
+    {
+      title: "Ashok Yanamala",
+      content:
+        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
+      backgroundImage: `${six}`,
+      university: "NJIT(New Jersey), USA",
+    },
+    {
       title: "Purnesh Kalavagunta",
       content:
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
@@ -35,34 +63,6 @@ const ActiveSlider = () => {
         "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
       backgroundImage: `${three}`,
       university: "Toronto National University, Canada",
-    },
-    {
-      title: "Vivek Vardhan Reddy",
-      content:
-        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: `${four}`,
-      university: "Oklahoma State University, USA",
-    },
-    {
-      title: "Eswar Nadendla",
-      content:
-        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: `${five}`,
-      university: "Florida State University, USA",
-    },
-    {
-      title: "Sai Venkat Nayini",
-      content:
-        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: `${seven}`,
-      university: "Indiana State University, USA",
-    },
-    {
-      title: "Ashok Yanamala",
-      content:
-        "MAC is responsible for helping you achieve your ould help explore your possibilities to a very great extent. Also, create success stories for students worldwide",
-      backgroundImage: `${six}`,
-      university: "NJIT(New Jersey), USA",
     },
     {
       title: "Yeshwanth Sai Reddy",
