@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="md:ml-4 ml-2 flex flex-row justify-center items-center overflow-hidden">
               <img src={Logo} className="w-32 overflow-hidden" alt="" />
             </div>
-            <div className="lg:ml-12">
+            <div className="mr-6">
               <ul className="hidden md:flex items-center gap-[3vw]">
                 {" "}
                 <li className="group cursor-pointer text-colorThree font-medium text-base tracking-wider transition duration-1000 ease-in-out">
