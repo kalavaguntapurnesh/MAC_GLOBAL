@@ -1,5 +1,5 @@
-import Wright from "../assets/Right.svg";
-import UnWright from "../assets/Wrong.svg";
+import Wright from "../assets/correct.svg";
+import UnWright from "../assets/incorrect.svg";
 
 const Testimonial = () => {
   return (
