@@ -1,5 +1,5 @@
-import Right from "../assets/Right.svg";
-import Wrong from "../assets/Wrong.svg";
+import Wright from "../assets/correct.svg";
+import UnWright from "../assets/incorrect.svg";
 
 const Testimonial = () => {
   return (
@@ -164,14 +164,14 @@ const Testimonial = () => {
                                   </th>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
                                     <img
-                                      src={Right}
+                                      src={Wright}
                                       alt=""
                                       className="w-6 h-6"
                                     />
                                   </td>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
                                     <img
-                                      src={Wrong}
+                                      src={UnWright}
                                       alt=""
                                       className="w-6 h-6"
                                     />
@@ -183,14 +183,14 @@ const Testimonial = () => {
                                   </th>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
                                     <img
-                                      src={Right}
+                                      src={Wright}
                                       alt=""
                                       className="w-6 h-6"
                                     />
                                   </td>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
                                     <img
-                                      src={Right}
+                                      src={Wright}
                                       alt=""
                                       className="w-6 h-6"
                                     />
@@ -202,14 +202,14 @@ const Testimonial = () => {
                                   </th>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
                                     <img
-                                      src={Right}
+                                      src={Wright}
                                       alt=""
                                       className="w-6 h-6"
                                     />
                                   </td>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
                                     <img
-                                      src={Wrong}
+                                      src={UnWright}
                                       alt=""
                                       className="w-6 h-6"
                                     />
@@ -221,14 +221,14 @@ const Testimonial = () => {
                                   </th>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
                                     <img
-                                      src={Right}
+                                      src={Wright}
                                       alt=""
                                       className="w-6 h-6"
                                     />
                                   </td>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
                                     <img
-                                      src={Right}
+                                      src={Wright}
                                       alt=""
                                       className="w-6 h-6"
                                     />
