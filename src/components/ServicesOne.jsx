@@ -2,8 +2,7 @@ import Lottie from "lottie-react";
 import FeatureOne from "../assets/lotties/Feature.json";
 import FeatureTwo from "../assets/lotties/FeatureTwo.json";
 import FeatureThree from "../assets/lotties/FeatureOne.json";
-import left from "../assets/left.svg";
-import right from "../assets/right.svg";
+
 
 const ServicesOne = () => {
   return (
