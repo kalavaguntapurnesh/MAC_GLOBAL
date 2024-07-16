@@ -1,5 +1,5 @@
-import Right from "../assets/Check_Icon.png";
-import Wrong from "../assets/Wrong_Icon.png";
+import Right from "../assets/Right.svg";
+import Wrong from "../assets/Wrong.svg";
 
 const Testimonial = () => {
   return (
@@ -113,15 +113,15 @@ const Testimonial = () => {
                         <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded border-[1px]">
                           <div class="rounded-t mb-0 px-4 py-3 border-0">
                             <div class="flex flex-wrap items-center">
-                              <div class="relative w-full px-4 flex-grow flex-1">
-                                <h3 class="font-semibold text-base text-colorTwo ">
+                              <div class="relative w-full px-2 flex-grow flex-1">
+                                <h3 class="font-semibold md:text-base text-[14px] text-colorTwo ">
                                   Comparision Table
                                 </h3>
                               </div>
-                              <div class="relative w-full px-4 flex-grow flex-1 text-right">
+                              <div class="relative w-full flex-grow flex-1 text-right">
                                 <a
                                   href="/services"
-                                  class="bg-colorOne text-white active:bg-colorTwo text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                                  class="bg-colorOne text-white active:bg-colorTwo text-xs font-semibold md:uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                                   type="button"
                                 >
                                   See all
@@ -151,11 +151,11 @@ const Testimonial = () => {
                                   <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4 text-left text-colorTwo ">
                                     Interest Rates
                                   </th>
-                                  <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4 ">
-                                    4,569
+                                  <td class="border-t-0 px-6 align-middle text-colorTwo font-semibold border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4 ">
+                                    10.2 %
                                   </td>
-                                  <td class="border-t-0 px-6 align-center text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
-                                    340
+                                  <td class="border-t-0 px-6 align-center text-colorTwo font-semibold border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
+                                    12.1 %
                                   </td>
                                 </tr>
                                 <tr>
@@ -163,10 +163,18 @@ const Testimonial = () => {
                                     Post Arrival Support
                                   </th>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
-                                    3,985
+                                    <img
+                                      src={Right}
+                                      alt=""
+                                      className="w-6 h-6"
+                                    />
                                   </td>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
-                                    319
+                                    <img
+                                      src={Wrong}
+                                      alt=""
+                                      className="w-6 h-6"
+                                    />
                                   </td>
                                 </tr>
                                 <tr>
@@ -174,10 +182,18 @@ const Testimonial = () => {
                                     VISA & Immigration
                                   </th>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
-                                    3,513
+                                    <img
+                                      src={Right}
+                                      alt=""
+                                      className="w-6 h-6"
+                                    />
                                   </td>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
-                                    294
+                                    <img
+                                      src={Right}
+                                      alt=""
+                                      className="w-6 h-6"
+                                    />
                                   </td>
                                 </tr>
                                 <tr>
@@ -185,10 +201,18 @@ const Testimonial = () => {
                                     In-person Mentorship
                                   </th>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
-                                    2,050
+                                    <img
+                                      src={Right}
+                                      alt=""
+                                      className="w-6 h-6"
+                                    />
                                   </td>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
-                                    147
+                                    <img
+                                      src={Wrong}
+                                      alt=""
+                                      className="w-6 h-6"
+                                    />
                                   </td>
                                 </tr>
                                 <tr>
@@ -196,10 +220,18 @@ const Testimonial = () => {
                                     Counseling & Scholarships
                                   </th>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
-                                    1,795
+                                    <img
+                                      src={Right}
+                                      alt=""
+                                      className="w-6 h-6"
+                                    />
                                   </td>
                                   <td class="border-t-0 px-6 align-middle text-colorTwo border-l-0 border-r-0 text-[10px] md:text-base whitespace-nowrap p-4">
-                                    190
+                                    <img
+                                      src={Right}
+                                      alt=""
+                                      className="w-6 h-6"
+                                    />
                                   </td>
                                 </tr>
                               </tbody>
