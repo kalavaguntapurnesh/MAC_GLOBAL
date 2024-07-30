@@ -13,7 +13,7 @@ const Map = () => {
                   <div className="flex items-center justify-center">
                     <h1 className="text-3xl font-semibold text-center tracking-normal text-colorTwo mx-1">
                       {" "}
-                      Want to meet us directly?
+                      Services across the world
                     </h1>
                   </div>
                   <div className="md:w-36 w-32 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
@@ -21,8 +21,9 @@ const Map = () => {
 
                 <div className="text-gray-600 dark:text-gray-800 my-4">
                   <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
-                    Please click on the map given below, to get your directions
-                    and we would we waiting to guide you to reshape your future.
+                    Marked below are the countries we provide services like
+                    University Selection, VISA Guidance, Post-departure support
+                    and many more.
                   </p>
                 </div>
 
