@@ -1,4 +1,5 @@
 import React from "react";
+import Data from "../assets/Data.svg";
 
 const Map = () => {
   return (
@@ -26,8 +27,8 @@ const Map = () => {
                 </div>
 
                 <div className="pt-6">
-                  <div className="w-[100%]">
-                    <iframe
+                  <div>
+                    {/* <iframe
                       width="100%"
                       height="600"
                       frameborder="0"
@@ -37,7 +38,10 @@ const Map = () => {
                       src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=10-3-206%20/%20M4,%202nd%20Floor,KK%20Street,Tirupati,India+(MAC%20Global%20Services)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                     >
                       <a href="https://www.gps.ie/">gps devices</a>
-                    </iframe>
+                    </iframe> */}
+                    <div className="flex justify-center items-center">
+                      <img src={Data} alt="" className="md:w-[80%] w-[100%]" />
+                    </div>
                   </div>
                 </div>
               </div>
