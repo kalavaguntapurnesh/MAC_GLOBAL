@@ -11,13 +11,13 @@ const TrackRecord = () => {
       onExit={() => setCounterOn(false)}
     >
       <div className="bg-white">
-        <div className="relative lg:pt-0 pt-8">
+        <div className="relative lg:pt-12 pt-8">
           <div className="w-full animate-slidein">
             <div className="w-full px-4 mx-auto max-w-[1400px]">
               <div className="justify-center w-full pb-8">
                 <div className="w-full max-w-[1300px] mx-auto space-y-4 ">
                   <div className=" flex flex-col flex-wrap items-center"></div>
-                  <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
+                  <div className="grid md:grid-cols-3 grid-cols-1 md:gap-4 gap-6">
                     <div className="relative">
                       <div className="flex flex-col">
                         <div className="flex md:justify-start justify-center items-center">
@@ -26,12 +26,12 @@ const TrackRecord = () => {
                           </h1>
                         </div>
                         <div className="flex md:justify-start justify-center items-center mt-4 mb-2">
-                          <h1 className="text-xl font-medium text-colorTwo">
+                          <h1 className="text-xl font-medium text-colorTwo md:text-start text-center">
                             Students Sent From MAC to Various Universities.
                           </h1>
                         </div>
                         <div className="flex md:justify-start justify-center items-center">
-                          <p className="mt-4 text-gray-600">
+                          <p className="mt-4 text-gray-600 md:text-start text-center">
                             Opportunity to select top-ranked university based on
                             location, courses, ranking.
                           </p>
@@ -48,12 +48,12 @@ const TrackRecord = () => {
                           </h1>
                         </div>
                         <div className="flex md:justify-start justify-center items-center mt-4 mb-2">
-                          <h1 className="text-xl font-medium text-colorTwo">
+                          <h1 className="text-xl font-medium text-colorTwo md:text-start text-center">
                             VISA Acceptance Rate out of every 100 Students.
                           </h1>
                         </div>
                         <div className="flex md:justify-start justify-center items-center">
-                          <p className="mt-4 text-gray-600">
+                          <p className="mt-4 text-gray-600 md:text-start text-center">
                             Assisting students in preparing visa applications,
                             understanding visa requirements.
                           </p>
@@ -69,12 +69,12 @@ const TrackRecord = () => {
                           </h1>
                         </div>
                         <div className="flex md:justify-start justify-center items-center mt-4 mb-2">
-                          <h1 className="text-xl font-medium text-colorTwo">
+                          <h1 className="text-xl font-medium text-colorTwo md:text-start text-center">
                             Excellent acceptance From Students and Parents.
                           </h1>
                         </div>
                         <div className="flex md:justify-start justify-center items-center">
-                          <p className="mt-4 text-gray-600 ">
+                          <p className="mt-4 text-gray-600 md:text-start text-center">
                             Offering sessions to prepare students for cultural
                             adjustments, academic expectations.
                           </p>

@@ -5,50 +5,45 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/controller";
+import One from "../assets/HeroImage.jpg";
+import Two from "../assets/HeroTwo.jpg";
+import Three from "../assets/HeroThree.jpg";
+import Four from "../assets/HeroFour.jpg";
 
 const Hero = () => {
   const data = [
     {
-      image:
-        "https://images.pexels.com/photos/20157737/pexels-photo-20157737/free-photo-of-back-view-of-a-group-of-friends-sitting-on-a-shore-in-city-an-drinking-beer.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+      image: Two,
       heading: "IT Software Solution & Support.",
       button: "Journey Starts here",
     },
     {
-      image:
-        "https://images.pexels.com/photos/15885610/pexels-photo-15885610/free-photo-of-lighthouse-on-cliff-at-seashore-on-sunset.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+      image: Four,
       heading: "Vahas Technolgies Technical Support.",
       button: "Explore with us",
     },
     {
-      image:
-        "https://images.pexels.com/photos/20157737/pexels-photo-20157737/free-photo-of-back-view-of-a-group-of-friends-sitting-on-a-shore-in-city-an-drinking-beer.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
-      heading: "Solid battle tested Infrastructure.",
-      button: "Make a better future",
-    },
-    {
-      image:
-        "https://images.pexels.com/photos/15885610/pexels-photo-15885610/free-photo-of-lighthouse-on-cliff-at-seashore-on-sunset.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+      image: One,
       heading: "Better User Interface Structure.",
       button: "Collaborate with us",
     },
   ];
 
   return (
-    <div className="w-full bg-white pt-16 h-auto ">
+    <div className="w-full bg-white pt-20 h-auto">
       <div className="m-auto max-w-[1400px] md:hidden block pt-8">
         <div className=" grid md:grid-cols-2 ">
           <div className="flex justify-center lg:justify-end items-center ">
             <Lottie
               animationData={HeaderLottie}
               loop={true}
-              className="lg:w-10/12 w-11/12 lg:h-96 h-92"
+              className="w-11/12 h-92"
             />
           </div>
 
           <div className="flex flex-col gap-4 w-full">
-            <div className=" flex items-center lg:justify-start justify-center mt-4 mx-3">
-              <h1 className="xl:text-6xl text-[44px] font-bold lg:px-2 xl:leading-[72px] lg:leading-[68px] lg:text-start text-center text-colorTwo">
+            <div className=" flex items-center justify-center mt-4 mx-3">
+              <h1 className="text-[44px] font-bold text-center text-colorTwo">
                 Find your right catch, in ocean
                 <span className="text-colorOne"> of opportunities</span>
               </h1>
@@ -83,7 +78,7 @@ const Hero = () => {
       </div>
 
       <div className="m-auto md:block hidden">
-        <div className="w-full bg-white lg:h-[75vh] h-auto">
+        <div className="w-full bg-white">
           <Swiper
             modules={[Autoplay, A11y]}
             spaceBetween={30}
@@ -96,8 +91,7 @@ const Hero = () => {
                   <img
                     src={img.image}
                     alt={`slide-${index + 1}`}
-                    // className="w-full lg:h-[550px] h-[450px] lg:object-cover object-center"
-                    className="w-full h-[500px] lg:object-cover object-center"
+                    className="w-full h-[480px] object-cover"
                   />
                   <div className="absolute inset-0 bg-gray-700 opacity-40 rounded-md"></div>
                   <div className="absolute inset-0 flex flex-col items-center justify-center">
