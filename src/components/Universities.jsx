@@ -124,7 +124,7 @@ const Universities = () => {
                       className="rounded-full hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] duration-1000 transition ease-in-out"
                     ></img>
                   </div>
-                  <div className=" flex flex-col items-center justify-center cursor-pointer">
+                  <div className=" md:flex flex-col items-center justify-center cursor-pointer hidden">
                     <img
                       src={CASU}
                       alt=""
@@ -134,7 +134,7 @@ const Universities = () => {
                     ></img>
                   </div>
 
-                  <div className=" flex flex-col items-center justify-center cursor-pointer">
+                  <div className="md:flex flex-col items-center justify-center cursor-pointer hidden">
                     <img
                       src={NYU}
                       alt=""
@@ -144,7 +144,7 @@ const Universities = () => {
                     ></img>
                   </div>
 
-                  <div className=" flex flex-col items-center justify-center cursor-pointer">
+                  <div className="md:flex flex-col items-center justify-center cursor-pointer hidden">
                     <img
                       src={ISU}
                       alt=""

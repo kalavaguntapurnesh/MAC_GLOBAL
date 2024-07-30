@@ -94,7 +94,7 @@ const Testimonial = () => {
                     <div class="mt-10 flex items-center gap-x-6 lg:justify-start justify-center">
                       <a
                         href="/services"
-                        class="rounded-md bg-colorOne px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-colorTwo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 duration-1000 ease-in-out transition"
+                        class="rounded-3xl bg-colorOne px-3.5 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-colorTwo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 duration-1000 ease-in-out transition"
                       >
                         Start procedure
                       </a>
