@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" md:z-20 z-20 fixed w-full bg-white">
+    <div className="z-20 fixed w-full bg-white">
       <div className="w-full mx-auto max-w-[1400px]">
         <div className="justify-center w-full">
           <div className="text-black flex justify-between items-center md:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-24 w-full md:top-0 top-0 bg-white max-w-[1400px] mx-auto">
@@ -167,7 +167,7 @@ const Option = ({ text, Icon, setOpen }) => {
     <motion.li
       variants={itemVariants}
       onClick={() => setOpen(false)}
-      className="flex items-center gap-2 w-full p-2 text-xs font-medium whitespace-nowrap rounded-md hover:bg-indigo-100 text-slate-700 hover:text-[#3e60e0] transition-colors cursor-pointer"
+      className="flex items-center gap-2 w-full p-2 text-xs font-medium whitespace-nowrap rounded-md hover:bg-indigo-50 text-slate-700 hover:text-colorOne transition-colors cursor-pointer"
     >
       <motion.span variants={actionIconVariants}>
         <Icon />

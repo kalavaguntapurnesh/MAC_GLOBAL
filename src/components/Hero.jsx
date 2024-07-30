@@ -42,10 +42,10 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col gap-4 w-full">
-            <div className=" flex items-center justify-center mt-4 mx-3">
+            <div className="flex items-center justify-center mt-4 mx-3">
               <h1 className="text-[44px] font-bold text-center text-colorTwo">
-                Find your right catch, in ocean
-                <span className="text-colorOne"> of opportunities</span>
+                Find the right catch, in an ocean
+                <span className="text-colorOne"> of opportunities.</span>
               </h1>
             </div>
 
@@ -60,7 +60,7 @@ const Hero = () => {
                 But you might feel a bit lost on how to get started. So, Mac
                 does the hard work for you! Everything you need to know is on
                 one platform. You will receive guidance throughout the whole
-                application process-all completely free.
+                application process.
               </p>
             </div>
 
