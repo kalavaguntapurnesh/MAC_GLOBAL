@@ -11,14 +11,14 @@ const ScrollToTop = () => {
     message
   )}`;
 
-  // const [isVisible, setIsVisible] = useState(false);
-  // const toggleVisibility = () => {
-  //   if (window.pageYOffset > 200) {
-  //     setIsVisible(true);
-  //   } else {
-  //     setIsVisible(false);
-  //   }
-  // };
+  const [isVisible, setIsVisible] = useState(false);
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 120) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
 
   // const scrollToTop = () => {
   //   window.scrollTo({
@@ -27,23 +27,27 @@ const ScrollToTop = () => {
   //   });
   // };
 
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    };
+  }, []);
+
   return (
     <a
       href={whatsappUrl}
       className={classNames(
-        "bg-[#25d366] fixed flex flex-row lg:bottom-6 bottom-4 lg:right-2 right-3 z-20 lg:py-2 lg:px-4 rounded-full "
+        isVisible ? "opacity-100" : "opacity-0",
+        "bg-[#25d366] fixed flex flex-row lg:bottom-6 bottom-4 lg:right-2 right-3 z-20 py-2 px-4 rounded-full transition duration-1000 ease-in-out"
       )}
     >
       <a>
-        <SiWhatsapp
-          className="lg:h-6 lg:w-6 w-10 h-10 text-white lg:mr-2"
-          aria-hidden="true"
-        />
+        <SiWhatsapp className="h-6 w-6 text-white mr-2" aria-hidden="true" />
       </a>
       <div className="flex justify-center items-center text-sm">
-        <h1 className="lg:block hidden text-white font-semibold">
-          Whatsapp us!
-        </h1>
+        <h1 className=" text-white font-semibold">Whatsapp us!</h1>
       </div>
     </a>
   );
