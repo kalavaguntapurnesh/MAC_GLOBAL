@@ -40,7 +40,7 @@ const ScrollToTop = () => {
       href={whatsappUrl}
       className={classNames(
         isVisible ? "opacity-100" : "opacity-0",
-        "bg-[#25d366] fixed flex flex-row lg:bottom-6 bottom-4 lg:right-2 right-3 z-20 py-2 px-4 rounded-full transition duration-1000 ease-in-out"
+        "bg-[#25d366] fixed flex flex-row lg:bottom-6 bottom-6 lg:right-2 right-2 z-20 py-2 px-4 rounded-full transition duration-1000 ease-in-out"
       )}
     >
       <a>
