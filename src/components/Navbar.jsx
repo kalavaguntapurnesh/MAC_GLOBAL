@@ -141,13 +141,10 @@ const Navbar = () => {
                   <a href="/about">About Us</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/careers">Careers</a>
+                  <a href="/features">Features</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/products">Products</a>
-                </li>
-                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/solutions">Solutions</a>
+                  <a href="/services">Services</a>
                 </li>
 
                 <li className="p-4 text-colorThree cursor-pointer font-medium dark:text-white">
