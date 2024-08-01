@@ -12,7 +12,7 @@ const ServicesOne = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full text-center pb-14">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
-                <section class="relative overflow-hidden dark:bg-gray-900 pt-4">
+                <section class="relative overflow-hidden  pt-4">
                   <div class="text-center">
                     <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
                       How We Work
@@ -57,7 +57,7 @@ const ServicesOne = () => {
                             <h3 class="mt-4 sm:mt-6 text-xl font-semibold leading-tight text-colorTwo dark:text-white md:mt-10">
                               Contact Us
                             </h3>
-                            <p class="mt-3 sm:mt-4 text-base text-gray-600 dark:text-gray-400">
+                            <p class="mt-3 sm:mt-4 text-base text-gray-600">
                               Contact us through email / phone number and we
                               will get back to you shortly.
                             </p>
@@ -71,7 +71,7 @@ const ServicesOne = () => {
                             <h3 class="mt-4 sm:mt-6 text-xl font-semibold leading-tight text-colorTwo dark:text-white md:mt-10">
                               University Assistance
                             </h3>
-                            <p class="mt-3 sm:mt-4 text-base text-gray-600 dark:text-gray-400">
+                            <p class="mt-3 sm:mt-4 text-base text-gray-600 ">
                               Based on your interest and academics we will guide
                               you through college selection.
                             </p>
@@ -85,7 +85,7 @@ const ServicesOne = () => {
                             <h3 class="mt-4 sm:mt-6 text-xl font-semibold leading-tight text-colorTwo dark:text-white md:mt-10">
                               Visa Approval
                             </h3>
-                            <p class="mt-3 sm:mt-4 text-base text-gray-600 dark:text-gray-400">
+                            <p class="mt-3 sm:mt-4 text-base text-gray-600 ">
                               Finally we will guide you how to attend VISA
                               interview and postal abroad support.
                             </p>

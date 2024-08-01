@@ -124,30 +124,30 @@ const Navbar = () => {
               className={
                 !nav
                   ? "md:hidden fixed left-[-100%] h-[75%] ease-in-out duration-1000 "
-                  : "md:hidden fixed left-0 top-0 w-[70%] border-r h-[75%] bg-white dark:bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
+                  : "md:hidden fixed left-0 top-0 w-[70%] border-r h-[75%] bg-white dark:bg-[#f0f0f0] ease-in-out duration-1000 rounded-b-lg z-10 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
               }
             >
               <div className="w-full flex flex-row justify-start items-center mt-6 ml-6 ">
-                <h1 className="sm:text-2xl text-xl text-colorOne uppercase font-semibold overflow-hidden">
+                <h1 className=" text-lg text-colorOne uppercase font-semibold overflow-hidden">
                   MAC GLOBAL SERVICES.
                 </h1>
               </div>
 
               <ul className=" uppercase p-4">
-                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
+                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium ">
                   <a href="/">Home</a>
                 </li>
-                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
+                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium">
                   <a href="/about">About Us</a>
                 </li>
-                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
+                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium">
                   <a href="/features">Features</a>
                 </li>
-                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
+                <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium">
                   <a href="/services">Services</a>
                 </li>
 
-                <li className="p-4 text-colorThree cursor-pointer font-medium dark:text-white">
+                <li className="p-4 text-colorThree cursor-pointer font-medium">
                   <a href="/contact">Contact Us</a>
                 </li>
               </ul>

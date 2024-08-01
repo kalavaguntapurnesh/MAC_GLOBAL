@@ -10,7 +10,7 @@ const Questions = () => {
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-6xl">
             <div className="justify-center w-full ">
-              <div className="max-w-6xl w-full bg-[#FAFAFA] dark:bg-[#ffffff] dark:border-none rounded-xl flex flex-col py-8 items-center justify-center mt-10">
+              <div className="max-w-6xl w-full bg-[#FAFAFA] rounded-xl flex flex-col py-8 items-center justify-center mt-10">
                 <div className="flex -space-x-2">
                   <img
                     className="w-10 h-10 rounded-full ring-2 ring-white dark:ring-gray-800"
@@ -30,12 +30,12 @@ const Questions = () => {
                 </div>
 
                 <div className="relative z-[10] flex flex-col justify-center items-center">
-                  <p className="text-zinc-800 dark:text-[#F0F0F0] font-bold text-xl mt-4">
+                  <p className="text-zinc-800 font-bold text-xl mt-4">
                     Still left with questions?
                   </p>
-                  <p className="text-[#7A7A7A] dark:text-[#F0F0F0] font-semibold md:text-[17px] text-[16px] text-center mt-4">
-                    Can’t find the answer you’re looking for? Please chat with our
-                    friendly team.
+                  <p className="text-[#7A7A7A] font-semibold md:text-[17px] text-[16px] text-center mt-4">
+                    Can’t find the answer you’re looking for? Please chat with
+                    our friendly team.
                   </p>
 
                   <div className="pt-6">
@@ -65,8 +65,6 @@ const Questions = () => {
                       <span className="relative invisible">Button Text</span>
                     </a>
                   </div>
-
-                  <div className="dark:block hidden absolute z-[-100] top-0 left-1/3 lg:w-64 w-0 lg:h-64 h-0 bg-[#D41F30] rounded-full opacity-40 blur-[130px] dark:opacity-30"></div>
                 </div>
 
                 <ContactModal

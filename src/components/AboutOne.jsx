@@ -78,10 +78,10 @@ const AboutOne = () => {
                         src={Flight}
                         class="w-10 h-10 mb-2 md:w-12 md:h-12"
                       ></img>
-                      <h3 class="mb-2 text-2xl font-bold text-colorTwo dark:text-white">
-                        99.7% success
+                      <h3 class="mb-2 text-2xl font-bold text-colorTwo ">
+                        96% success
                       </h3>
-                      <p class="font-normal text-gray-500 dark:text-gray-400">
+                      <p class="font-normal text-gray-500 dark:text-gray-500">
                         rate of visa approval to various countries.
                       </p>
                     </div>
@@ -90,10 +90,10 @@ const AboutOne = () => {
                         src={Time}
                         class="w-10 h-10 mb-2 md:w-12 md:h-12"
                       ></img>
-                      <h3 class="mb-2 text-2xl text-colorTwo font-bold dark:text-white">
+                      <h3 class="mb-2 text-2xl text-colorTwo font-bold ">
                         1050+ Students
                       </h3>
-                      <p class="font-normal text-gray-500 dark:text-gray-400">
+                      <p class="font-normal text-gray-500 dark:text-gray-500">
                         Students Sent From MAC to Various Universities.
                       </p>
                     </div>
@@ -110,10 +110,10 @@ const AboutOne = () => {
                           clip-rule="evenodd"
                         ></path>
                       </svg>
-                      <h3 class="mb-2 text-2xl text-colorTwo font-bold dark:text-white">
+                      <h3 class="mb-2 text-2xl text-colorTwo font-bold">
                         10+ countries
                       </h3>
-                      <p class="font-normal text-gray-500 dark:text-gray-400">
+                      <p class="font-normal text-gray-500 dark:text-gray-500">
                         Have used Landwind to create functional websites
                       </p>
                     </div>
@@ -122,61 +122,15 @@ const AboutOne = () => {
                         src={map}
                         class="w-10 h-10 mb-2 md:w-12 md:h-12"
                       ></img>
-                      <h3 class="mb-2 text-2xl font-bold text-colorTwo dark:text-white">
+                      <h3 class="mb-2 text-2xl font-bold text-colorTwo ">
                         4.8/5 Ratings
                       </h3>
-                      <p class="font-normal text-gray-500 dark:text-gray-400">
+                      <p class="font-normal text-gray-500 dark:text-gray-500">
                         from the satisfied customers of our consultancy.
                       </p>
                     </div>
                   </div>
                 </div>
-
-                {/* <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 pt-8">
-                  <div className="flex flex-col justify-center items-center">
-                    <div>
-                      <img src={Time} alt="" className="w-12 h-12" />
-                    </div>
-                    <div className="mt-[6px]">
-                      <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
-                        5+ Years of industrial experience
-                      </h1>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col justify-center items-center">
-                    <div>
-                      <img src={World} alt="" className="w-12 h-12" />
-                    </div>
-                    <div className="mt-[6px]">
-                      <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
-                        Services available across world
-                      </h1>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col justify-center items-center">
-                    <div>
-                      <img src={Flight} alt="" className="w-12 h-12" />
-                    </div>
-                    <div className="mt-[6px]">
-                      <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
-                        VISA & Immigration approval guidance
-                      </h1>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col justify-center items-center">
-                    <div>
-                      <img src={map} alt="" className="w-12 h-12" />
-                    </div>
-                    <div className="mt-[6px]">
-                      <h1 className="text-colorTwo font-medium md:text-lg text-base text-center">
-                        University selection guidance
-                      </h1>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
