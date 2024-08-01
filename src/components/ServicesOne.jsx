@@ -1,8 +1,5 @@
-import Lottie from "lottie-react";
-import FeatureOne from "../assets/lotties/Feature.json";
-import FeatureTwo from "../assets/lotties/FeatureTwo.json";
-import FeatureThree from "../assets/lotties/FeatureOne.json";
-
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const ServicesOne = () => {
   return (
@@ -13,7 +10,13 @@ const ServicesOne = () => {
             <div className="justify-center w-full text-center pb-14">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <section class="relative overflow-hidden  pt-4">
-                  <div class="text-center">
+                  <motion.div
+                    variants={fadeIn("up", 0.2)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
+                    class="text-center"
+                  >
                     <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
                       How We Work
                     </p>
@@ -24,9 +27,15 @@ const ServicesOne = () => {
                       Get guidance and support with us, and we will look after
                       everything.
                     </p>
-                  </div>
+                  </motion.div>
 
-                  <div class="mt-2 md:mt-0 overflow-hidden">
+                  <motion.div
+                    variants={fadeIn("up", 0.2)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
+                    class="mt-2 md:mt-0 overflow-hidden"
+                  >
                     <div class="px-4 mx-auto sm:px-6 lg:px-8 relative">
                       <div class="relative mt-12 lg:mt-20">
                         <div class="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28">
@@ -93,9 +102,7 @@ const ServicesOne = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-
-                
+                  </motion.div>
                 </section>
               </div>
             </div>

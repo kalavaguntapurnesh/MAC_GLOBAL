@@ -10,6 +10,8 @@ import eight from "../assets/students/Yash.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 
@@ -95,7 +97,13 @@ const ActiveSlider = () => {
   ];
 
   return (
-    <div className="bg-white md:pb-8 pb-2">
+    <motion.div
+      variants={fadeIn("up", 0.2)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.7 }}
+      className="bg-white md:pb-8 pb-2"
+    >
       <div className="relative pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -170,7 +178,7 @@ const ActiveSlider = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

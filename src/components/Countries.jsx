@@ -4,13 +4,21 @@ import canada from "../assets/CANADA.png";
 import germany from "../assets/GERMANY.png";
 import uk from "../assets/UK.png";
 import australia from "../assets/australia.png";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const Countries = () => {
   return (
     <div className="bg-white">
       <div className="relative pt-8 md:pb-12 pb-4">
         <div className="w-full">
-          <div className="w-full px-4 mx-auto max-w-[1400px]">
+          <motion.div
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="w-full px-4 mx-auto max-w-[1400px]"
+          >
             <div className="justify-center w-full text-center ">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="flex flex-wrap flex-col items-center pb-3">
@@ -120,7 +128,7 @@ const Countries = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

@@ -4,12 +4,10 @@ import axios from "axios";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import Phone from "../assets/phone.svg";
-import Email from "../assets/email.svg";
-import Location from "../assets/Location.svg";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const ContactTwo = () => {
   const navigate = useNavigate();
@@ -43,20 +41,32 @@ const ContactTwo = () => {
 
   return (
     <div className="bg-white">
-      <div className="relative pt-28 pb-12">
+      <div className="relative pt-32 pb-12">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
-            <div class="text-center">
+            <motion.div
+              variants={fadeIn("up", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              class="text-center"
+            >
               <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
                 CONTACT US
               </p>
               <h2 class="mt-6 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl lg:text-5xl">
                 Call us now and we will guide you better!
               </h2>
-            </div>
+            </motion.div>
 
             <div className="grid md:grid-cols-2 grid-cols-1 gap-4 pt-4">
-              <div className="mt-8">
+              <motion.div
+                variants={fadeIn("right", 0.4)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.5 }}
+                className="mt-8"
+              >
                 <form action="" onSubmit={handleSubmit}>
                   <div className="w-full flex justify-center items-center">
                     <div className="mb-5 md:w-10/12 w-full">
@@ -163,7 +173,7 @@ const ContactTwo = () => {
                     </div>
                   </div>
                 </form>
-              </div>
+              </motion.div>
 
               <div className="mt-8">
                 <iframe
@@ -180,7 +190,13 @@ const ContactTwo = () => {
               </div>
             </div>
 
-            <div className="md:pt-16 pt-4 pb-6">
+            <motion.div
+              variants={fadeIn("up", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="md:pt-16 pt-4 pb-6"
+            >
               <div className="flex justify-center items-center">
                 <h1 className="text-3xl font-semibold text-colorTwo">
                   Follow us on
@@ -209,7 +225,7 @@ const ContactTwo = () => {
                   <FaLinkedinIn className="md:w-9 md:h-9 h-8 w-8 text-colorTwo" />
                 </a>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

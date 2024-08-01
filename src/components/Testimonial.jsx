@@ -1,6 +1,7 @@
 import Wright from "../assets/correct.svg";
 import UnWright from "../assets/incorrect.svg";
-
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 const Testimonial = () => {
   return (
     <div className="bg-white md:mb-8 mt-4">
@@ -245,7 +246,13 @@ const Testimonial = () => {
               </div>
             </section>
 
-            <div className="flex flex-wrap flex-col items-center pb-3 md:pt-16 pt-10">
+            <motion.div
+              variants={fadeIn("up", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex flex-wrap flex-col items-center pb-3 md:pt-16 pt-10"
+            >
               <div className="flex items-center justify-center">
                 <h1 className="text-3xl font-semibold text-center tracking-normal text-colorTwo mx-1">
                   {" "}
@@ -253,16 +260,28 @@ const Testimonial = () => {
                 </h1>
               </div>
               <div className="md:w-36 w-32 h-1 border-b-[3px] border-colorOne mt-[1px]"></div>
-            </div>
+            </motion.div>
 
-            <div className="text-gray-600 dark:text-gray-800 my-2">
+            <motion.div
+              variants={fadeIn("up", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="text-gray-600 dark:text-gray-800 my-2"
+            >
               <p className="font-medium leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
                 You just need to follow these five following steps given below
                 to land in your dream university or country.
               </p>
-            </div>
+            </motion.div>
 
-            <section className="pt-8">
+            <motion.div
+              variants={fadeIn("up", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="pt-8"
+            >
               <div class=" mx-auto px-4 xl:px-0">
                 <div class="relative flex flex-col gap-y-4 py-8 pl-10 md:flex-row md:gap-x-4 md:pl-0 md:pr-0 md:pt-48">
                   <div class="flex gap-2 h-full md:h-auto shrink-0 md:shrink grow md:basis-0 items-center relative ">
@@ -374,7 +393,7 @@ const Testimonial = () => {
                   </div>
                 </div>
               </div>
-            </section>
+            </motion.div>
           </div>
         </div>
       </div>

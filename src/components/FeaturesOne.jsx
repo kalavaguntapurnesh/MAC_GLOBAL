@@ -1,6 +1,8 @@
 import FeatureOne from "../assets/FeaturesOne.jpg";
 import FeatureTwo from "../assets/FeaturesTwo.jpg";
 import FeatureThree from "../assets/FeaturesThree.webp";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const FeaturesOne = () => {
   return (
@@ -10,16 +12,28 @@ const FeaturesOne = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full text-center md:pb-4">
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
-                <div class="text-center">
+                <motion.div
+                  variants={fadeIn("up", 0.2)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.7 }}
+                  class="text-center"
+                >
                   <p class="text-sm font-bold uppercase tracking-widest text-colorOne">
                     How It Works
                   </p>
                   <h2 class="mt-6 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl lg:text-5xl">
                     Features & Services we provide
                   </h2>
-                </div>
+                </motion.div>
 
-                <div className="text-colorTwo dark:text-gray-800 my-4">
+                <motion.div
+                  variants={fadeIn("up", 0.2)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.7 }}
+                  className="text-colorTwo dark:text-gray-800 my-4"
+                >
                   <p className="font-normal leading-relaxed md:text-[17px] text-[16px] text-center tracking-wide">
                     Open doors to a world of possibilities with education loans,
                     expert study abroad counseling, comprehensive exam
@@ -27,9 +41,15 @@ const FeaturesOne = () => {
                     accommodation support, and a rich array of informational
                     resources including scholarships and insightful blogs.
                   </p>
-                </div>
+                </motion.div>
 
-                <section class="md:h-full flex items-center text-gray-600">
+                <motion.div
+                  variants={fadeIn("up", 0.2)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.7 }}
+                  class="md:h-full flex items-center text-gray-600"
+                >
                   <div class="container px-5 py-12 mx-auto ">
                     <div class="flex flex-wrap -m-4">
                       <div class="p-4 sm:w-1/2 lg:w-1/3 ">
@@ -154,7 +174,7 @@ const FeaturesOne = () => {
                       </div>
                     </div>
                   </div>
-                </section>
+                </motion.div>
               </div>
             </div>
           </div>

@@ -1,4 +1,6 @@
 import FeaturesFour from "../assets/FeaturesFour.avif";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const FeaturesTwo = () => {
   return (
@@ -9,7 +11,13 @@ const FeaturesTwo = () => {
             <section class="overflow-hidden bg-white ">
               <div class="mx-auto px-6 lg:px-8">
                 <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-                  <div class="lg:pr-8 lg:pt-4">
+                  <motion.div
+                    variants={fadeIn("right", 0.4)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.5 }}
+                    class="lg:pr-8 lg:pt-4"
+                  >
                     <div class="lg:max-w-lg">
                       <h2 class="text-base font-semibold leading-7 text-colorOne">
                         Grow with us
@@ -105,14 +113,20 @@ const FeaturesTwo = () => {
                         <span aria-hidden="true">→</span>
                       </a>
                     </div>
-                  </div>
-                  <div className="flex justify-center items-center">
+                  </motion.div>
+                  <motion.div
+                    variants={fadeIn("left", 0.3)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
+                    className="flex justify-center items-center"
+                  >
                     <img
                       src={FeaturesFour}
                       alt="Product screenshot"
                       className="rounded"
                     />
-                  </div>
+                  </motion.div>
                 </div>
               </div>
             </section>

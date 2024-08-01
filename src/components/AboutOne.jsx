@@ -1,11 +1,18 @@
 import Time from "../assets/time.svg";
-import World from "../assets/world.svg";
 import Flight from "../assets/Flight.svg";
 import map from "../assets/map.svg";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 const AboutOne = () => {
   return (
     <div className="bg-white">
-      <div className="relative pt-28 pb-4">
+      <motion.div
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
+        className="relative pt-28 pb-4"
+      >
         <div className="w-full ">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full ">
@@ -135,7 +142,7 @@ const AboutOne = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

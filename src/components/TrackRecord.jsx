@@ -1,6 +1,8 @@
 import { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const TrackRecord = () => {
   const [counterOn, setCounterOn] = useState(false);
@@ -17,7 +19,13 @@ const TrackRecord = () => {
               <div className="justify-center w-full pb-8">
                 <div className="w-full max-w-[1300px] mx-auto space-y-4 ">
                   <div className=" flex flex-col flex-wrap items-center"></div>
-                  <div className="grid md:grid-cols-3 grid-cols-1 md:gap-4 gap-6">
+                  <motion.div
+                    variants={fadeIn("up", 0.2)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
+                    className="grid md:grid-cols-3 grid-cols-1 md:gap-4 gap-6"
+                  >
                     <div className="relative">
                       <div className="flex flex-col">
                         <div className="flex md:justify-start justify-center items-center">
@@ -81,9 +89,15 @@ const TrackRecord = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </motion.div>
 
-                  <div className="flex justify-center items-center pt-8">
+                  <motion.div
+                    variants={fadeIn("up", 0.2)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
+                    className="flex justify-center items-center pt-8"
+                  >
                     <a
                       href="/contact"
                       className="relative inline-flex items-center justify-center py-2 px-16 overflow-hidden font-semibold text-colorOne transition duration-1000 ease-out border-2 border-colorOne rounded-3xl group"
@@ -109,7 +123,7 @@ const TrackRecord = () => {
                       </span>
                       <span className="relative invisible">Button Text</span>
                     </a>
-                  </div>
+                  </motion.div>
                 </div>
               </div>
             </div>
