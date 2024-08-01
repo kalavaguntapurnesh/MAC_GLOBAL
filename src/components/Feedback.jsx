@@ -1,6 +1,15 @@
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
+
 const Feedback = () => {
   return (
-    <div className="pt-4 pb-16 bg-white">
+    <motion.div
+      variants={fadeIn("up", 0.2)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.7 }}
+      className="pt-4 pb-16 bg-white"
+    >
       <div className="relative pt-8 pb-2">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -20,7 +29,7 @@ const Feedback = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -14,6 +14,8 @@ import ISU from "../assets/ISU.png";
 import UWM from "../assets/UWM.png";
 import CSU from "../assets/CSU.png";
 import MMU from "../assets/MMU.png";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const Universities = () => {
   return (
@@ -22,7 +24,12 @@ const Universities = () => {
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full text-center pb-4">
-              <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
+              <motion.div
+               variants={fadeIn("up", 0.2)}
+               initial="hidden"
+               whileInView={"show"}
+               viewport={{ once: false, amount: 0.7 }}
+               className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <div className="flex flex-wrap flex-col items-center pb-3">
                   <div className="flex items-center justify-center">
                     <h1 className="text-3xl font-semibold tracking-normal text-colorTwo mx-1">
@@ -171,7 +178,7 @@ const Universities = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>

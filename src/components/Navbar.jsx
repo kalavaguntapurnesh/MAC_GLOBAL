@@ -26,9 +26,9 @@ const Navbar = () => {
       <div className="w-full mx-auto max-w-[1400px]">
         <div className="justify-center w-full">
           <div className="text-black flex justify-between items-center md:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-24 w-full md:top-0 top-0 bg-white max-w-[1400px] mx-auto">
-            <div className="ml-2 flex justify-center items-center">
+            <a href="/" className="ml-2 flex justify-center items-center">
               <img src={Logo} className="w-28 overflow-hidden" alt="" />
-            </div>
+            </a>
             <div className="lg:ml-12">
               <ul className="hidden md:flex items-center gap-[3vw]">
                 {" "}

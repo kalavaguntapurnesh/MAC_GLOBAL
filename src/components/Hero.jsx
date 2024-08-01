@@ -9,6 +9,8 @@ import One from "../assets/HeroImage.jpg";
 import Two from "../assets/HeroTwo.jpg";
 import Three from "../assets/HeroThree.jpg";
 import Four from "../assets/HeroFour.jpg";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const Hero = () => {
   const data = [
@@ -31,9 +33,21 @@ const Hero = () => {
 
   return (
     <div className="w-full bg-white pt-20 h-auto">
-      <div className="m-auto max-w-[1400px] md:hidden block pt-8">
+      <motion.div
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
+        className="m-auto max-w-[1400px] md:hidden block pt-8"
+      >
         <div className=" grid md:grid-cols-2 ">
-          <div className="flex justify-center lg:justify-end items-center ">
+          <div
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="flex justify-center lg:justify-end items-center "
+          >
             <Lottie
               animationData={HeaderLottie}
               loop={true}
@@ -41,7 +55,13 @@ const Hero = () => {
             />
           </div>
 
-          <div className="flex flex-col gap-4 w-full">
+          <div
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="flex flex-col gap-4 w-full"
+          >
             <div className="flex items-center justify-center mt-4 mx-3">
               <h1 className="text-[44px] font-bold text-center text-colorTwo">
                 Find the right catch, in an ocean
@@ -75,7 +95,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       <div className="m-auto md:block hidden">
         <div className="w-full bg-white">

@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const ServicesTwo = () => {
   return (
@@ -9,7 +11,13 @@ const ServicesTwo = () => {
             <section class="overflow-hidden bg-white ">
               <div class="mx-auto px-6 lg:px-8">
                 <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-                  <div class="lg:pr-8 lg:pt-4">
+                  <motion.div
+                    variants={fadeIn("right", 0.4)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.5 }}
+                    class="lg:pr-8 lg:pt-4"
+                  >
                     <div class="lg:max-w-lg">
                       <h2 class="text-base font-semibold leading-7 text-colorOne">
                         Make a better future!
@@ -107,14 +115,20 @@ const ServicesTwo = () => {
                         <span aria-hidden="true">→</span>
                       </a>
                     </div>
-                  </div>
-                  <div className="flex justify-center items-center">
+                  </motion.div>
+                  <motion.div
+                    variants={fadeIn("left", 0.3)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
+                    className="flex justify-center items-center"
+                  >
                     <img
                       src="https://images.unsplash.com/photo-1658604520420-7569f9685b69?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="Product screenshot"
                       className="rounded"
                     />
-                  </div>
+                  </motion.div>
                 </div>
               </div>
             </section>

@@ -1,5 +1,7 @@
 import React from "react";
 import AboutOne from "../assets/AboutOne.jpg";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const AboutFour = () => {
   return (
@@ -11,7 +13,12 @@ const AboutFour = () => {
               <div className="w-full max-w-[14000px] mx-auto space-y-4 ">
                 <section>
                   <div className="container p-6 mx-auto space-y-12 lg:px-8">
-                    <div>
+                    <motion.div
+                      variants={fadeIn("up", 0.2)}
+                      initial="hidden"
+                      whileInView={"show"}
+                      viewport={{ once: false, amount: 0.7 }}
+                    >
                       <h2 className="text-3xl font-bold text-colorTwo text-center sm:text-5xl">
                         Why we are the best?
                       </h2>
@@ -19,9 +26,14 @@ const AboutFour = () => {
                         Explore the latest features that enhance your learning
                         experience and make it even more exciting.
                       </p>
-                    </div>
+                    </motion.div>
                     <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
-                      <div>
+                      <motion.div
+                        variants={fadeIn("right", 0.4)}
+                        initial="hidden"
+                        whileInView={"show"}
+                        viewport={{ once: false, amount: 0.5 }}
+                      >
                         <div className="mt-4 space-y-12">
                           <div className="flex">
                             <div className="flex-shrink-0">
@@ -160,20 +172,33 @@ const AboutFour = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div aria-hidden="true" className="mt-10 lg:mt-0">
+                      </motion.div>
+                      <motion.div
+                        variants={fadeIn("left", 0.3)}
+                        initial="hidden"
+                        whileInView={"show"}
+                        viewport={{ once: false, amount: 0.7 }}
+                        aria-hidden="true"
+                        className="mt-10 lg:mt-0"
+                      >
                         <img
                           width="600"
                           height="600"
                           src={AboutOne}
                           className="mx-auto rounded-lg shadow-lg dark-bg-gray-500"
                         />
-                      </div>
+                      </motion.div>
                     </div>
                   </div>
                 </section>
 
-                <div className="relative isolate overflow-hidden py-8 md:py-24">
+                <motion.div
+                  variants={fadeIn("up", 0.2)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.7 }}
+                  className="relative isolate overflow-hidden py-8 md:py-24"
+                >
                   <div className="mx-auto px-6 lg:px-8">
                     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
                       <div className="max-w-xl lg:max-w-lg">
@@ -264,7 +289,7 @@ const AboutFour = () => {
                     className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6"
                     aria-hidden="true"
                   ></div>
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>

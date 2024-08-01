@@ -10,7 +10,6 @@ import Universities from "../components/Universities";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Questions from "../components/Questions";
-// import WhyUs from "../components/WhyUs";
 import Map from "../components/Map";
 
 const Home = () => {
@@ -22,7 +21,6 @@ const Home = () => {
       <ScrollToTop />
       <Testimonial />
       <Countries />
-      {/* <WhyUs /> */}
       <Universities />
       <Feedback />
       <ActiveSlider />
