@@ -53,71 +53,11 @@ const ContactTwo = () => {
               <h2 class="mt-6 text-3xl font-bold tracking-tight text-colorTwo sm:text-4xl lg:text-5xl">
                 Call us now and we will guide you better!
               </h2>
-              {/* <p class="mx-auto mt-4 max-w-2xl text-lg font-normal text-colorTwo lg:text-xl lg:leading-8">
-                Get guidance and support with us, and we will look after
-                everything.
-              </p> */}
             </div>
 
             <div className="grid md:grid-cols-2 grid-cols-1 gap-4 pt-4">
-              <div>
-                <div className="flex flex-col space-y-4 mt-8">
-                  <div>
-                    <h1 className="uppercase font-bold text-colorOne tracking-wide">
-                      get in touch
-                    </h1>
-                  </div>
-                  <div>
-                    <h1 className="lg:text-5xl text-4xl font-bold tracking-normal md:leading-relaxed leading-normal text-colorTwo">
-                      Motivated to make a better future, connect to us through
-                      this form.
-                    </h1>
-                  </div>
-                  <div>
-                    <h1 className="leading-relaxed tracking-wide font-medium lg:text-[20px] text-[16px] text-colorTwo dark:text-gray-800 ">
-                      We're here to help and answer any questions you might
-                      have. We look forward to hearing from you!
-                    </h1>
-                  </div>
-                  <div>
-                    <div className="flex flex-col mt-5">
-                      <div className="grid grid-cols-6 cursor-pointer">
-                        <div className="col-span-1 flex items-center justify-center">
-                          <img src={Location} className="w-8 h-8" alt="" />
-                        </div>
-                        <div className="col-span-5 flex items-center">
-                          <p className="font-semibold text-colorTwo lg:text-xl text-base">
-                            10-3-206 / M4, 2nd Floor,KK Street,Tirupati,India
-                          </p>
-                        </div>
-                      </div>
-                      <div className="grid grid-cols-6 mt-5 cursor-pointer">
-                        <div className="col-span-1 flex items-center justify-center">
-                          <img src={Email} className="w-8 h-8" alt="" />
-                        </div>
-                        <div className="col-span-5 flex items-center">
-                          <p className="font-semibold text-colorTwo lg:text-xl text-base">
-                            macglobalservices@gmail.com
-                          </p>
-                        </div>
-                      </div>
-                      <div className="grid grid-cols-6 mt-5 cursor-pointer">
-                        <div className="col-span-1 flex items-center justify-center">
-                          <img src={Phone} className="w-8 h-8" alt="" />
-                        </div>
-                        <div className="col-span-5 flex items-center">
-                          <p className="font-semibold text-colorTwo lg:text-xl text-base">
-                            91+ 70754 95493
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <form action="" className="mt-8" onSubmit={handleSubmit}>
+              <div className="mt-8">
+                <form action="" onSubmit={handleSubmit}>
                   <div className="w-full flex justify-center items-center">
                     <div className="mb-5 md:w-10/12 w-full">
                       <label
@@ -223,6 +163,20 @@ const ContactTwo = () => {
                     </div>
                   </div>
                 </form>
+              </div>
+
+              <div className="mt-8">
+                <iframe
+                  className="rounded-lg"
+                  width="100%"
+                  height="600"
+                  frameborder="0"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=10-3-206%20/%20M4,%202nd%20Floor,KK%20Street,Tirupati,India+(MAC%20Global%20Services)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                >
+                  <a href="https://www.gps.ie/">gps devices</a>
+                </iframe>
               </div>
             </div>
 

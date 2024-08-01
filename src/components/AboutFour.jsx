@@ -181,8 +181,8 @@ const AboutFour = () => {
                           Subscribe to our newsletter.
                         </h2>
                         <p className="mt-4 text-lg leading-8 text-colorTwo">
-                          Nostrud amet eu ullamco nisi aute in ad minim nostrud
-                          adipisicing velit quis. Duis tempor incididunt dolore.
+                          And try to get the latest updates on visa approvals
+                          and news regarding the abroad education.
                         </p>
                         <div className="mt-6 flex max-w-md gap-x-4">
                           <label for="email-address" class="sr-only">
@@ -227,8 +227,9 @@ const AboutFour = () => {
                             Weekly articles
                           </dt>
                           <dd className="mt-2 leading-7 text-colorTwo">
-                            Non laboris consequat cupidatat laborum magna.
-                            Eiusmod non irure cupidatat duis commodo amet.
+                            We are initiating the weekly articles which contains
+                            in-depth information on abroad education and many
+                            more.
                           </dd>
                         </div>
                         <div className="flex flex-col items-start">
@@ -252,8 +253,8 @@ const AboutFour = () => {
                             No spam
                           </dt>
                           <dd className="mt-2 leading-7 text-colorTwo">
-                            Officia excepteur ullamco ut sint duis proident non
-                            adipisicing. Voluptate incididunt anim.
+                            We are spam free and we try to understand the user
+                            privacy and their data security.
                           </dd>
                         </div>
                       </dl>
